@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevOmate", "RevOmate.csproj", "{16F6C5BD-2B6A-46A1-96E6-7BEB4E0AB5E7}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Rev-O-mateSetup", "RevOmateSetup\RevOmateSetup.vdproj", "{02F9B8F8-92E9-4AED-B16F-921FF5B1AF88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+		SetupRelease|Any CPU = SetupRelease|Any CPU
+		SetupRelease|x86 = SetupRelease|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16F6C5BD-2B6A-46A1-96E6-7BEB4E0AB5E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F6C5BD-2B6A-46A1-96E6-7BEB4E0AB5E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F6C5BD-2B6A-46A1-96E6-7BEB4E0AB5E7}.Debug|x86.ActiveCfg = Debug|x86
+		{16F6C5BD-2B6A-46A1-96E6-7BEB4E0AB5E7}.Debug|x86.Build.0 = Debug|x86
+		{16F6C5BD-2B6A-46A1-96E6-7BEB4E0AB5E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F6C5BD-2B6A-46A1-96E6-7BEB4E0AB5E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16F6C5BD-2B6A-46A1-96E6-7BEB4E0AB5E7}.Release|x86.ActiveCfg = Release|x86
+		{16F6C5BD-2B6A-46A1-96E6-7BEB4E0AB5E7}.Release|x86.Build.0 = Release|x86
+		{16F6C5BD-2B6A-46A1-96E6-7BEB4E0AB5E7}.SetupRelease|Any CPU.ActiveCfg = SetupRelease|Any CPU
+		{16F6C5BD-2B6A-46A1-96E6-7BEB4E0AB5E7}.SetupRelease|x86.ActiveCfg = SetupRelease|x86
+		{02F9B8F8-92E9-4AED-B16F-921FF5B1AF88}.Debug|Any CPU.ActiveCfg = Debug
+		{02F9B8F8-92E9-4AED-B16F-921FF5B1AF88}.Debug|x86.ActiveCfg = Debug
+		{02F9B8F8-92E9-4AED-B16F-921FF5B1AF88}.Release|Any CPU.ActiveCfg = Release
+		{02F9B8F8-92E9-4AED-B16F-921FF5B1AF88}.Release|x86.ActiveCfg = Release
+		{02F9B8F8-92E9-4AED-B16F-921FF5B1AF88}.SetupRelease|Any CPU.ActiveCfg = SetupRelease
+		{02F9B8F8-92E9-4AED-B16F-921FF5B1AF88}.SetupRelease|Any CPU.Build.0 = SetupRelease
+		{02F9B8F8-92E9-4AED-B16F-921FF5B1AF88}.SetupRelease|x86.ActiveCfg = SetupRelease
+		{02F9B8F8-92E9-4AED-B16F-921FF5B1AF88}.SetupRelease|x86.Build.0 = SetupRelease
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

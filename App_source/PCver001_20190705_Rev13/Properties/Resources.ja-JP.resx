@@ -1,0 +1,1779 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="APPLICATION_NAME" xml:space="preserve">
+    <value>Rev-O-mate Configuration Tool</value>
+  </data>
+  <data name="CLEAR_BUTTON_TEXT" xml:space="preserve">
+    <value>消去</value>
+  </data>
+  <data name="DEVICE_FOUND" xml:space="preserve">
+    <value>Device Found</value>
+  </data>
+  <data name="DEVICE_NOT_FOUND" xml:space="preserve">
+    <value>Device not found</value>
+  </data>
+  <data name="FILE_LOAD_ERR_MSG" xml:space="preserve">
+    <value>File Load FAIL.</value>
+  </data>
+  <data name="FILE_OPEN_FILTER" xml:space="preserve">
+    <value>XML file(*.xml)|*.xml|All file(*.*)|*.*</value>
+  </data>
+  <data name="FILE_OPEN_TITLE" xml:space="preserve">
+    <value>Open...</value>
+  </data>
+  <data name="FILE_SAVE_ERR_MSG" xml:space="preserve">
+    <value>File Save FAIL.</value>
+  </data>
+  <data name="FILE_SAVE_FILTER" xml:space="preserve">
+    <value>XML file(*.xml)|*.xml|All file(*.*)|*.*</value>
+  </data>
+  <data name="FILE_SAVE_TITLE" xml:space="preserve">
+    <value>Save As...</value>
+  </data>
+  <data name="FW_VERSION" xml:space="preserve">
+    <value>ファームウェアバージョン</value>
+  </data>
+  <data name="JOYPAD_MOVE_TEXT" xml:space="preserve">
+    <value>X-Y アナログ値</value>
+  </data>
+  <data name="KEYBOARD_INPUTKEY_TEXT" xml:space="preserve">
+    <value>Set Key</value>
+  </data>
+  <data name="KEYBOARD_SET_KEY_EMPTY" xml:space="preserve">
+    <value>キー入力</value>
+  </data>
+  <data name="MOUSE_MOVE_TEXT" xml:space="preserve">
+    <value>X, Y 方向移動量</value>
+  </data>
+  <data name="MOUSE_SCROLL_TEXT" xml:space="preserve">
+    <value>スクロール数</value>
+  </data>
+  <data name="RESET_WARNING_MSG1" xml:space="preserve">
+    <value>設定を初期化します。よろしいですか?</value>
+  </data>
+  <data name="RESET_WARNING_MSG4" xml:space="preserve">
+    <value>USBケーブルを抜いて下さい。画面下にデバイス未接続と表示されたら、USBケーブルを挿して下さい。</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B01" xml:space="preserve">
+    <value>ジョイスティック　ボタン１</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B02" xml:space="preserve">
+    <value>ジョイスティック　ボタン２</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B03" xml:space="preserve">
+    <value>ジョイスティック　ボタン３</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B04" xml:space="preserve">
+    <value>ジョイスティック　ボタン４</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B05" xml:space="preserve">
+    <value>ジョイスティック　ボタン５</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B06" xml:space="preserve">
+    <value>ジョイスティック　ボタン６</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B07" xml:space="preserve">
+    <value>ジョイスティック　ボタン７</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B08" xml:space="preserve">
+    <value>ジョイスティック　ボタン８</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B09" xml:space="preserve">
+    <value>ジョイスティック　ボタン９</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B10" xml:space="preserve">
+    <value>ジョイスティック　ボタン１０</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B11" xml:space="preserve">
+    <value>ジョイスティック　ボタン１１</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B12" xml:space="preserve">
+    <value>ジョイスティック　ボタン１２</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B13" xml:space="preserve">
+    <value>ジョイスティック　ボタン１３</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_HAT_E" xml:space="preserve">
+    <value>ジョイスティック　右ボタン</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_HAT_N" xml:space="preserve">
+    <value>ジョイスティック　上ボタン</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_HAT_NE" xml:space="preserve">
+    <value>JOYSTICK HAT SW NE</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_HAT_NW" xml:space="preserve">
+    <value>JOYSTICK HAT SW NW</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_HAT_S" xml:space="preserve">
+    <value>ジョイスティック　下ボタン</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_HAT_SE" xml:space="preserve">
+    <value>JOYSTICK HAT SW SE</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_HAT_SW" xml:space="preserve">
+    <value>JOYSTICK HAT SW SW</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_HAT_W" xml:space="preserve">
+    <value>ジョイスティック　左ボタン</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_LEFT_ANALOG" xml:space="preserve">
+    <value>ジョイスティック　左レバー</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_RIGHT_ANALOG" xml:space="preserve">
+    <value>ジョイスティック　右レバー</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_PLAY" xml:space="preserve">
+    <value>マルチメディア　再生</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_PAUSE" xml:space="preserve">
+    <value>マルチメディア　一時停止</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_STOP" xml:space="preserve">
+    <value>マルチメディア　停止</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_REC" xml:space="preserve">
+    <value>マルチメディア　REC</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_FORWORD" xml:space="preserve">
+    <value>マルチメディア　早送り</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_REWIND" xml:space="preserve">
+    <value>マルチメディア　早戻し</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_NEXT" xml:space="preserve">
+    <value>マルチメディア　次</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_PREVIOUS" xml:space="preserve">
+    <value>マルチメディア　前</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_MUTE" xml:space="preserve">
+    <value>マルチメディア　消音</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_VOLUMEUP" xml:space="preserve">
+    <value>マルチメディア　音量アップ</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_VOLUMEDOWN" xml:space="preserve">
+    <value>マルチメディア　音量ダウン</value>
+  </data>
+  <data name="SET_TYPE_KEYBOARD" xml:space="preserve">
+    <value>キーボード　キー入力</value>
+  </data>
+  <data name="SET_TYPE_MOUSE_DOUBLE_CLICK" xml:space="preserve">
+    <value>マウス　ダブルクリック</value>
+  </data>
+  <data name="SET_TYPE_MOUSE_L_CLICK" xml:space="preserve">
+    <value>マウス　左クリック</value>
+  </data>
+  <data name="SET_TYPE_MOUSE_MOVE" xml:space="preserve">
+    <value>マウス　移動</value>
+  </data>
+  <data name="SET_TYPE_MOUSE_R_CLICK" xml:space="preserve">
+    <value>マウス　右クリック</value>
+  </data>
+  <data name="SET_TYPE_MOUSE_WH_CLICK" xml:space="preserve">
+    <value>マウス　ホイールクリック</value>
+  </data>
+  <data name="SET_TYPE_MOUSE_WH_SCROLL" xml:space="preserve">
+    <value>マウス　ホイールスクロール</value>
+  </data>
+  <data name="SET_TYPE_NONE" xml:space="preserve">
+    <value>未設定</value>
+  </data>
+  <data name="SET_WRITE_COMP_MSG" xml:space="preserve">
+    <value>設定完了</value>
+  </data>
+  <data name="SOFT_RESET_WARNING_MSG" xml:space="preserve">
+    <value>ファームウェアをアップデートします。よろしいですか?</value>
+  </data>
+  <data name="SET_TYPE_NUMBER_DOWN" xml:space="preserve">
+    <value>９～０数字入力</value>
+  </data>
+  <data name="SET_TYPE_NUMBER_UP" xml:space="preserve">
+    <value>０～９数字入力</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC1" xml:space="preserve">
+    <value>ダイアル機能1</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC1_PUSH" xml:space="preserve">
+    <value>ダイアル機能1 (押している間)</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC2" xml:space="preserve">
+    <value>ダイアル機能2</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC2_PUSH" xml:space="preserve">
+    <value>ダイアル機能2 (押している間)</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC3" xml:space="preserve">
+    <value>ダイアル機能3</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC3_PUSH" xml:space="preserve">
+    <value>ダイアル機能3 (押している間)</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC4" xml:space="preserve">
+    <value>ダイアル機能4</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC4_PUSH" xml:space="preserve">
+    <value>ダイアル機能4 (押している間)</value>
+  </data>
+  <data name="SP_FUNC_TYPE_MODE1" xml:space="preserve">
+    <value>プロファイル1</value>
+  </data>
+  <data name="SP_FUNC_TYPE_MODE2" xml:space="preserve">
+    <value>プロファイル2</value>
+  </data>
+  <data name="SP_FUNC_TYPE_MODE3" xml:space="preserve">
+    <value>プロファイル3</value>
+  </data>
+  <data name="MODE_NO_STATUS" xml:space="preserve">
+    <value>モード:{0}  機能番号:{1}</value>
+  </data>
+  <data name="SP_FUNC_TYPE_MODE" xml:space="preserve">
+    <value>プロファイル変更</value>
+  </data>
+  <data name="SET_TYPE_MOUSE_B4_CLICK" xml:space="preserve">
+    <value>マウス　ボタン4クリック</value>
+  </data>
+  <data name="SET_TYPE_MOUSE_B5_CLICK" xml:space="preserve">
+    <value>マウス　ボタン5クリック</value>
+  </data>
+  <data name="SET_TYPE_ENCODER_SCRIPT1" xml:space="preserve">
+    <value>ダイアルマクロ1</value>
+  </data>
+  <data name="SET_TYPE_ENCODER_SCRIPT2" xml:space="preserve">
+    <value>ダイアルマクロ2</value>
+  </data>
+  <data name="SET_TYPE_ENCODER_SCRIPT3" xml:space="preserve">
+    <value>ダイアルマクロ3</value>
+  </data>
+  <data name="ENCODER_SCRIPT" xml:space="preserve">
+    <value>ダイアルマクロ</value>
+  </data>
+  <data name="CONTEXTMENU_CLEAR" xml:space="preserve">
+    <value>割り当て解除</value>
+  </data>
+  <data name="CONTEXTMENU_DEFAULTSET" xml:space="preserve">
+    <value>標準設定に戻す</value>
+  </data>
+  <data name="CONTEXTMENU_EXPORT" xml:space="preserve">
+    <value>エクスポート</value>
+  </data>
+  <data name="CONTEXTMENU_FUNCSET" xml:space="preserve">
+    <value>機能設定画面</value>
+  </data>
+  <data name="CONTEXTMENU_IMPORT" xml:space="preserve">
+    <value>インポート</value>
+  </data>
+  <data name="BTN_CANCEL" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="BTN_NO" xml:space="preserve">
+    <value>NO</value>
+  </data>
+  <data name="BTN_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="BTN_SET" xml:space="preserve">
+    <value>セット</value>
+  </data>
+  <data name="BTN_SUBMIT" xml:space="preserve">
+    <value>書き込み</value>
+  </data>
+  <data name="BTN_YES" xml:space="preserve">
+    <value>YES</value>
+  </data>
+  <data name="ENCODER_SCRIPT_LIST_MACRO_NAME" xml:space="preserve">
+    <value>実行マクロ名称</value>
+  </data>
+  <data name="FIRMWARE_VERSION" xml:space="preserve">
+    <value>ファームウェアバージョン</value>
+  </data>
+  <data name="FUNCTION_NAME_UNDEFINE" xml:space="preserve">
+    <value>名称未設定</value>
+  </data>
+  <data name="FUNCTION_NAME_UNSETTING" xml:space="preserve">
+    <value>未設定</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_GAMEPAD" xml:space="preserve">
+    <value>ゲームパッド</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_GENERAL" xml:space="preserve">
+    <value>一般設定</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_KEY" xml:space="preserve">
+    <value>キー入力</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_MODFILE" xml:space="preserve">
+    <value>MODファイル</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_MOUSE" xml:space="preserve">
+    <value>マウス</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_MULTIMEDIA" xml:space="preserve">
+    <value>マルチメディア</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_TOOL" xml:space="preserve">
+    <value>ツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_USERAREA" xml:space="preserve">
+    <value>本体内ユーザーエリア</value>
+  </data>
+  <data name="FUNC_SETTING_FUNC_LIST" xml:space="preserve">
+    <value>機能リスト</value>
+  </data>
+  <data name="FUNC_SETTING_FUNC_SET_AREA" xml:space="preserve">
+    <value>機能設定</value>
+  </data>
+  <data name="MACRO_NAME_NO_MACRO" xml:space="preserve">
+    <value>マクロ</value>
+  </data>
+  <data name="MACRO_NAME_UNDEFINE" xml:space="preserve">
+    <value>名称未設定</value>
+  </data>
+  <data name="MACRO_NAME_UNSETTING" xml:space="preserve">
+    <value>未設定</value>
+  </data>
+  <data name="SCREEN_FUNCTION_SETTING" xml:space="preserve">
+    <value>機能設定画面</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_INTERVAL_TEXT" xml:space="preserve">
+    <value>インターバル時間を入力してください</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_JOY_BUTTON_TEXT" xml:space="preserve">
+    <value>ゲームパッドボタンを設定してください</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_JOY_HATSW_TEXT" xml:space="preserve">
+    <value>十字ボタンを設定します。上下左右キーを押してください</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_JOY_LEVER_TEXT" xml:space="preserve">
+    <value>ジョイスティックの出力値を設定してください</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_JOY_LEVER_X_TEXT" xml:space="preserve">
+    <value>X軸</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_JOY_LEVER_Y_TEXT" xml:space="preserve">
+    <value>Y軸</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_KEY_TEXT" xml:space="preserve">
+    <value>キーボードのキーを押してください</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_MM_BUTTON_TEXT" xml:space="preserve">
+    <value>マルチメディアボタンを設定してください</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_MOUSE_BUTTON_TEXT" xml:space="preserve">
+    <value>マウスのボタンを設定してください</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_MOUSE_MOVE_TEXT" xml:space="preserve">
+    <value>マウス移動量を設定してください</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_MOUSE_MOVE_X_TEXT" xml:space="preserve">
+    <value>X方向</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_MOUSE_MOVE_Y_TEXT" xml:space="preserve">
+    <value>Y方向</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_WHEEL_TEXT" xml:space="preserve">
+    <value>マウスホイールをスクロールしてください</value>
+  </data>
+  <data name="SCRIPT_INTERVAL_TEXT" xml:space="preserve">
+    <value>インターバル[ms]</value>
+  </data>
+  <data name="SCRIPT_JOY_BUTTON_PRESS_TEXT" xml:space="preserve">
+    <value>ゲームパッドボタンを押し続ける</value>
+  </data>
+  <data name="SCRIPT_JOY_BUTTON_RELEASE_TEXT" xml:space="preserve">
+    <value>ゲームパッドボタンを離す</value>
+  </data>
+  <data name="SCRIPT_JOY_HATSW_PRESS_TEXT" xml:space="preserve">
+    <value>十字ボタンを押し続ける</value>
+  </data>
+  <data name="SCRIPT_JOY_HATSW_RELEASE_TEXT" xml:space="preserve">
+    <value>十字ボタンを離す</value>
+  </data>
+  <data name="SCRIPT_JOY_LEVER_L_CENTER_TEXT" xml:space="preserve">
+    <value>ジョイスティックを離す[左]</value>
+  </data>
+  <data name="SCRIPT_JOY_LEVER_L_TEXT" xml:space="preserve">
+    <value>ジョイスティックを押し続ける[左]</value>
+  </data>
+  <data name="SCRIPT_JOY_LEVER_R_CENTER_TEXT" xml:space="preserve">
+    <value>ジョイスティックを離す[右]</value>
+  </data>
+  <data name="SCRIPT_JOY_LEVER_R_TEXT" xml:space="preserve">
+    <value>ジョイスティックを押し続ける[右]</value>
+  </data>
+  <data name="SCRIPT_KEY_PRESS_TEXT" xml:space="preserve">
+    <value>キープレス</value>
+  </data>
+  <data name="SCRIPT_KEY_RELEASE_TEXT" xml:space="preserve">
+    <value>キーリリース</value>
+  </data>
+  <data name="SCRIPT_MODE_FIRE_MODE_TEXT" xml:space="preserve">
+    <value>押している間繰り返し実行</value>
+  </data>
+  <data name="SCRIPT_MODE_LOOP_MODE_TEXT" xml:space="preserve">
+    <value>繰り返し実行</value>
+  </data>
+  <data name="SCRIPT_MODE_ONE_MODE_TEXT" xml:space="preserve">
+    <value>１回だけ実行</value>
+  </data>
+  <data name="SCRIPT_MOUSE_B4_CLICK_TEXT" xml:space="preserve">
+    <value>マウスのボタンを押し続ける[ボタン4]</value>
+  </data>
+  <data name="SCRIPT_MOUSE_B4_RELEASE_TEXT" xml:space="preserve">
+    <value>マウスのボタンを離す[ボタン4]</value>
+  </data>
+  <data name="SCRIPT_MOUSE_B5_CLICK_TEXT" xml:space="preserve">
+    <value>マウスのボタンを押し続ける[ボタン5]</value>
+  </data>
+  <data name="SCRIPT_MOUSE_B5_RELEASE_TEXT" xml:space="preserve">
+    <value>マウスのボタンを離す[ボタン5]</value>
+  </data>
+  <data name="SCRIPT_MOUSE_CLICK_TEXT" xml:space="preserve">
+    <value>マウスのボタンを押し続ける</value>
+  </data>
+  <data name="SCRIPT_MOUSE_L_CLICK_TEXT" xml:space="preserve">
+    <value>マウスのボタンを押し続ける[左]</value>
+  </data>
+  <data name="SCRIPT_MOUSE_L_RELEASE_TEXT" xml:space="preserve">
+    <value>マウスのボタンを離す[左]</value>
+  </data>
+  <data name="SCRIPT_MOUSE_MOVE_TEXT" xml:space="preserve">
+    <value>マウス移動</value>
+  </data>
+  <data name="SCRIPT_MOUSE_RELEASE_TEXT" xml:space="preserve">
+    <value>マウスのボタンを離す</value>
+  </data>
+  <data name="SCRIPT_MOUSE_R_CLICK_TEXT" xml:space="preserve">
+    <value>マウスのボタンを押し続ける[右]</value>
+  </data>
+  <data name="SCRIPT_MOUSE_R_RELEASE_TEXT" xml:space="preserve">
+    <value>マウスのボタンを離す[右]</value>
+  </data>
+  <data name="SCRIPT_MOUSE_W_CLICK_TEXT" xml:space="preserve">
+    <value>マウスのボタンを押し続ける[センター]</value>
+  </data>
+  <data name="SCRIPT_MOUSE_W_RELEASE_TEXT" xml:space="preserve">
+    <value>マウスのボタンを離す[センター]</value>
+  </data>
+  <data name="SCRIPT_MULTIMEDIA_PRESS_TEXT" xml:space="preserve">
+    <value>マルチメディアボタンを押し続ける</value>
+  </data>
+  <data name="SCRIPT_MULTIMEDIA_RELEASE_TEXT" xml:space="preserve">
+    <value>マルチメディアボタンを離す</value>
+  </data>
+  <data name="SCRIPT_SIZE_OVER_MSG" xml:space="preserve">
+    <value>スクリプト当たりの保存サイズが制限値を超えています</value>
+  </data>
+  <data name="SCRIPT_WHEEL_DOWN_TEXT" xml:space="preserve">
+    <value>ホイールのスクロール　１カウント(unit)</value>
+  </data>
+  <data name="SCRIPT_WHEEL_UP_TEXT" xml:space="preserve">
+    <value>ホイールのスクロール　－１カウント(unit)</value>
+  </data>
+  <data name="STATUS_MSG_USB_CONNECT" xml:space="preserve">
+    <value>USB接続中</value>
+  </data>
+  <data name="STATUS_MSG_USB_UNCONNECT" xml:space="preserve">
+    <value>USB未接続</value>
+  </data>
+  <data name="MULTIMEDIA_NAME_PLAY" xml:space="preserve">
+    <value>再生</value>
+  </data>
+  <data name="MULTIMEDIA_NAM_PAUSE" xml:space="preserve">
+    <value>一時停止</value>
+  </data>
+  <data name="MULTIMEDIA_NAM_STOP" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="MULTIMEDIA_NAM_REC" xml:space="preserve">
+    <value>REC</value>
+  </data>
+  <data name="MULTIMEDIA_NAM_FORWORD" xml:space="preserve">
+    <value>早送り</value>
+  </data>
+  <data name="MULTIMEDIA_NAM_REWIND" xml:space="preserve">
+    <value>早戻し</value>
+  </data>
+  <data name="MULTIMEDIA_NAM_NEXT" xml:space="preserve">
+    <value>次</value>
+  </data>
+  <data name="MULTIMEDIA_NAM_PREVIOUS" xml:space="preserve">
+    <value>前</value>
+  </data>
+  <data name="MULTIMEDIA_NAM_MUTE" xml:space="preserve">
+    <value>消音</value>
+  </data>
+  <data name="MULTIMEDIA_NAM_VOLUMEUP" xml:space="preserve">
+    <value>音量アップ</value>
+  </data>
+  <data name="MULTIMEDIA_NAM_VOLUMEDOWN" xml:space="preserve">
+    <value>音量ダウン</value>
+  </data>
+  <data name="MOUSE_NAME_L_CLICK" xml:space="preserve">
+    <value>左クリック</value>
+  </data>
+  <data name="MOUSE_NAME_R_CLICK" xml:space="preserve">
+    <value>右クリック</value>
+  </data>
+  <data name="MOUSE_NAME_WH_CLICK" xml:space="preserve">
+    <value>ホイールクリック</value>
+  </data>
+  <data name="MOUSE_NAME_B4_CLICK" xml:space="preserve">
+    <value>ボタン4クリック</value>
+  </data>
+  <data name="MOUSE_NAME_B5_CLICK" xml:space="preserve">
+    <value>ボタン5クリック</value>
+  </data>
+  <data name="MOUSE_NAME_MOVE" xml:space="preserve">
+    <value>移動</value>
+  </data>
+  <data name="MOUSE_NAME_WH_SCROLL" xml:space="preserve">
+    <value>ホイールスクロール</value>
+  </data>
+  <data name="MOUSE_NAME_DOUBLE_CLICK" xml:space="preserve">
+    <value>ダブルクリック</value>
+  </data>
+  <data name="SETTING_KEY_CTRL_KEY_ALT" xml:space="preserve">
+    <value>ALT</value>
+  </data>
+  <data name="SETTING_KEY_CTRL_KEY_CTRL" xml:space="preserve">
+    <value>CTRL</value>
+  </data>
+  <data name="SETTING_KEY_CTRL_KEY_SHIFT" xml:space="preserve">
+    <value>SHIFT</value>
+  </data>
+  <data name="SETTING_KEY_CTRL_KEY_WIN" xml:space="preserve">
+    <value>WIN</value>
+  </data>
+  <data name="SETTING_KEY_INPUT_BOX_MSG" xml:space="preserve">
+    <value>キー入力</value>
+  </data>
+  <data name="SETTING_KEY_INPUT_CLR_BUTTON" xml:space="preserve">
+    <value>クリア</value>
+  </data>
+  <data name="MODE1_TEXT" xml:space="preserve">
+    <value>プロファイル1</value>
+  </data>
+  <data name="MODE2_TEXT" xml:space="preserve">
+    <value>プロファイル2</value>
+  </data>
+  <data name="MODE3_TEXT" xml:space="preserve">
+    <value>プロファイル3</value>
+  </data>
+  <data name="LED_BRIGHTNESS_LEVEL_DARK" xml:space="preserve">
+    <value>暗</value>
+  </data>
+  <data name="LED_BRIGHTNESS_LEVEL_LIGHT" xml:space="preserve">
+    <value>明</value>
+  </data>
+  <data name="LED_BRIGHTNESS_LEVEL_NORMAL" xml:space="preserve">
+    <value>普通</value>
+  </data>
+  <data name="LED_COLOR_SETTING_B" xml:space="preserve">
+    <value>青</value>
+  </data>
+  <data name="LED_COLOR_SETTING_G" xml:space="preserve">
+    <value>緑</value>
+  </data>
+  <data name="LED_COLOR_SETTING_OFF" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="LED_COLOR_SETTING_PREVIEW" xml:space="preserve">
+    <value>プレビュー</value>
+  </data>
+  <data name="LED_COLOR_SETTING_R" xml:space="preserve">
+    <value>赤</value>
+  </data>
+  <data name="LED_COLOR_SETTING_TITLE" xml:space="preserve">
+    <value>LEDカラー設定</value>
+  </data>
+  <data name="DEVICE_BASE_BUTTON_SETUP_WRITE_CONFIRM_MSG" xml:space="preserve">
+    <value>ボタン設定を書き込みます。よろしいですか？</value>
+  </data>
+  <data name="DEVICE_BASE_SETUP_WRITE_CONFIRM_MSG" xml:space="preserve">
+    <value>設定を書き込みます。よろしいですか？</value>
+  </data>
+  <data name="DEVICE_ENCODER_SCRIPT_WRITE_CONFIRM_MSG" xml:space="preserve">
+    <value>ダイアルマクロ設定を書き込みます。よろしいですか？</value>
+  </data>
+  <data name="DEVICE_FUNCTION_WRITE_CONFIRM_MSG" xml:space="preserve">
+    <value>機能設定を書き込みます。よろしいですか？</value>
+  </data>
+  <data name="DEVICE_MACRO_WRITE_CONFIRM_MSG" xml:space="preserve">
+    <value>No.{0}位置に書き込みます。よろしいですか？</value>
+  </data>
+  <data name="DEVICE_MACRO_WRITE_POS_ERR_MSG" xml:space="preserve">
+    <value>書き込み位置を選択してください。</value>
+  </data>
+  <data name="BACKUP_FILE_FILTER" xml:space="preserve">
+    <value>バックアップファイル(*.mbf)|*.mbf|すべてのファイル(*.*)|*.*</value>
+  </data>
+  <data name="BACKUP_FILE_OPEN_DIALOG_TITLE" xml:space="preserve">
+    <value>バックアップファイルを選択して下さい</value>
+  </data>
+  <data name="BACKUP_FILE_SAVE_DIALOG_TITLE" xml:space="preserve">
+    <value>バックアップファイルを保存します</value>
+  </data>
+  <data name="FLASHERASE_WARNING_MSG" xml:space="preserve">
+    <value>設定をすべて消去します。よろしいですか？</value>
+  </data>
+  <data name="RESTORE_ERROR_MSG1" xml:space="preserve">
+    <value>エラーが発生し処理を中断しました。\n(ERROR CODE={0})</value>
+  </data>
+  <data name="RESTORE_WARNING_MSG" xml:space="preserve">
+    <value>設定がすべて上書きされ、書き換わります。よろしいですか？</value>
+  </data>
+  <data name="SCRIPT_FILE_IMPORT_ERROR_MSG" xml:space="preserve">
+    <value>マクロデータファイルの読み込みに失敗しました。</value>
+  </data>
+  <data name="SCRIPT_FILE_OPEN_DIALOG_TITLE" xml:space="preserve">
+    <value>マクロデータファイルを選択して下さい</value>
+  </data>
+  <data name="SCRIPT_FILE_SAVE_DIALOG_TITLE" xml:space="preserve">
+    <value>マクロデータファイルを保存します</value>
+  </data>
+  <data name="STATUS_MESSAGE_BOX_TEXT" xml:space="preserve">
+    <value>状態</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_GAMEPAD" xml:space="preserve">
+    <value>ゲームパッド</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_GENERAL" xml:space="preserve">
+    <value>一般設定</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_KEY" xml:space="preserve">
+    <value>キー入力</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_MOUSE" xml:space="preserve">
+    <value>マウス</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_MULTIMEDIA" xml:space="preserve">
+    <value>マルチメディア</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET" xml:space="preserve">
+    <value>プリセット</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_USER_DIAL_MACRO" xml:space="preserve">
+    <value>ユーザ作成ダイアル</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CCW" xml:space="preserve">
+    <value>左回転(CCW)</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CW" xml:space="preserve">
+    <value>右回転(CW)</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_DIAL" xml:space="preserve">
+    <value>ダイアル機能</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_SENSITIVITY" xml:space="preserve">
+    <value>感度</value>
+  </data>
+  <data name="SCREEN_DIAL_FUNCTION_SETTING" xml:space="preserve">
+    <value>ダイアル機能設定画面</value>
+  </data>
+  <data name="BTN_CLOSE" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="BTN_DIAL_MACRO_EDITOR" xml:space="preserve">
+    <value>ダイアルマクロ編集</value>
+  </data>
+  <data name="BTN_MACRO_EDITOR" xml:space="preserve">
+    <value>マクロ編集</value>
+  </data>
+  <data name="BTN_SETUP" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="DIAL_MACRO_LOOP_MODE_TEXT" xml:space="preserve">
+    <value>繰り返し実行</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_MACRO" xml:space="preserve">
+    <value>マクロ</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET" xml:space="preserve">
+    <value>プリセット</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO" xml:space="preserve">
+    <value>CLIP STUDIO</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP" xml:space="preserve">
+    <value>PHOTOSHOP</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI" xml:space="preserve">
+    <value>SAI</value>
+  </data>
+  <data name="FUNC_SETTING_ENCODER_DEFAULT_SETTING_FUNC" xml:space="preserve">
+    <value>機能</value>
+  </data>
+  <data name="FUNC_SETTING_ENCODER_DEFAULT_SETTING_TITLE" xml:space="preserve">
+    <value>エンコーダーデフォルト機能</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_TEST" xml:space="preserve">
+    <value>テスト</value>
+  </data>
+  <data name="SETTING_VALUE" xml:space="preserve">
+    <value>設定値</value>
+  </data>
+  <data name="PRESET_DATA_FILE_READ_ERROR" xml:space="preserve">
+    <value>プリセットデータファイル読み込みエラー</value>
+  </data>
+  <data name="SYSTEM_SETTING_BACKUP_FILE_READ" xml:space="preserve">
+    <value>復元</value>
+  </data>
+  <data name="SYSTEM_SETTING_BACKUP_FILE_SAVE" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="SYSTEM_SETTING_BACKUP_FILE_TITLE" xml:space="preserve">
+    <value>バックアップファイル</value>
+  </data>
+  <data name="SYSTEM_SETTING_BACKUP_TITLE" xml:space="preserve">
+    <value>バックアップ</value>
+  </data>
+  <data name="SYSTEM_SETTING_DIAL_FUNC_LED_FLASH" xml:space="preserve">
+    <value>フラッシュして消える</value>
+  </data>
+  <data name="SYSTEM_SETTING_DIAL_FUNC_LED_ON" xml:space="preserve">
+    <value>次の機能に変更するまで点灯</value>
+  </data>
+  <data name="SYSTEM_SETTING_DIAL_FUNC_LED_SETTING_TITLE" xml:space="preserve">
+    <value>ダイアル機能LED設定</value>
+  </data>
+  <data name="SYSTEM_SETTING_DIAL_FUNC_LED_SLOW" xml:space="preserve">
+    <value>ゆっくり消える</value>
+  </data>
+  <data name="SYSTEM_SETTING_ENCODER_TYPEMATIC" xml:space="preserve">
+    <value>エンコーダー 連打入力</value>
+  </data>
+  <data name="SYSTEM_SETTING_FACTORY_RESET" xml:space="preserve">
+    <value>初期化</value>
+  </data>
+  <data name="SYSTEM_SETTING_FACTORY_RESET_TITLE" xml:space="preserve">
+    <value>全ての設定を初期化</value>
+  </data>
+  <data name="SYSTEM_SETTING_MODE_LED_OFF" xml:space="preserve">
+    <value>LED消灯</value>
+  </data>
+  <data name="SYSTEM_SETTING_MODE_LED_OFF_UNIT" xml:space="preserve">
+    <value>秒後</value>
+  </data>
+  <data name="SYSTEM_SETTING_MODE_LED_SETTING" xml:space="preserve">
+    <value>プロファイルLED設定</value>
+  </data>
+  <data name="SYSTEM_SETTING_SETTING_TITLE" xml:space="preserve">
+    <value>各種設定</value>
+  </data>
+  <data name="SYSTEM_SETTING_SLEEP_LED_OFF" xml:space="preserve">
+    <value>スリープ時LED消灯</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_NOT_SET" xml:space="preserve">
+    <value>未設定</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_NOT_SET" xml:space="preserve">
+    <value>未設定</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO" xml:space="preserve">
+    <value>CLIPSTUDIO</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_1_BRUSH_L" xml:space="preserve">
+    <value>ブラシサイズ大</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_2_BRUSH_S" xml:space="preserve">
+    <value>ブラシサイズ小</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_3_ROTATION_R" xml:space="preserve">
+    <value>画像回転右</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_4_ROTATION_L" xml:space="preserve">
+    <value>画像回転左</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR" xml:space="preserve">
+    <value>Illustrator</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_1_ZOOMIN" xml:space="preserve">
+    <value>ズームイン（拡大）</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_2_ZOOMOUT" xml:space="preserve">
+    <value>ズームアウト（縮小）</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM" xml:space="preserve">
+    <value>Lightroom</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM_1_SLIDER_S_UP" xml:space="preserve">
+    <value>選択スライダーを小さい単位で増加</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM_2_SLIDER_S_DOWN" xml:space="preserve">
+    <value>選択スライダーを小さい単位で減少</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM_3_SLIDER_L_UP" xml:space="preserve">
+    <value>選択スライダーを大きい単位で増加</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM_4_SLIDER_L_DOWN" xml:space="preserve">
+    <value>選択スライダーを大きい単位で減少</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP" xml:space="preserve">
+    <value>PHOTOSHOP</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_1_BRUSH_L" xml:space="preserve">
+    <value>ブラシサイズ大</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_2_BRUSH_S" xml:space="preserve">
+    <value>ブラシサイズ小</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_3_ROTATION_R" xml:space="preserve">
+    <value>画像回転右</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_4_ROTATION_L" xml:space="preserve">
+    <value>画像回転左</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI" xml:space="preserve">
+    <value>SAI</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI_1_BRUSH_L" xml:space="preserve">
+    <value>ブラシサイズ大</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI_2_BRUSH_S" xml:space="preserve">
+    <value>ブラシサイズ小</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI_3_ROTATION_R" xml:space="preserve">
+    <value>画像回転右</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI_4_ROTATION_L" xml:space="preserve">
+    <value>画像回転左</value>
+  </data>
+  <data name="JOYSTICK_HATSW_CENTER" xml:space="preserve">
+    <value>中立</value>
+  </data>
+  <data name="JOYSTICK_HATSW_DOWN" xml:space="preserve">
+    <value>下</value>
+  </data>
+  <data name="JOYSTICK_HATSW_LEFT" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="JOYSTICK_HATSW_NE" xml:space="preserve">
+    <value>北東</value>
+  </data>
+  <data name="JOYSTICK_HATSW_NW" xml:space="preserve">
+    <value>北西</value>
+  </data>
+  <data name="JOYSTICK_HATSW_RIGHT" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="JOYSTICK_HATSW_SE" xml:space="preserve">
+    <value>南東</value>
+  </data>
+  <data name="JOYSTICK_HATSW_SW" xml:space="preserve">
+    <value>南西</value>
+  </data>
+  <data name="JOYSTICK_HATSW_UP" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="MACRO_EDITOR_DELETE" xml:space="preserve">
+    <value>消去</value>
+  </data>
+  <data name="MACRO_EDITOR_EDITOR_LIST_ITEM" xml:space="preserve">
+    <value>項目</value>
+  </data>
+  <data name="MACRO_EDITOR_EDITOR_LIST_SIZE" xml:space="preserve">
+    <value>サイズ</value>
+  </data>
+  <data name="MACRO_EDITOR_EDITOR_LIST_VALUE" xml:space="preserve">
+    <value>設定値</value>
+  </data>
+  <data name="MACRO_EDITOR_LIST_MACRO_NAME" xml:space="preserve">
+    <value>マクロ名称</value>
+  </data>
+  <data name="MACRO_EDITOR_LIST_NO" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="MACRO_EDITOR_MACRO_DATA_READ" xml:space="preserve">
+    <value>マクロデータの読み込み</value>
+  </data>
+  <data name="MACRO_EDITOR_MACRO_DATA_RW_TITLE" xml:space="preserve">
+    <value>マクロデータの読み書き</value>
+  </data>
+  <data name="MACRO_EDITOR_MACRO_DATA_SAVE" xml:space="preserve">
+    <value>マクロデータの保存</value>
+  </data>
+  <data name="MACRO_EDITOR_OPERATION_REC" xml:space="preserve">
+    <value>操作記録</value>
+  </data>
+  <data name="MACRO_EDITOR_OPERATION_REC_DELETE" xml:space="preserve">
+    <value>記録消去</value>
+  </data>
+  <data name="MACRO_EDITOR_OPERATION_REC_START" xml:space="preserve">
+    <value>記録開始</value>
+  </data>
+  <data name="MACRO_EDITOR_OPERATION_REC_STOP" xml:space="preserve">
+    <value>記録停止</value>
+  </data>
+  <data name="SCRIPT_DATA_FLASH_READ" xml:space="preserve">
+    <value>本体から読み込み</value>
+  </data>
+  <data name="SCRIPT_DATA_FLASH_WRITE" xml:space="preserve">
+    <value>本体へ書き込み</value>
+  </data>
+  <data name="SCRIPT_WHEEL_SCROLL_TEXT" xml:space="preserve">
+    <value>ホイールスクロール</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_10_LINE_SPACE_NARROW" xml:space="preserve">
+    <value>行間を狭める</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_11_LETTER_SPACE_SPREAD" xml:space="preserve">
+    <value>字間を広げる</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_12_LETTER_SPACE_NARROW" xml:space="preserve">
+    <value>字間を狭める</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_13_BLUSH_BLUR_SIZE_UP" xml:space="preserve">
+    <value>ブラシをぼかす　サイズアップ</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_14_BLUSH_BLUR_SIZE_DOWN" xml:space="preserve">
+    <value>ブラシをぼかす　サイズダウン</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_15_BLUSH_HARD_UP" xml:space="preserve">
+    <value>ブラシの硬さ　アップ</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_16_BLUSH_HARD_DOWN" xml:space="preserve">
+    <value>ブラシの硬さ　ダウン</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_5_IMAGE_ENLARGE" xml:space="preserve">
+    <value>画像の拡大</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_6_IMAGE_REDUCE" xml:space="preserve">
+    <value>画像の縮小</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_7_CANVAS_ENLARGE" xml:space="preserve">
+    <value>キャンバスの拡大</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_8_CANVAS_REDUCE" xml:space="preserve">
+    <value>キャンバスの縮小</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_9_LINE_SPACE_SPREAD" xml:space="preserve">
+    <value>行間を広げる</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_10_ZOOM_OUT" xml:space="preserve">
+    <value>ズームアウト</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_5_IMAGE_ENLARGE" xml:space="preserve">
+    <value>画像の拡大</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_6_IMAGE_REDUCE" xml:space="preserve">
+    <value>画像の縮小</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_7_BLUSH_OPACITY_UP" xml:space="preserve">
+    <value>ブラシの不透明度と濃度アップ</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_8_BLUSH_OPACITY_DOWN" xml:space="preserve">
+    <value>ブラシの不透明度と濃度ダウン</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_9_ZOOM_IN" xml:space="preserve">
+    <value>ズームイン</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM_5_BRUSH_L" xml:space="preserve">
+    <value>ブラシサイズ大</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM_6_BRUSH_S" xml:space="preserve">
+    <value>ブラシサイズ小</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM_7_BLUSH_BLUR_SIZE_UP" xml:space="preserve">
+    <value>ブラシのぼかし拡大</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM_8_BLUSH_BLUR_SIZE_DOWN" xml:space="preserve">
+    <value>ブラシのぼかし縮小</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI_10_CURSOR_REDUCE" xml:space="preserve">
+    <value>カーソル位置を中心に縮小</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI_5_IMAGE_ENLARGE" xml:space="preserve">
+    <value>画像の拡大</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI_6_IMAGE_REDUCE" xml:space="preserve">
+    <value>画像の縮小</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI_7_CANVAS_ENLARGE" xml:space="preserve">
+    <value>キャンバスの拡大</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI_8_CANVAS_REDUCE" xml:space="preserve">
+    <value>キャンバスの縮小</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI_9_CURSOR_ENLARGE" xml:space="preserve">
+    <value>カーソル位置を中心に拡大</value>
+  </data>
+  <data name="PROFILE_CHANGE_NOT_SETTING_WARNING_MSG1" xml:space="preserve">
+    <value>このプロファイルで他のプロファイルへのプロファイル変更機能が割り当てられていません。</value>
+  </data>
+  <data name="PROFILE_CHANGE_NOT_SETTING_WARNING_MSG2" xml:space="preserve">
+    <value>このまま設定しますか？</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_17_OPACITY_UP" xml:space="preserve">
+    <value>不透明度　大</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_18_OPACITY_DOWN" xml:space="preserve">
+    <value>不透明度　小</value>
+  </data>
+  <data name="SCRIPT_MODE_HOLD_MODE_TEXT" xml:space="preserve">
+    <value>押している間１回だけ実行し続ける</value>
+  </data>
+  <data name="HELP_LINK_BUTTON_TEXT" xml:space="preserve">
+    <value>ヘルプ</value>
+  </data>
+  <data name="HELP_QUESTION_MARK" xml:space="preserve">
+    <value>？</value>
+  </data>
+  <data name="MACRO_EDITOR_MACRO_READ" xml:space="preserve">
+    <value>読み込み</value>
+  </data>
+  <data name="MACRO_EDITOR_MACRO_WRITE" xml:space="preserve">
+    <value>書き込み</value>
+  </data>
+  <data name="MACRO_EDITOR_OPERATION_SETTING" xml:space="preserve">
+    <value>動作設定</value>
+  </data>
+  <data name="MACRO_EDITOR_MACRO_CREATE_TITLE" xml:space="preserve">
+    <value>マクロ作成</value>
+  </data>
+  <data name="MACRO_EDITOR_MACRO_EDITOR_AREA_TITLE" xml:space="preserve">
+    <value>マクロ内容/編集</value>
+  </data>
+  <data name="MACRO_EDITOR_MACRO_LIST_TITLE" xml:space="preserve">
+    <value>保存済みマクロリスト</value>
+  </data>
+  <data name="LED_BRIGHTNESS_TITLE" xml:space="preserve">
+    <value>明るさ</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGORY1_LIST" xml:space="preserve">
+    <value>カテゴリ</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGORY2_LIST" xml:space="preserve">
+    <value>アプリケーション</value>
+  </data>
+  <data name="RESET_WARNING_MSG2" xml:space="preserve">
+    <value>初期化中はUSBケーブルを抜かないでください。</value>
+  </data>
+  <data name="RESET_WARNING_MSG3" xml:space="preserve">
+    <value>初期化完了後に、USBケーブルを挿し直して下さい。</value>
+  </data>
+  <data name="RESTORE_WARNING_MSG2" xml:space="preserve">
+    <value>書き換え中はUSBケーブルを抜かないでください。</value>
+  </data>
+  <data name="RESTORE_WARNING_MSG3" xml:space="preserve">
+    <value>書き換え完了後に、USBケーブルを挿し直して下さい。</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR" xml:space="preserve">
+    <value>ILLUSTRATOR</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM" xml:space="preserve">
+    <value>LIGHTROOM</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_MULTIMEDIA" xml:space="preserve">
+    <value>マルチメディア</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_10_SYRINGE_TOOL" xml:space="preserve">
+    <value>スポイトツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_11_CROP_TOOL" xml:space="preserve">
+    <value>切り抜きツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_12_FILL_GRADATION_TOOL" xml:space="preserve">
+    <value>塗りつぶし、グラデーションツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_13_ROTATIONG_VIEW_TOOL" xml:space="preserve">
+    <value>回転ビューツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_14_DODGE_TOOL" xml:space="preserve">
+    <value>覆い焼きツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_15_DRAWING_COLOR_BACKGROUND_COLOR" xml:space="preserve">
+    <value>描画色・背景色の切り替え</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_16_MOVE_TOOL" xml:space="preserve">
+    <value>移動ツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_17_SELECTION_TOOL" xml:space="preserve">
+    <value>選択ツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_18_REPAIR_BRUSH_TOOL" xml:space="preserve">
+    <value>修復ブラシツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_19_HISTORY_BRUSH_TOOL" xml:space="preserve">
+    <value>ヒストリーブラシツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_01_SPACE" xml:space="preserve">
+    <value>スペース</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_20_CHARACTER_TOOL" xml:space="preserve">
+    <value>文字ツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_21_PATH_COMPONENT_SELECTION_TOOL" xml:space="preserve">
+    <value>パスコンポーネント選択ツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_22_RECTANGLE_ROUNDED_RECTANGLE_OVAL_TOOL" xml:space="preserve">
+    <value>長方形・角丸長方形・楕円形ツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_23_ZOOM_TOOL" xml:space="preserve">
+    <value>ズームツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_24_TONE_CURVE" xml:space="preserve">
+    <value>トーンカーブ</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_25_LEVEL_CORRECTION" xml:space="preserve">
+    <value>レベル補正</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_26_AUTO_SELECTION" xml:space="preserve">
+    <value>自動選択</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_27_GROUP_LAYERS" xml:space="preserve">
+    <value>（レイヤの）グループ化</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_28_PALETTE_DISPLAY_OFF" xml:space="preserve">
+    <value>パレット表示のOFF＞フルスクリーン＞ON</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_29_CREATE_NEW_LAYER" xml:space="preserve">
+    <value>レイヤー新規作成</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_02_CTRL" xml:space="preserve">
+    <value>CTRL</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_30_SELECT_ALL_IN_THE_LAYER" xml:space="preserve">
+    <value>レイヤ内の全選択/キャンバス全体選択</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_31_LAYER_INTEGRATION" xml:space="preserve">
+    <value>レイヤの統合</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_32_SHOW_HIDE_RULER" xml:space="preserve">
+    <value>定規の表示/非表示</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_33_SWITCHING_COLOR_MODE" xml:space="preserve">
+    <value>カラーモードの切り替え(RGB &lt;-&gt; CMYK)</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_34_CANCEL_SELECTION" xml:space="preserve">
+    <value>選択範囲の解除</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_35_FREE_DEFORMATION_MODE" xml:space="preserve">
+    <value>自由変形モード</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_36_UNDO_ONE_TASK" xml:space="preserve">
+    <value>作業を1つ元に戻す</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_37_UNDO_ONE_MORE_TASK" xml:space="preserve">
+    <value>作業を1つ以上前に戻す</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_38_SAVE" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_39_RESTORE_DISPLAY_TO_NORMAL_SIZE" xml:space="preserve">
+    <value>表示を通常のサイズに戻す</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_03_ERASER" xml:space="preserve">
+    <value>消しゴム</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_40_LAYER_COMBINING_ALL_DISPLAY_LAYERS" xml:space="preserve">
+    <value>表示レイヤーを全て結合したレイヤー</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_41_SHOW_HIDE_GRID" xml:space="preserve">
+    <value>グリッドの表示・非表示</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_42_TAB_SWITCHING" xml:space="preserve">
+    <value>タブの切り替え</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_43_ESC" xml:space="preserve">
+    <value>ESC</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_44_INVERT_SELECTION" xml:space="preserve">
+    <value>選択範囲の反転</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_45_HIDE_SELECTION" xml:space="preserve">
+    <value>選択範囲を隠す</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_46_SHOW_OPTIONS" xml:space="preserve">
+    <value>オプションを表示</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_47_ESC" xml:space="preserve">
+    <value>ESC</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_04_SHIFT" xml:space="preserve">
+    <value>SHIFT</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_05_PEN" xml:space="preserve">
+    <value>ペン</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_06_BRUSH" xml:space="preserve">
+    <value>ブラシ</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_07_SYRINGE" xml:space="preserve">
+    <value>スポイト</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_08_PALM" xml:space="preserve">
+    <value>手のひら</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_09_COPY_STAMP_TOOL" xml:space="preserve">
+    <value>コピースタンプツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_01_SWITCH_PRE_SUB_TOOL" xml:space="preserve">
+    <value>前のサブツールに切り替え</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_02_SWITCH_NEXT_SUB_TOOL" xml:space="preserve">
+    <value>次のサブツールに切り替え</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_03_PALM" xml:space="preserve">
+    <value>手のひら</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_04_ROTATION" xml:space="preserve">
+    <value>回転</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_05_MAGNIFYING_GLASS_LARGE" xml:space="preserve">
+    <value>虫めがね(拡大)</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_06_MAGNIFYING_GLASS_SHRINK" xml:space="preserve">
+    <value>虫めがね(縮小)</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_07_MAIN_COLOR_SUB_COLOR" xml:space="preserve">
+    <value>メインカラーとサブカラーを切り替え</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_08_DRAWING_COLOR_TRANSPARENT_COLOR" xml:space="preserve">
+    <value>描画色と透明色を切り替え</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_09_LAYER_SELECTION" xml:space="preserve">
+    <value>レイヤー選択</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_10_MAGNIFYING_GLASS" xml:space="preserve">
+    <value>虫めがね</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_11_MOVE_PALM" xml:space="preserve">
+    <value>移動（手のひら）</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_12_MOVE_ROTATION" xml:space="preserve">
+    <value>移動（回転）</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_13_OPERATION_OBJECT" xml:space="preserve">
+    <value>操作（オブジェクト）</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_14_OPERATION_LAYER_SELECTION" xml:space="preserve">
+    <value>操作（レイヤー選択）</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_15_LIGHT_TABLE_TIMELINE_EDIT" xml:space="preserve">
+    <value>ライトテーブル/タイムライン編集</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_16_MOVE_LAYER" xml:space="preserve">
+    <value>レイヤー移動</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_17_SELECTION_RANGE" xml:space="preserve">
+    <value>選択範囲</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_18_AUTO_SELECTION" xml:space="preserve">
+    <value>自動選択</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_19_SYRINGE" xml:space="preserve">
+    <value>スポイト</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_20_PEN_PENCIL" xml:space="preserve">
+    <value>ペン/鉛筆</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_21_BRUSH_AIRBRUSH" xml:space="preserve">
+    <value>筆/エアブラシ*デコレーション</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_22_ERASER" xml:space="preserve">
+    <value>消しゴム</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_23_COLOR_MIX" xml:space="preserve">
+    <value>色混ぜ</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_24_FILL_GRADATION" xml:space="preserve">
+    <value>塗りつぶし/グラデーション</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_25_FIGURE_FRAME_RULER" xml:space="preserve">
+    <value>図形/コマ枠/定規</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_26_TEXT_BALLOON" xml:space="preserve">
+    <value>テキスト/フキダシ</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_27_LINE_CORRECTION" xml:space="preserve">
+    <value>線修正</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_28_SYRINGE" xml:space="preserve">
+    <value>スポイト</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_29_OBJECT" xml:space="preserve">
+    <value>オブジェクト</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_30_DRAW_STRAIGHT_LINE" xml:space="preserve">
+    <value>直線を描く</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_31_SWITCHING_LAYER_COLOR" xml:space="preserve">
+    <value>レイヤーカラーの使用切り替え</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_32_CANCEL" xml:space="preserve">
+    <value>取り消し</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_33_CUT" xml:space="preserve">
+    <value>切り取り</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_34_PASTE" xml:space="preserve">
+    <value>貼り付け</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_35_COPY" xml:space="preserve">
+    <value>コピー</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_36_ESC" xml:space="preserve">
+    <value>ESC</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_01_RESTORE" xml:space="preserve">
+    <value>元に戻す</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_02_REDOING" xml:space="preserve">
+    <value>やり直し</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_03_CUT" xml:space="preserve">
+    <value>切り取り</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_04_COPY" xml:space="preserve">
+    <value>コピー</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_05_PASTE" xml:space="preserve">
+    <value>貼り付け</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_06_CLEAR_LAYER" xml:space="preserve">
+    <value>レイヤーを消去</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_07_COMBINE_LOWER_LAYER" xml:space="preserve">
+    <value>下のレイヤーと結合/レイヤーセットを結合</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_08_TRANSFER_TO_LOWER_LAYER" xml:space="preserve">
+    <value>下のレイヤーに転写</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_09_FILL_LAYER" xml:space="preserve">
+    <value>レイヤーを塗りつぶす</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_10_FREE_DEFORMATION" xml:space="preserve">
+    <value>自由変形</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_11_CANCEL_SELECTION_AREA" xml:space="preserve">
+    <value>選択領域の解除</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_12_DISPLAY_SELECTION_AREA" xml:space="preserve">
+    <value>選択領域の表示</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_13_SELECT_ALL" xml:space="preserve">
+    <value>全て選択</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_14_HUE_SATURATION_LIGHTNESS" xml:space="preserve">
+    <value>色相、彩度、明度</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_15_FLIP_HORIZONTAL" xml:space="preserve">
+    <value>左右反転</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_16_PIXEL_EQUAL_MAGNIFICATION" xml:space="preserve">
+    <value>ピクセル等倍</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_17_POSITION_RESET" xml:space="preserve">
+    <value>位置リセット</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_18_ROTATION_RESET" xml:space="preserve">
+    <value>回転リセット</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_19_HIDE_CONTROL_PANEL" xml:space="preserve">
+    <value>操作パネルを隠す/レイヤー関連パネルを右に表示</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_20_DRAW_COLOR_SECONDARY_COLOR" xml:space="preserve">
+    <value>描画色/二次色切り替え</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_21_DRAW_COLOR_TRANSPARENT_COLOR" xml:space="preserve">
+    <value>描画色/透明色切り替え</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_22_PENCIL" xml:space="preserve">
+    <value>鉛筆</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_23_AIRBRUSH" xml:space="preserve">
+    <value>エアブラシ</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_24_BRUSH" xml:space="preserve">
+    <value>筆</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_25_WATERCOLOR_BRUSH" xml:space="preserve">
+    <value>水彩筆</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_26_ERASER" xml:space="preserve">
+    <value>消しゴム</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_27_SELECTOR_PEN" xml:space="preserve">
+    <value>選択ペン</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_28_SELECTIVE_ERASE" xml:space="preserve">
+    <value>選択消し</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_29_NEW_CANVAS" xml:space="preserve">
+    <value>新規キャンバス</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_30_ESC" xml:space="preserve">
+    <value>ESC</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_31_CTRL" xml:space="preserve">
+    <value>CTRL</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_32_SPACE" xml:space="preserve">
+    <value>SPACE</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_33_SHIFT" xml:space="preserve">
+    <value>SHIFT</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_01_CANCEL" xml:space="preserve">
+    <value>取り消し</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_02_REDOING" xml:space="preserve">
+    <value>やり直し</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_03_CUT" xml:space="preserve">
+    <value>カット</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_04_COPY" xml:space="preserve">
+    <value>コピー</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_05_PASTE" xml:space="preserve">
+    <value>ペースト</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_06_PASTE_FRONT" xml:space="preserve">
+    <value>前面へペースト</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_07_PASTE_BACK" xml:space="preserve">
+    <value>背面へペースト</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_08_PASTE_SAME_POSITION" xml:space="preserve">
+    <value>同じ位置にペースト</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_09_PASTE_ARTBOARD" xml:space="preserve">
+    <value>すべてのアートボードにペースト</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_10_SPELL_CHECK" xml:space="preserve">
+    <value>スペルチェック</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_11_OPEN_COLOR_SETTING_DIALOG_BOX" xml:space="preserve">
+    <value>カラー設定ダイアログボックスを開く</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_12_OPEN_KEYBOARD_SHORTCUT_DIALOG_BOX" xml:space="preserve">
+    <value>キーボードショートカットダイアログボックスを開く</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_13_OPEN_PREFERENCES_DIALOG_BOX" xml:space="preserve">
+    <value>環境設定ダイアログボックスを開く</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_14_ARTBOARD_TOOL" xml:space="preserve">
+    <value>アートボードツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_15_SELECTION_TOOL" xml:space="preserve">
+    <value>選択ツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_16_DIRECT_SELECTION_TOOL" xml:space="preserve">
+    <value>ダイレクト選択ツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_17_AUTOMATIC_SELECTION_TOOL" xml:space="preserve">
+    <value>自動選択ツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_18_LASSO_TOOL" xml:space="preserve">
+    <value>なげなわツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_19_PEN_TOOL" xml:space="preserve">
+    <value>ペンツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_20_CURVED_TOOL" xml:space="preserve">
+    <value>曲線ツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_21_FILL_BRUSH_TOOL" xml:space="preserve">
+    <value>塗りブラシツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_22_ADD_ANCHOR_POINT" xml:space="preserve">
+    <value>アンカーポイントの追加ツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_23_DELETE_ANCHOR_POINT" xml:space="preserve">
+    <value>アンカーポイントの削除ツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_24_SWITCH_ANCHOR_POINT" xml:space="preserve">
+    <value>アンカーポイントに切り替えツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_25_CHARACTER_TOOL" xml:space="preserve">
+    <value>文字ツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_26_CHARACTER_TOUCH_TOOL" xml:space="preserve">
+    <value>文字タッチツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_27_LINE_TOOL" xml:space="preserve">
+    <value>直線ツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_28_RECTANGULAR_TOOL" xml:space="preserve">
+    <value>長方形ツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_29_OVAL_TOOL" xml:space="preserve">
+    <value>楕円形ツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_30_BRUSH_TOOL" xml:space="preserve">
+    <value>ブラシツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_31_PENCIL_TOOL" xml:space="preserve">
+    <value>鉛筆ツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_32_SHAPER_TOOL" xml:space="preserve">
+    <value>Shaper ツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_33_ROTATING_TOOL" xml:space="preserve">
+    <value>回転ツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_34_REFLECT_TOOL" xml:space="preserve">
+    <value>リフレクトツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_35_SCALE_TOOL" xml:space="preserve">
+    <value>拡大・縮小ツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_36_WARP_TOOL" xml:space="preserve">
+    <value>ワープツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_37_LINE_WIDTH_TOOL" xml:space="preserve">
+    <value>線幅ツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_38_FREE_TRANSFORM_TOOL" xml:space="preserve">
+    <value>自由変形ツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_39_SHAPE_FORMING_TOOL" xml:space="preserve">
+    <value>シェイプ形成ツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_40_PERSPECTIVE_GRID_TOOL" xml:space="preserve">
+    <value>遠近グリッドツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_41_PERSPECTIVE_SELECTION_TOOL" xml:space="preserve">
+    <value>遠近図形選択ツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_42_SYMBOL_SPRAY_TOOL" xml:space="preserve">
+    <value>シンボルスプレーツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_43_BAR_GRAPH_TOOL" xml:space="preserve">
+    <value>棒グラフツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_44_MESH_TOOL" xml:space="preserve">
+    <value>メッシュツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_45_GRADATION_TOOL" xml:space="preserve">
+    <value>グラデーションツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_46_SYRINGE_TOOL" xml:space="preserve">
+    <value>スポイトツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_47_BLEND_TOOL" xml:space="preserve">
+    <value>ブレンドツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_48_LIVE_PAINT_TOOL" xml:space="preserve">
+    <value>ライブペイントツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_49_LIVE_PAINT_SELECTION_TOOL" xml:space="preserve">
+    <value>ライブペイント選択ツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_50_SLICE_TOOL" xml:space="preserve">
+    <value>スライスツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_51_ERASER_TOOL" xml:space="preserve">
+    <value>消しゴムツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_52_SCISSOR_TOOL" xml:space="preserve">
+    <value>はさみツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_53_HAND_TOOL" xml:space="preserve">
+    <value>手のひらツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_54_ZOOM_TOOL" xml:space="preserve">
+    <value>ズームツール</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_55_SWITCH_SMOOTH_TOOL" xml:space="preserve">
+    <value>塗りブラシツールを使用しているときにスムーズツールに切り替える</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_56_ESC" xml:space="preserve">
+    <value>ESC</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_57_CTRL" xml:space="preserve">
+    <value>CTRL</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_58_HAND_TOOL_SPACE" xml:space="preserve">
+    <value>手のひらツール（SPACE）</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_59_SHIFT" xml:space="preserve">
+    <value>SHIFT</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM_01_" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_MULTIMEDIA_01_" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC" xml:space="preserve">
+    <value>ダイアル機能変更</value>
+  </data>
+  <data name="SYSTEM_SETTING_KEYBOARD_SETTING" xml:space="preserve">
+    <value>キーボード設定</value>
+  </data>
+  <data name="SYSTEM_SETTING_KEYBOARD_SETTING_JA" xml:space="preserve">
+    <value>日本語配列キーボード</value>
+  </data>
+  <data name="SYSTEM_SETTING_KEYBOARD_SETTING_US" xml:space="preserve">
+    <value>英語配列キーボード</value>
+  </data>
+  <data name="SETTING_KEY_CTRL_KEY_COMMAND" xml:space="preserve">
+    <value>COMMAND</value>
+  </data>
+  <data name="SETTING_KEY_CTRL_KEY_OPTION" xml:space="preserve">
+    <value>OPTION</value>
+  </data>
+  <data name="MOUSE_TILT_TEXT" xml:space="preserve">
+    <value>移動量</value>
+  </data>
+  <data name="LED_COLOR_SETTING_COLOR_SELECT" xml:space="preserve">
+    <value>色の選択</value>
+  </data>
+  <data name="LED_COLOR_SETTING_SET_COLOR_ERROR_MSG" xml:space="preserve">
+    <value>選択された色は設定範囲外です</value>
+  </data>
+  <data name="KEYBOARD_SETUP_ASSIST_COMP_MSG1" xml:space="preserve">
+    <value>お使いのキーボードが識別されました。</value>
+  </data>
+  <data name="KEYBOARD_SETUP_ASSIST_COMP_MSG2" xml:space="preserve">
+    <value>設定を完了するには”設定”ボタンをクリックしてください。</value>
+  </data>
+  <data name="KEYBOARD_SETUP_ASSIST_COMP_MSG3" xml:space="preserve">
+    <value>正しく識別されていない場合は、正しいキーボードを選択して”設定”ボタンをクリックしてください。</value>
+  </data>
+  <data name="KEYBOARD_SETUP_ASSIST_MSG1" xml:space="preserve">
+    <value>キーは１回だけ押して押し続けないでください。キーが認識されると次のステップが表示されます。</value>
+  </data>
+  <data name="KEYBOARD_SETUP_ASSIST_MSG2" xml:space="preserve">
+    <value>識別中のキーボードの左SHIFTキーの右隣のキーを押してください</value>
+  </data>
+  <data name="KEYBOARD_SETUP_ASSIST_MSG3" xml:space="preserve">
+    <value>識別中のキーボードの右SHIFTキーの左隣のキーを押してください</value>
+  </data>
+  <data name="KEYBOARD_SETUP_ASSIST_TITLE" xml:space="preserve">
+    <value>キーボード識別中</value>
+  </data>
+  <data name="SYSTEM_SETTING_KEYBOARD_SETTING_ANSI" xml:space="preserve">
+    <value>ANSI(米国その他)</value>
+  </data>
+  <data name="SYSTEM_SETTING_KEYBOARD_SETTING_ANSI_DESC" xml:space="preserve">
+    <value>標準的な101キーまたは102キーのキーボード、およびその他のいくつかのキーボード</value>
+  </data>
+  <data name="SYSTEM_SETTING_KEYBOARD_SETTING_JIS" xml:space="preserve">
+    <value>JIS(日本語)</value>
+  </data>
+  <data name="SYSTEM_SETTING_KEYBOARD_SETTING_JIS_DESC" xml:space="preserve">
+    <value>入力プログラムがついた標準的な日本語キーボード</value>
+  </data>
+</root>

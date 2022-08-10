@@ -1,0 +1,1852 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MODE_NO_STATUS" xml:space="preserve">
+    <value>Mode:{0}  Function No:{1}</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM_2_SLIDER_S_DOWN" xml:space="preserve">
+    <value>Decrease selection slider by small units</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_16_MOVE_TOOL" xml:space="preserve">
+    <value>MOVE TOOL</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_17_POSITION_RESET" xml:space="preserve">
+    <value>POSITION RESET</value>
+  </data>
+  <data name="RESTORE_WARNING_MSG" xml:space="preserve">
+    <value>All settings are overwritten and rewritten. Are you sure ?</value>
+  </data>
+  <data name="BACKUP_FILE_SAVE_DIALOG_TITLE" xml:space="preserve">
+    <value>Save the backup file</value>
+  </data>
+  <data name="SYSTEM_SETTING_FACTORY_RESET" xml:space="preserve">
+    <value>Initialization</value>
+  </data>
+  <data name="BTN_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="JOYSTICK_HATSW_SE" xml:space="preserve">
+    <value>Southeast</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B11" xml:space="preserve">
+    <value>Game Pad Button 11</value>
+  </data>
+  <data name="RESTORE_ERROR_MSG1" xml:space="preserve">
+    <value>An error occurred and processing was interrupted. \n(ERROR CODE={0})</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_WHEEL_TEXT" xml:space="preserve">
+    <value>Scroll the mouse wheel</value>
+  </data>
+  <data name="SCRIPT_MOUSE_B5_CLICK_TEXT" xml:space="preserve">
+    <value>Hold the mouse button pressed [Button5]</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_28_PALETTE_DISPLAY_OFF" xml:space="preserve">
+    <value>PALETTE DISPLAY OFF &gt; FULL SCREEN &gt; ON</value>
+  </data>
+  <data name="SCRIPT_SIZE_OVER_MSG" xml:space="preserve">
+    <value>The save size of the script exceeds the limit value</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_27_LINE_TOOL" xml:space="preserve">
+    <value>LINE TOOL</value>
+  </data>
+  <data name="BTN_SET" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="MULTIMEDIA_NAM_PREVIOUS" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="RESET_WARNING_MSG2" xml:space="preserve">
+    <value>Do not disconnect the USB cable during initialization.</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_09_FILL_LAYER" xml:space="preserve">
+    <value>FILL A LAYER</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_13_BLUSH_BLUR_SIZE_UP" xml:space="preserve">
+    <value>Size up blush to blur</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SUB2_BG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SUB2_BG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ENCODER_SCRIPT" xml:space="preserve">
+    <value>Dial Macro</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_01_RESTORE" xml:space="preserve">
+    <value>RESTORE</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_36_ESC" xml:space="preserve">
+    <value>ESC</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_30_BRUSH_TOOL" xml:space="preserve">
+    <value>BRUSH TOOL</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_USERAREA" xml:space="preserve">
+    <value>USER AREA</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_VOLUMEUP" xml:space="preserve">
+    <value>Multimedia Volume Up</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_51_ERASER_TOOL" xml:space="preserve">
+    <value>ERASER TOOL</value>
+  </data>
+  <data name="SCRIPT_JOY_BUTTON_RELEASE_TEXT" xml:space="preserve">
+    <value>Release game pad button</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_24_SWITCH_ANCHOR_POINT" xml:space="preserve">
+    <value>SWITCH ANCHOR POINT</value>
+  </data>
+  <data name="KEYBOARD_INPUTKEY_TEXT" xml:space="preserve">
+    <value>Set Key</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_45_GRADATION_TOOL" xml:space="preserve">
+    <value>GRADATION TOOL</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_08_DRAWING_COLOR_TRANSPARENT_COLOR" xml:space="preserve">
+    <value>SWITCH BETWEEN DRAWING COLOR AND TRANSPARENT COLOR</value>
+  </data>
+  <data name="ScriptEditorICON007" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ScriptEditorICON007.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FILE_SAVE_ERR_MSG" xml:space="preserve">
+    <value>File Save FAIL.</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_KEY" xml:space="preserve">
+    <value>KEY</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_8_CANVAS_REDUCE" xml:space="preserve">
+    <value>Reducing the canvas</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC3_PUSH" xml:space="preserve">
+    <value>Dial Function 3 (while pushing)</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_9_ZOOM_IN" xml:space="preserve">
+    <value>Zoom in</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_25_WATERCOLOR_BRUSH" xml:space="preserve">
+    <value>WATERCOLOR BRUSH</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_33_SWITCHING_COLOR_MODE" xml:space="preserve">
+    <value>SWITCHING COLOR MODE (RGB &lt;-&gt; CMYK)</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_13_ROTATIONG_VIEW_TOOL" xml:space="preserve">
+    <value>ROTATING VIEW TOOL</value>
+  </data>
+  <data name="SET_TYPE_ENCODER_SCRIPT2" xml:space="preserve">
+    <value>Dial Macro 2</value>
+  </data>
+  <data name="BTN_DIAL_MACRO_EDITOR" xml:space="preserve">
+    <value>Dial Macro Editor</value>
+  </data>
+  <data name="SCRIPT_WHEEL_DOWN_TEXT" xml:space="preserve">
+    <value>Wheel scroll Increment</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_37_UNDO_ONE_MORE_TASK" xml:space="preserve">
+    <value>UNDO ONE OR MORE TASK</value>
+  </data>
+  <data name="BTN_NO" xml:space="preserve">
+    <value>NO</value>
+  </data>
+  <data name="FLASHERASE_WARNING_MSG" xml:space="preserve">
+    <value>Delete all settings. Are you sure ?</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_19_HISTORY_BRUSH_TOOL" xml:space="preserve">
+    <value>HISTORY BRUSH TOOL</value>
+  </data>
+  <data name="SETTING_KEY_CTRL_KEY_OPTION" xml:space="preserve">
+    <value>OPTION</value>
+  </data>
+  <data name="SYSTEM_SETTING_MODE_LED_SETTING" xml:space="preserve">
+    <value>Profile LED Setting</value>
+  </data>
+  <data name="SCRIPT_JOY_LEVER_L_CENTER_TEXT" xml:space="preserve">
+    <value>Release joystick [Left]</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_17_AUTOMATIC_SELECTION_TOOL" xml:space="preserve">
+    <value>AUTOMATIC SELECTION TOOL</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B04" xml:space="preserve">
+    <value>Game Pad Button 4</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_49_LIVE_PAINT_SELECTION_TOOL" xml:space="preserve">
+    <value>LIVE PAINT SELECTION TOOL</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI_8_CANVAS_REDUCE" xml:space="preserve">
+    <value>Reducing the canvas</value>
+  </data>
+  <data name="MULTIMEDIA_NAM_MUTE" xml:space="preserve">
+    <value>Mute</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_52_SCISSOR_TOOL" xml:space="preserve">
+    <value>SCISSOR TOOL</value>
+  </data>
+  <data name="MACRO_EDITOR_OPERATION_REC_STOP" xml:space="preserve">
+    <value>Recording stop</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_55_SWITCH_SMOOTH_TOOL" xml:space="preserve">
+    <value>SWITCH TO SMOOTH TOOL WHILE USING FILL BRUSH TOOL</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_SENSITIVITY" xml:space="preserve">
+    <value>Sensitivity</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_23_DELETE_ANCHOR_POINT" xml:space="preserve">
+    <value>DELETE ANCHOR POINT</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI_9_CURSOR_ENLARGE" xml:space="preserve">
+    <value>Expand centering on cursor position</value>
+  </data>
+  <data name="ScriptEditorICON001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ScriptEditorICON001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_INTERVAL_TEXT" xml:space="preserve">
+    <value>Enter interval time</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_HAT_W" xml:space="preserve">
+    <value>Game Pad Left Button</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_22_PENCIL" xml:space="preserve">
+    <value>PENCIL</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_29_CREATE_NEW_LAYER" xml:space="preserve">
+    <value>CREATE A NEW LAYER</value>
+  </data>
+  <data name="MOUSE_NAME_R_CLICK" xml:space="preserve">
+    <value>Mouse Right</value>
+  </data>
+  <data name="FUNC_SETTING_ENCODER_DEFAULT_SETTING_TITLE" xml:space="preserve">
+    <value>Encoder Default Function</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC4" xml:space="preserve">
+    <value>Dial Function 4</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_14_DODGE_TOOL" xml:space="preserve">
+    <value>DODGE TOOL</value>
+  </data>
+  <data name="ENCODER_SCRIPT_LIST_MACRO_NAME" xml:space="preserve">
+    <value>Execution Macro Name</value>
+  </data>
+  <data name="SET_TYPE_ENCODER_SCRIPT3" xml:space="preserve">
+    <value>Dial Macro 3</value>
+  </data>
+  <data name="ScriptEditorICON002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ScriptEditorICON002.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LED_BRIGHTNESS_TITLE" xml:space="preserve">
+    <value>Brightness</value>
+  </data>
+  <data name="SYSTEM_SETTING_KEYBOARD_SETTING_JA" xml:space="preserve">
+    <value>Japanese Keyboard</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_34_CANCEL_SELECTION" xml:space="preserve">
+    <value>CANCEL SELECTION</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_19_PEN_TOOL" xml:space="preserve">
+    <value>PEN TOOL</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_13_OPERATION_OBJECT" xml:space="preserve">
+    <value>OPERATION (OBJECT)</value>
+  </data>
+  <data name="DEVICE_FUNCTION_WRITE_CONFIRM_MSG" xml:space="preserve">
+    <value>Write the function setting. Are you sure ?</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_GAMEPAD" xml:space="preserve">
+    <value>GAMEPAD</value>
+  </data>
+  <data name="SYSTEM_SETTING_DIAL_FUNC_LED_FLASH" xml:space="preserve">
+    <value>Blinking to turn off</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_16_DIRECT_SELECTION_TOOL" xml:space="preserve">
+    <value>DIRECT SELECTION TOOL</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI_2_BRUSH_S" xml:space="preserve">
+    <value>BRUSH SIZE Small</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_24_TONE_CURVE" xml:space="preserve">
+    <value>TONE CURVE</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_41_PERSPECTIVE_SELECTION_TOOL" xml:space="preserve">
+    <value>PERSPECTIVE SELECTION TOOL</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_11_CANCEL_SELECTION_AREA" xml:space="preserve">
+    <value>CANCEL SELECTION AREA</value>
+  </data>
+  <data name="SET_TYPE_NUMBER_DOWN" xml:space="preserve">
+    <value>９～０ Number Input</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_46_SHOW_OPTIONS" xml:space="preserve">
+    <value>SHOW OPTIONS</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_9_LINE_SPACE_SPREAD" xml:space="preserve">
+    <value>Spread the line spacing</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI_3_ROTATION_R" xml:space="preserve">
+    <value>IMAGE ROTATION Right</value>
+  </data>
+  <data name="MACRO_EDITOR_MACRO_DATA_READ" xml:space="preserve">
+    <value>Reading macro data</value>
+  </data>
+  <data name="STATUS_MESSAGE_BOX_TEXT" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="MOUSE_NAME_WH_SCROLL" xml:space="preserve">
+    <value>Mouse Wheel Scroll</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_14_BLUSH_BLUR_SIZE_DOWN" xml:space="preserve">
+    <value>Size down blush to blur</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_44_MESH_TOOL" xml:space="preserve">
+    <value>MESH TOOL</value>
+  </data>
+  <data name="KEYBOARD_SET_KEY_EMPTY" xml:space="preserve">
+    <value>Input Key</value>
+  </data>
+  <data name="MOUSE_SCROLL_TEXT" xml:space="preserve">
+    <value>Scroll Val</value>
+  </data>
+  <data name="CONTEXTMENU_CLEAR" xml:space="preserve">
+    <value>Unassign</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_32_SHAPER_TOOL" xml:space="preserve">
+    <value>SHAPER TOOL</value>
+  </data>
+  <data name="SP_FUNC_TYPE_MODE3" xml:space="preserve">
+    <value>Profile 3</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_01_SWITCH_PRE_SUB_TOOL" xml:space="preserve">
+    <value>SWITCH TO PREVIOUS SUB TOOL</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_7_CANVAS_ENLARGE" xml:space="preserve">
+    <value>Enlarging canvas</value>
+  </data>
+  <data name="MOUSE_NAME_WH_CLICK" xml:space="preserve">
+    <value>Mouse Wheel</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_7_BLUSH_OPACITY_UP" xml:space="preserve">
+    <value>Brush opacity and concentration UP</value>
+  </data>
+  <data name="HELP_LINK_BUTTON_TEXT" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="MAIN2_MACRO_BG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MAIN2_MACRO_BG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR" xml:space="preserve">
+    <value>Illustrator</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET" xml:space="preserve">
+    <value>PRESET</value>
+  </data>
+  <data name="SET_TYPE_MOUSE_MOVE" xml:space="preserve">
+    <value>Mouse Move</value>
+  </data>
+  <data name="MACRO_EDITOR_EDITOR_LIST_SIZE" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI_10_CURSOR_REDUCE" xml:space="preserve">
+    <value>Shrink around the cursor position</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_12_LETTER_SPACE_NARROW" xml:space="preserve">
+    <value>Narrow the space between letters</value>
+  </data>
+  <data name="ScriptEditorICON005" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ScriptEditorICON005.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_10_MAGNIFYING_GLASS" xml:space="preserve">
+    <value>MAGNIFYING GLASS</value>
+  </data>
+  <data name="SYSTEM_SETTING_BACKUP_FILE_TITLE" xml:space="preserve">
+    <value>Backup File</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_40_PERSPECTIVE_GRID_TOOL" xml:space="preserve">
+    <value>PERSPECTIVE GRID TOOL</value>
+  </data>
+  <data name="FW_VERSION" xml:space="preserve">
+    <value>FW Version</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_36_UNDO_ONE_TASK" xml:space="preserve">
+    <value>UNDO ONE TASK</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_12_MOVE_ROTATION" xml:space="preserve">
+    <value>MOVE (ROTATION)</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_STOP" xml:space="preserve">
+    <value>Multimedia Stop</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_08_TRANSFER_TO_LOWER_LAYER" xml:space="preserve">
+    <value>TRANSFER TO LOWER LAYER</value>
+  </data>
+  <data name="DEVICE_MACRO_WRITE_POS_ERR_MSG" xml:space="preserve">
+    <value>Select write position.</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_34_REFLECT_TOOL" xml:space="preserve">
+    <value>REFLECT TOOL</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_21_FILL_BRUSH_TOOL" xml:space="preserve">
+    <value>FILL BRUSH TOOL</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_15_SELECTION_TOOL" xml:space="preserve">
+    <value>SELECTION TOOL</value>
+  </data>
+  <data name="MACRO_EDITOR_EDITOR_LIST_ITEM" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CW" xml:space="preserve">
+    <value>Clockwise</value>
+  </data>
+  <data name="CONTEXTMENU_IMPORT" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="MACRO_EDITOR_OPERATION_REC_START" xml:space="preserve">
+    <value>Start recording</value>
+  </data>
+  <data name="SCRIPT_MOUSE_B5_RELEASE_TEXT" xml:space="preserve">
+    <value>Release mouse button [Button5]</value>
+  </data>
+  <data name="FILE_SAVE_TITLE" xml:space="preserve">
+    <value>Save As...</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_HAT_NW" xml:space="preserve">
+    <value>JOYSTICK HAT SW NW</value>
+  </data>
+  <data name="SettingFileIndex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LEFTBN_SETTEI-INDEX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCRIPT_WHEEL_UP_TEXT" xml:space="preserve">
+    <value>Wheel scroll Decrement</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_23_AIRBRUSH" xml:space="preserve">
+    <value>AIRBRUSH</value>
+  </data>
+  <data name="SET_TYPE_MOUSE_L_CLICK" xml:space="preserve">
+    <value>Mouse Left</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B03" xml:space="preserve">
+    <value>Game Pad Button 3</value>
+  </data>
+  <data name="STATUS_MSG_USB_CONNECT" xml:space="preserve">
+    <value>USB connected</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_5_IMAGE_ENLARGE" xml:space="preserve">
+    <value>Enlarging images</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC2" xml:space="preserve">
+    <value>Dial Function 2</value>
+  </data>
+  <data name="BN_MACRO_INDEX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BN_MACRO_INDEX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DIAL_MACRO_LOOP_MODE_TEXT" xml:space="preserve">
+    <value>Repeat Execution</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_MM_BUTTON_TEXT" xml:space="preserve">
+    <value>set the multimedia button</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_PREVIOUS" xml:space="preserve">
+    <value>Multimedia Previous</value>
+  </data>
+  <data name="SET_TYPE_MOUSE_B4_CLICK" xml:space="preserve">
+    <value>Mouse Button 4</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_MOUSE_MOVE_Y_TEXT" xml:space="preserve">
+    <value>Y direction</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM" xml:space="preserve">
+    <value>Lightroom</value>
+  </data>
+  <data name="HELP_QUESTION_MARK" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_8_BLUSH_OPACITY_DOWN" xml:space="preserve">
+    <value>Brush opacity and concentration DOWN</value>
+  </data>
+  <data name="SCRIPT_MOUSE_MOVE_TEXT" xml:space="preserve">
+    <value>Move mouse</value>
+  </data>
+  <data name="FILE_OPEN_TITLE" xml:space="preserve">
+    <value>Open...</value>
+  </data>
+  <data name="MACRO_EDITOR_MACRO_DATA_SAVE" xml:space="preserve">
+    <value>Saving macro data</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_09_PASTE_ARTBOARD" xml:space="preserve">
+    <value>PASTE ON ALL ARTBOARDS</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_27_GROUP_LAYERS" xml:space="preserve">
+    <value>GROUPING LAYERS</value>
+  </data>
+  <data name="ScriptEditorICON004" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ScriptEditorICON004.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_54_ZOOM_TOOL" xml:space="preserve">
+    <value>ZOOM TOOL</value>
+  </data>
+  <data name="SYSTEM_SETTING_DIAL_FUNC_LED_ON" xml:space="preserve">
+    <value>Lit until changing to the next function</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_13_OPEN_PREFERENCES_DIALOG_BOX" xml:space="preserve">
+    <value>OPEN THE PREFERENCES DIALOG BOX</value>
+  </data>
+  <data name="DEVICE_ENCODER_SCRIPT_WRITE_CONFIRM_MSG" xml:space="preserve">
+    <value>Write the dial macro setting. Are you sure ?</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_16_PIXEL_EQUAL_MAGNIFICATION" xml:space="preserve">
+    <value>PIXEL EQUAL MAGNIFICATION</value>
+  </data>
+  <data name="CONTEXTMENU_FUNCSET" xml:space="preserve">
+    <value>Function Setting</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B10" xml:space="preserve">
+    <value>Game Pad Button 10</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_25_FIGURE_FRAME_RULER" xml:space="preserve">
+    <value>FIGURE / FRAME / RULER</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_05_PASTE" xml:space="preserve">
+    <value>PASTE</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_TOOL" xml:space="preserve">
+    <value>TOOL</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_PAUSE" xml:space="preserve">
+    <value>Multimedia Pause</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_DIAL" xml:space="preserve">
+    <value>Dial function</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC1" xml:space="preserve">
+    <value>Dial Function 1</value>
+  </data>
+  <data name="SYSTEM_SETTING_MODE_LED_OFF_UNIT" xml:space="preserve">
+    <value>second</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_1_BRUSH_L" xml:space="preserve">
+    <value>BRUSH SIZE Large</value>
+  </data>
+  <data name="SCRIPT_FILE_OPEN_DIALOG_TITLE" xml:space="preserve">
+    <value>Select a macro data file</value>
+  </data>
+  <data name="RESET_WARNING_MSG1" xml:space="preserve">
+    <value>Setup data intialize. Are you sure ?</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_MOUSE_MOVE_TEXT" xml:space="preserve">
+    <value>Set mouse movement amount</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_NOT_SET" xml:space="preserve">
+    <value>NOT SET</value>
+  </data>
+  <data name="DEVICE_NOT_FOUND" xml:space="preserve">
+    <value>Device not found</value>
+  </data>
+  <data name="SCRIPT_MOUSE_R_RELEASE_TEXT" xml:space="preserve">
+    <value>Release mouse button [Right]</value>
+  </data>
+  <data name="SET_TYPE_MOUSE_WH_SCROLL" xml:space="preserve">
+    <value>Mouse Wheel Scroll</value>
+  </data>
+  <data name="SCRIPT_JOY_HATSW_PRESS_TEXT" xml:space="preserve">
+    <value>Hold the hat switch pressed</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_06_CLEAR_LAYER" xml:space="preserve">
+    <value>CLEAR LAYER</value>
+  </data>
+  <data name="SCRIPT_JOY_LEVER_R_TEXT" xml:space="preserve">
+    <value>Hold the joystick pressed [Right]</value>
+  </data>
+  <data name="MULTIMEDIA_NAM_FORWORD" xml:space="preserve">
+    <value>Fast Forward</value>
+  </data>
+  <data name="JOYSTICK_HATSW_RIGHT" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="SET_TYPE_NUMBER_UP" xml:space="preserve">
+    <value>０～９ Number Input</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_26_AUTO_SELECTION" xml:space="preserve">
+    <value>AUTOMATIC SELECTION</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_35_COPY" xml:space="preserve">
+    <value>COPY</value>
+  </data>
+  <data name="SCRIPT_MODE_FIRE_MODE_TEXT" xml:space="preserve">
+    <value>Repeat as long as you press</value>
+  </data>
+  <data name="LED_BRIGHTNESS_LEVEL_LIGHT" xml:space="preserve">
+    <value>Light</value>
+  </data>
+  <data name="SCRIPT_MOUSE_L_CLICK_TEXT" xml:space="preserve">
+    <value>Hold the mouse button pressed [Left]</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_KEY" xml:space="preserve">
+    <value>KEY</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_20_CHARACTER_TOOL" xml:space="preserve">
+    <value>CHARACTER TOOL</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_HAT_E" xml:space="preserve">
+    <value>Game Pad Right Button</value>
+  </data>
+  <data name="SET_TYPE_MOUSE_DOUBLE_CLICK" xml:space="preserve">
+    <value>Mouse Double Click</value>
+  </data>
+  <data name="PatternLong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\patternlong.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MOUSE_MOVE_TEXT" xml:space="preserve">
+    <value>X, Y Vector</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_29_OBJECT" xml:space="preserve">
+    <value>OBJECT</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI_4_ROTATION_L" xml:space="preserve">
+    <value>IMAGE ROTATION Left</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_KEY_TEXT" xml:space="preserve">
+    <value>Press the key on the keyboard</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B05" xml:space="preserve">
+    <value>Game Pad Button 5</value>
+  </data>
+  <data name="SETTING_KEY_CTRL_KEY_SHIFT" xml:space="preserve">
+    <value>SHIFT</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_VOLUMEDOWN" xml:space="preserve">
+    <value>Multimedia Volume Down</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_03_PALM" xml:space="preserve">
+    <value>PALM</value>
+  </data>
+  <data name="SETTING_VALUE" xml:space="preserve">
+    <value>Setting value</value>
+  </data>
+  <data name="MOUSE_NAME_DOUBLE_CLICK" xml:space="preserve">
+    <value>Mouse Double Click</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_JOY_HATSW_TEXT" xml:space="preserve">
+    <value>Set the hat switch. Press the up / down / left / right key</value>
+  </data>
+  <data name="MACRO_EDITOR_LIST_MACRO_NAME" xml:space="preserve">
+    <value>Macro Name</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_USER_DIAL_MACRO" xml:space="preserve">
+    <value>USER DIAL MACRO</value>
+  </data>
+  <data name="LED_COLOR_SETTING_OFF" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="MULTIMEDIA_NAM_VOLUMEUP" xml:space="preserve">
+    <value>Volume Up</value>
+  </data>
+  <data name="MAIN3_BG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MAIN3_BG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_MULTIMEDIA" xml:space="preserve">
+    <value>MULTIMEDIA</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_19_SYRINGE" xml:space="preserve">
+    <value>SYRINGE</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_47_BLEND_TOOL" xml:space="preserve">
+    <value>BLEND TOOL</value>
+  </data>
+  <data name="SCRIPT_MULTIMEDIA_RELEASE_TEXT" xml:space="preserve">
+    <value>Release multimedia button</value>
+  </data>
+  <data name="SCRIPT_INTERVAL_TEXT" xml:space="preserve">
+    <value>Interval [ms]</value>
+  </data>
+  <data name="SETTING_KEY_CTRL_KEY_COMMAND" xml:space="preserve">
+    <value>COMMAND</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM_1_SLIDER_S_UP" xml:space="preserve">
+    <value>Increase selection slider by small units</value>
+  </data>
+  <data name="MACRO_EDITOR_EDITOR_LIST_VALUE" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_JOY_LEVER_Y_TEXT" xml:space="preserve">
+    <value>Y axis</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_12_DISPLAY_SELECTION_AREA" xml:space="preserve">
+    <value>DISPLAY OF SELECTION AREA</value>
+  </data>
+  <data name="DEVICE_BASE_BUTTON_SETUP_WRITE_CONFIRM_MSG" xml:space="preserve">
+    <value>Write button setting. Are you sure ?</value>
+  </data>
+  <data name="SCREEN_DIAL_FUNCTION_SETTING" xml:space="preserve">
+    <value>Dial Function Setting</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_04_ROTATION" xml:space="preserve">
+    <value>ROTATION</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B13" xml:space="preserve">
+    <value>Game Pad Button 13</value>
+  </data>
+  <data name="BACKUP_FILE_OPEN_DIALOG_TITLE" xml:space="preserve">
+    <value>Select a backup file</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_47_ESC" xml:space="preserve">
+    <value>ESC</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_22_ADD_ANCHOR_POINT" xml:space="preserve">
+    <value>ADD ANCHOR POINT</value>
+  </data>
+  <data name="LED_BRIGHTNESS_LEVEL_DARK" xml:space="preserve">
+    <value>Dark</value>
+  </data>
+  <data name="RESET_BASE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RESET_BASE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCRIPT_JOY_LEVER_L_TEXT" xml:space="preserve">
+    <value>Hold the joystick pressed [Left]</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_12_FILL_GRADATION_TOOL" xml:space="preserve">
+    <value>FILL, GRADATION TOOL</value>
+  </data>
+  <data name="PROFILE_CHANGE_NOT_SETTING_WARNING_MSG1" xml:space="preserve">
+    <value>Profile change function to other profile is not assigned in this profile.</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_05_PASTE" xml:space="preserve">
+    <value>PASTE</value>
+  </data>
+  <data name="LED_COLOR_SETTING_R" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="SET_TYPE_MOUSE_R_CLICK" xml:space="preserve">
+    <value>Mouse Right</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_10_FREE_DEFORMATION" xml:space="preserve">
+    <value>FREE DEFORMATION</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_38_SAVE" xml:space="preserve">
+    <value>SAVE</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_15_FLIP_HORIZONTAL" xml:space="preserve">
+    <value>FLIP HORIZONTAL</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_17_SELECTION_TOOL" xml:space="preserve">
+    <value>SELECTION TOOL</value>
+  </data>
+  <data name="BN_DOUSA_INDEX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BN_DOUSA_INDEX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCRIPT_MOUSE_RELEASE_TEXT" xml:space="preserve">
+    <value>Release mouse button</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_03_CUT" xml:space="preserve">
+    <value>CUT</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_1_ZOOMIN" xml:space="preserve">
+    <value>Zoom IN</value>
+  </data>
+  <data name="SCRIPT_WHEEL_SCROLL_TEXT" xml:space="preserve">
+    <value>Wheel Scroll</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_06_BRUSH" xml:space="preserve">
+    <value>BRUSH</value>
+  </data>
+  <data name="FILE_OPEN_FILTER" xml:space="preserve">
+    <value>XML file(*.xml)|*.xml|All file(*.*)|*.*</value>
+  </data>
+  <data name="SCRIPT_JOY_BUTTON_PRESS_TEXT" xml:space="preserve">
+    <value>Hold the game pad button pressed</value>
+  </data>
+  <data name="APPLICATION_NAME" xml:space="preserve">
+    <value>Rev-O-mate Configuration Tool</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_MOUSE_BUTTON_TEXT" xml:space="preserve">
+    <value>Set the mouse button</value>
+  </data>
+  <data name="SCRIPT_MOUSE_B4_CLICK_TEXT" xml:space="preserve">
+    <value>Hold the mouse button pressed [Button4]</value>
+  </data>
+  <data name="MACRO_EDITOR_MACRO_LIST_TITLE" xml:space="preserve">
+    <value>Saved Macro List</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO" xml:space="preserve">
+    <value>CLIPSTUDIO</value>
+  </data>
+  <data name="STATUS_MSG_USB_UNCONNECT" xml:space="preserve">
+    <value>USB not connected</value>
+  </data>
+  <data name="FILE_LOAD_ERR_MSG" xml:space="preserve">
+    <value>File Load FAIL.</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_11_LETTER_SPACE_SPREAD" xml:space="preserve">
+    <value>Extend the space between letters</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_RIGHT_ANALOG" xml:space="preserve">
+    <value>Game Pad Right Lever</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B02" xml:space="preserve">
+    <value>Game Pad Button 2</value>
+  </data>
+  <data name="SCRIPT_MOUSE_R_CLICK_TEXT" xml:space="preserve">
+    <value>Hold the mouse button pressed [Right]</value>
+  </data>
+  <data name="BTN_SUBMIT" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_25_CHARACTER_TOOL" xml:space="preserve">
+    <value>CHARACTER TOOL</value>
+  </data>
+  <data name="BTN_SETUP" xml:space="preserve">
+    <value>Setup</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_LEFT_ANALOG" xml:space="preserve">
+    <value>Game Pad Left Lever</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_11_CROP_TOOL" xml:space="preserve">
+    <value>CROP TOOL</value>
+  </data>
+  <data name="DEVICE_MACRO_WRITE_CONFIRM_MSG" xml:space="preserve">
+    <value>Write to No. {0}. Are you sure ?</value>
+  </data>
+  <data name="BACKUP_FILE_FILTER" xml:space="preserve">
+    <value>backup file (*.mbf)|*.mbf|All files(*.*)|*.*</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI_5_IMAGE_ENLARGE" xml:space="preserve">
+    <value>Enlarging images</value>
+  </data>
+  <data name="SYSTEM_SETTING_MODE_LED_OFF" xml:space="preserve">
+    <value>LED Off</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_25_LEVEL_CORRECTION" xml:space="preserve">
+    <value>LEVEL CORRECTION</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI_1_BRUSH_L" xml:space="preserve">
+    <value>BRUSH SIZE Large</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_33_ROTATING_TOOL" xml:space="preserve">
+    <value>ROTATING TOOL</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_28_RECTANGULAR_TOOL" xml:space="preserve">
+    <value>RECTANGULAR TOOL</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_HAT_SE" xml:space="preserve">
+    <value>JOYSTICK HAT SW SE</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_16_BLUSH_HARD_DOWN" xml:space="preserve">
+    <value>Brush hardness DOWN</value>
+  </data>
+  <data name="SETTING_KEY_CTRL_KEY_WIN" xml:space="preserve">
+    <value>WIN</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_MOUSE" xml:space="preserve">
+    <value>MOUSE</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_2_BRUSH_S" xml:space="preserve">
+    <value>BRUSH SIZE Small</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC3" xml:space="preserve">
+    <value>Dial Function 3</value>
+  </data>
+  <data name="SET_TYPE_MOUSE_B5_CLICK" xml:space="preserve">
+    <value>Mouse Button 5</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_NOT_SET" xml:space="preserve">
+    <value>NOT SET</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM_01_" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_24_FILL_GRADATION" xml:space="preserve">
+    <value>FILL / GRADATION</value>
+  </data>
+  <data name="MACRO_NAME_UNDEFINE" xml:space="preserve">
+    <value>Unnamed</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_GENERAL" xml:space="preserve">
+    <value>GENERAL</value>
+  </data>
+  <data name="CONTEXTMENU_DEFAULTSET" xml:space="preserve">
+    <value>Default Set</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_JOY_BUTTON_TEXT" xml:space="preserve">
+    <value>Set the game pad button</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_5_IMAGE_ENLARGE" xml:space="preserve">
+    <value>Enlarging images</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_01_SPACE" xml:space="preserve">
+    <value>SPACE</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO" xml:space="preserve">
+    <value>CLIP STUDIO</value>
+  </data>
+  <data name="JOYSTICK_HATSW_SW" xml:space="preserve">
+    <value>Southwest</value>
+  </data>
+  <data name="SYSTEM_SETTING_DIAL_FUNC_LED_SLOW" xml:space="preserve">
+    <value>Turn off slowly</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_JOY_LEVER_TEXT" xml:space="preserve">
+    <value>Set the output value of the joystick</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_21_DRAW_COLOR_TRANSPARENT_COLOR" xml:space="preserve">
+    <value>SWITCH DRAWING COLOR AND TRANSPARENT COLOR</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR" xml:space="preserve">
+    <value>ILLUSTRATOR</value>
+  </data>
+  <data name="SET_TYPE_NONE" xml:space="preserve">
+    <value>Unsetting</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_32_CANCEL" xml:space="preserve">
+    <value>CANCEL</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B12" xml:space="preserve">
+    <value>Game Pad Button 12</value>
+  </data>
+  <data name="CLEAR_BUTTON_TEXT" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B01" xml:space="preserve">
+    <value>Game Pad Button 1</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_18_LASSO_TOOL" xml:space="preserve">
+    <value>LASSO TOOL</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_24_BRUSH" xml:space="preserve">
+    <value>BRUSH</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_MODFILE" xml:space="preserve">
+    <value>MOD FILE</value>
+  </data>
+  <data name="MACRO_NAME_UNSETTING" xml:space="preserve">
+    <value>Not Set</value>
+  </data>
+  <data name="FILE_SAVE_FILTER" xml:space="preserve">
+    <value>XML file(*.xml)|*.xml|All file(*.*)|*.*</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_MULTIMEDIA" xml:space="preserve">
+    <value>MULTIMEDIA</value>
+  </data>
+  <data name="SET_TYPE_ENCODER_SCRIPT1" xml:space="preserve">
+    <value>Dial Macro 1</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_59_SHIFT" xml:space="preserve">
+    <value>SHIFT</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_19_HIDE_CONTROL_PANEL" xml:space="preserve">
+    <value>HIDE THE CONTROL PANEL / DISPLAY THE LAYER RELATED PANEL TO THE RIGHT</value>
+  </data>
+  <data name="SCRIPT_MOUSE_W_RELEASE_TEXT" xml:space="preserve">
+    <value>Release mouse button [Center]</value>
+  </data>
+  <data name="SCRIPT_MODE_LOOP_MODE_TEXT" xml:space="preserve">
+    <value>Repeat Execution</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_18_AUTO_SELECTION" xml:space="preserve">
+    <value>AUTOMATIC SELECTION</value>
+  </data>
+  <data name="BTN_CLOSE" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_27_LINE_CORRECTION" xml:space="preserve">
+    <value>LINE CORRECTION</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_40_LAYER_COMBINING_ALL_DISPLAY_LAYERS" xml:space="preserve">
+    <value>LAYER COMBINING ALL DISPLAY LAYERS</value>
+  </data>
+  <data name="SCRIPT_JOY_HATSW_RELEASE_TEXT" xml:space="preserve">
+    <value>Release hat switch</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_34_PASTE" xml:space="preserve">
+    <value>PASTE</value>
+  </data>
+  <data name="MOUSE_NAME_B4_CLICK" xml:space="preserve">
+    <value>Mouse Button 4</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM_8_BLUSH_BLUR_SIZE_DOWN" xml:space="preserve">
+    <value>Size down blush to blur</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_20_DRAW_COLOR_SECONDARY_COLOR" xml:space="preserve">
+    <value>SWITCH DRAWING COLOR AND SECONDARY COLOR</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B06" xml:space="preserve">
+    <value>Game Pad Button 6</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_14_ARTBOARD_TOOL" xml:space="preserve">
+    <value>ARTBOARD TOOL</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_32_SHOW_HIDE_RULER" xml:space="preserve">
+    <value>SHOW/HIDE RULER</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGORY1_LIST" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_06_PASTE_FRONT" xml:space="preserve">
+    <value>PASTE TO THE FRONT</value>
+  </data>
+  <data name="LED_COLOR_SETTING_TITLE" xml:space="preserve">
+    <value>LED Color Setting</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_31_PENCIL_TOOL" xml:space="preserve">
+    <value>PENCIL TOOL</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC2_PUSH" xml:space="preserve">
+    <value>Dial Function 2 (while pushing)</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_12_OPEN_KEYBOARD_SHORTCUT_DIALOG_BOX" xml:space="preserve">
+    <value>OPEN KEYBOARD SHORTCUT DIALOG BOX</value>
+  </data>
+  <data name="MACRO_EDITOR_MACRO_WRITE" xml:space="preserve">
+    <value>Write</value>
+  </data>
+  <data name="FUNC_SETTING_FUNC_SET_AREA" xml:space="preserve">
+    <value>Function Set</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_MOUSE_MOVE_X_TEXT" xml:space="preserve">
+    <value>X direction</value>
+  </data>
+  <data name="MODE1_TEXT" xml:space="preserve">
+    <value>Profile1</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM_3_SLIDER_L_UP" xml:space="preserve">
+    <value>Increase selection slider by large unit</value>
+  </data>
+  <data name="SETTING_KEY_INPUT_BOX_MSG" xml:space="preserve">
+    <value>key input</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_46_SYRINGE_TOOL" xml:space="preserve">
+    <value>SYRINGE TOOL</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_MUTE" xml:space="preserve">
+    <value>Multimedia Mute</value>
+  </data>
+  <data name="MACRO_EDITOR_MACRO_READ" xml:space="preserve">
+    <value>Read</value>
+  </data>
+  <data name="RESTORE_WARNING_MSG2" xml:space="preserve">
+    <value>Do not disconnect the USB cable while rewriting.</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_06_MAGNIFYING_GLASS_SHRINK" xml:space="preserve">
+    <value>MAGNIFYING GLASS (SHRINK)</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM" xml:space="preserve">
+    <value>LIGHTROOM</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM_5_BRUSH_L" xml:space="preserve">
+    <value>BRUSH SIZE Large</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_02_CTRL" xml:space="preserve">
+    <value>CTRL</value>
+  </data>
+  <data name="SCRIPT_MOUSE_W_CLICK_TEXT" xml:space="preserve">
+    <value>Hold the mouse button pressed [Center]</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_MACRO" xml:space="preserve">
+    <value>MACRO</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_20_PEN_PENCIL" xml:space="preserve">
+    <value>PEN / PENCIL</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_MOUSE" xml:space="preserve">
+    <value>MOUSE</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_09_COPY_STAMP_TOOL" xml:space="preserve">
+    <value>COPY STAMP TOOL</value>
+  </data>
+  <data name="JOYPAD_MOVE_TEXT" xml:space="preserve">
+    <value>X-Y Analog</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM_4_SLIDER_L_DOWN" xml:space="preserve">
+    <value>Decrease selection slider by large unit</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_32_SPACE" xml:space="preserve">
+    <value>SPACE</value>
+  </data>
+  <data name="BTN_YES" xml:space="preserve">
+    <value>YES</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_10_SPELL_CHECK" xml:space="preserve">
+    <value>SPELL CHECK</value>
+  </data>
+  <data name="SP_FUNC_TYPE_MODE2" xml:space="preserve">
+    <value>Profile 2</value>
+  </data>
+  <data name="PatternShort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\patternshort.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MULTIMEDIA_NAM_PAUSE" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="DROPGUIDE_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DROPGUIDE_UP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI_6_IMAGE_REDUCE" xml:space="preserve">
+    <value>Reducing the image</value>
+  </data>
+  <data name="SYSTEM_SETTING_SLEEP_LED_OFF" xml:space="preserve">
+    <value>LED turns off when the computer sleeps</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_07_SYRINGE" xml:space="preserve">
+    <value>SYRINGE</value>
+  </data>
+  <data name="SETTING_KEY_CTRL_KEY_CTRL" xml:space="preserve">
+    <value>CTRL</value>
+  </data>
+  <data name="SCRIPT_JOY_LEVER_R_CENTER_TEXT" xml:space="preserve">
+    <value>Release joystick [Right]</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_PLAY" xml:space="preserve">
+    <value>Multimedia Play</value>
+  </data>
+  <data name="BTN_MACRO_EDITOR" xml:space="preserve">
+    <value>Macro Editor</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_20_CURVED_TOOL" xml:space="preserve">
+    <value>CURVED TOOL</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_02_SWITCH_NEXT_SUB_TOOL" xml:space="preserve">
+    <value>SWITCH TO NEXT SUB TOOL</value>
+  </data>
+  <data name="MAIN1_BG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MAIN1_BG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MULTIMEDIA_NAM_NEXT" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="MACRO_EDITOR_LIST_NO" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="ScriptEditorICON003" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ScriptEditorICON003.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_6_IMAGE_REDUCE" xml:space="preserve">
+    <value>Reducing the image</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_11_MOVE_PALM" xml:space="preserve">
+    <value>MOVE (PALM)</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_30_ESC" xml:space="preserve">
+    <value>ESC</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC1_PUSH" xml:space="preserve">
+    <value>Dial Function 1 (while pushing)</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_33_SHIFT" xml:space="preserve">
+    <value>SHIFT</value>
+  </data>
+  <data name="MODE2_TEXT" xml:space="preserve">
+    <value>Profile2</value>
+  </data>
+  <data name="SOFT_RESET_WARNING_MSG" xml:space="preserve">
+    <value>Firmware update. Are you sure ?</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_GENERAL" xml:space="preserve">
+    <value>GENERAL</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_36_WARP_TOOL" xml:space="preserve">
+    <value>WARP TOOL</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_22_ERASER" xml:space="preserve">
+    <value>ERASER</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM_7_BLUSH_BLUR_SIZE_UP" xml:space="preserve">
+    <value>Size up blush to blur</value>
+  </data>
+  <data name="FUNC_SETTING_FUNC_LIST" xml:space="preserve">
+    <value>Function List</value>
+  </data>
+  <data name="SCRIPT_MODE_HOLD_MODE_TEXT" xml:space="preserve">
+    <value>Keep running only once while pressing</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_3_ROTATION_R" xml:space="preserve">
+    <value>IMAGE ROTATION Right</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_17_OPACITY_UP" xml:space="preserve">
+    <value>Brush opacity UP</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI" xml:space="preserve">
+    <value>SAI</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_MULTIMEDIA_01_" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_28_SELECTIVE_ERASE" xml:space="preserve">
+    <value>SELECTIVE ERASE</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_35_SCALE_TOOL" xml:space="preserve">
+    <value>SCALE TOOL</value>
+  </data>
+  <data name="SETTING_KEY_CTRL_KEY_ALT" xml:space="preserve">
+    <value>ALT</value>
+  </data>
+  <data name="MACRO_EDITOR_MACRO_EDITOR_AREA_TITLE" xml:space="preserve">
+    <value>Macro content / edit</value>
+  </data>
+  <data name="SCRIPT_FILE_IMPORT_ERROR_MSG" xml:space="preserve">
+    <value>Failed to read macro data file.</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_1_BRUSH_L" xml:space="preserve">
+    <value>BRUSH SIZE Large</value>
+  </data>
+  <data name="BTN_CANCEL" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_14_OPERATION_LAYER_SELECTION" xml:space="preserve">
+    <value>OPERATION (LAYER SELECTION)</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_30_DRAW_STRAIGHT_LINE" xml:space="preserve">
+    <value>DRAW A STRAIGHT LINE</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_2_BRUSH_S" xml:space="preserve">
+    <value>BRUSH SIZE Small</value>
+  </data>
+  <data name="SCRIPT_MODE_ONE_MODE_TEXT" xml:space="preserve">
+    <value>Run Once</value>
+  </data>
+  <data name="LED_COLOR_SETTING_B" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="MACRO_EDITOR_OPERATION_SETTING" xml:space="preserve">
+    <value>Operation setting</value>
+  </data>
+  <data name="SCRIPT_MOUSE_B4_RELEASE_TEXT" xml:space="preserve">
+    <value>Release mouse button [Button4]</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_37_LINE_WIDTH_TOOL" xml:space="preserve">
+    <value>LINE WIDTH TOOL</value>
+  </data>
+  <data name="FIRMWARE_VERSION" xml:space="preserve">
+    <value>Firmware Version </value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_58_HAND_TOOL_SPACE" xml:space="preserve">
+    <value>HAND TOOL (SPACE)</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_10_LINE_SPACE_NARROW" xml:space="preserve">
+    <value>Narrow the line spacing</value>
+  </data>
+  <data name="MACRO_NAME_NO_MACRO" xml:space="preserve">
+    <value>Macro</value>
+  </data>
+  <data name="RESTORE_WARNING_MSG3" xml:space="preserve">
+    <value>Please insert the USB cable again after rewriting is complete.</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC4_PUSH" xml:space="preserve">
+    <value>Dial Function 4 (while pushing)</value>
+  </data>
+  <data name="SCREEN_FUNCTION_SETTING" xml:space="preserve">
+    <value>Function Setting</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_03_CUT" xml:space="preserve">
+    <value>CUT</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_21_PATH_COMPONENT_SELECTION_TOOL" xml:space="preserve">
+    <value>PATH COMPONENT SELECTION TOOL</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP" xml:space="preserve">
+    <value>PHOTOSHOP</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_31_LAYER_INTEGRATION" xml:space="preserve">
+    <value>LAYER INTEGRATION</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_41_SHOW_HIDE_GRID" xml:space="preserve">
+    <value>SHOW/HIDE GRID</value>
+  </data>
+  <data name="JOYSTICK_HATSW_LEFT" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="CONTEXTMENU_EXPORT" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_31_CTRL" xml:space="preserve">
+    <value>CTRL</value>
+  </data>
+  <data name="MULTIMEDIA_NAME_PLAY" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP" xml:space="preserve">
+    <value>PHOTOSHOP</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_56_ESC" xml:space="preserve">
+    <value>ESC</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_4_ROTATION_L" xml:space="preserve">
+    <value>IMAGE ROTATION Left</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_23_COLOR_MIX" xml:space="preserve">
+    <value>COLOR MIXING</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_GAMEPAD" xml:space="preserve">
+    <value>GAMEPAD</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_NEXT" xml:space="preserve">
+    <value>Multimedia Next</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B09" xml:space="preserve">
+    <value>Game Pad Button 9</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_01_CANCEL" xml:space="preserve">
+    <value>CANCEL</value>
+  </data>
+  <data name="SET_WRITE_COMP_MSG" xml:space="preserve">
+    <value>setup complete</value>
+  </data>
+  <data name="SETTING_KEY_INPUT_CLR_BUTTON" xml:space="preserve">
+    <value>clear</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_07_PASTE_BACK" xml:space="preserve">
+    <value>PASTE TO THE BACK</value>
+  </data>
+  <data name="MACRO_EDITOR_OPERATION_REC_DELETE" xml:space="preserve">
+    <value>Record erase</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC" xml:space="preserve">
+    <value>Dial Function Change</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_REWIND" xml:space="preserve">
+    <value>Multimedia Rewind</value>
+  </data>
+  <data name="SYSTEM_SETTING_SETTING_TITLE" xml:space="preserve">
+    <value>Various Settings</value>
+  </data>
+  <data name="JOYSTICK_HATSW_NW" xml:space="preserve">
+    <value>Northwest</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_15_LIGHT_TABLE_TIMELINE_EDIT" xml:space="preserve">
+    <value>LIGHT TABLE / TIMELINE EDIT</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_43_BAR_GRAPH_TOOL" xml:space="preserve">
+    <value>BAR GRAPH TOOL</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_16_MOVE_LAYER" xml:space="preserve">
+    <value>MOVE LAYER</value>
+  </data>
+  <data name="FUNCTION_NAME_UNDEFINE" xml:space="preserve">
+    <value>Unnamed</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_42_SYMBOL_SPRAY_TOOL" xml:space="preserve">
+    <value>SYMBOL SPRAY TOOL</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_30_SELECT_ALL_IN_THE_LAYER" xml:space="preserve">
+    <value>SELECT ALL IN THE LAYER / SELECT ENTIRE CANVAS</value>
+  </data>
+  <data name="MOUSE_NAME_MOVE" xml:space="preserve">
+    <value>Mouse Move</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI_7_CANVAS_ENLARGE" xml:space="preserve">
+    <value>Enlarging canvas</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_22_RECTANGLE_ROUNDED_RECTANGLE_OVAL_TOOL" xml:space="preserve">
+    <value>RECTANGLE/ROUNDED RECTANGLE/OVAL TOOL</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_HAT_N" xml:space="preserve">
+    <value>Game Pad Up Button</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_39_SHAPE_FORMING_TOOL" xml:space="preserve">
+    <value>SHAPE FORMING TOOL</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_6_IMAGE_REDUCE" xml:space="preserve">
+    <value>Reducing the image</value>
+  </data>
+  <data name="JOYSTICK_HATSW_UP" xml:space="preserve">
+    <value>Up</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_07_COMBINE_LOWER_LAYER" xml:space="preserve">
+    <value>COMBINE LOWER LAYER AND JOIN / LAYER SET</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_27_SELECTOR_PEN" xml:space="preserve">
+    <value>SELECTOR PEN</value>
+  </data>
+  <data name="PatternNone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\patternnone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_FORWORD" xml:space="preserve">
+    <value>Multimedia Fast Forward</value>
+  </data>
+  <data name="LED_COLOR_SETTING_PREVIEW" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="RESET_WARNING_MSG3" xml:space="preserve">
+    <value>Please insert the USB cable again after initialization is completed.</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B08" xml:space="preserve">
+    <value>Game Pad Button 8</value>
+  </data>
+  <data name="MACRO_EDITOR_DELETE" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGORY2_LIST" xml:space="preserve">
+    <value>Application</value>
+  </data>
+  <data name="SP_FUNC_TYPE_MODE" xml:space="preserve">
+    <value>Profile CHANGE</value>
+  </data>
+  <data name="SYSTEM_SETTING_DIAL_FUNC_LED_SETTING_TITLE" xml:space="preserve">
+    <value>Dial Function LED Setting</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_08_PASTE_SAME_POSITION" xml:space="preserve">
+    <value>PASTE IN THE SAME POSITION</value>
+  </data>
+  <data name="JOYSTICK_HATSW_CENTER" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_44_INVERT_SELECTION" xml:space="preserve">
+    <value>INVERT SELECTION</value>
+  </data>
+  <data name="ScriptEditorICON006" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ScriptEditorICON006.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_HAT_S" xml:space="preserve">
+    <value>Game Pad Down Button</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_29_OVAL_TOOL" xml:space="preserve">
+    <value>OVAL TOOL</value>
+  </data>
+  <data name="SCRIPT_MOUSE_L_RELEASE_TEXT" xml:space="preserve">
+    <value>Release mouse button [Left]</value>
+  </data>
+  <data name="DEVICE_BASE_SETUP_WRITE_CONFIRM_MSG" xml:space="preserve">
+    <value>Write the setting. Are you sure ?</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_HAT_NE" xml:space="preserve">
+    <value>JOYSTICK HAT SW NE</value>
+  </data>
+  <data name="LED_BRIGHTNESS_LEVEL_NORMAL" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="LEFTBN_SETUMEI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LEFTBN_SETUMEI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_26_ERASER" xml:space="preserve">
+    <value>ERASER</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_10_SYRINGE_TOOL" xml:space="preserve">
+    <value>SYRINGE TOOL</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_42_TAB_SWITCHING" xml:space="preserve">
+    <value>TAB SWITCHING</value>
+  </data>
+  <data name="DROPGUIDE_DOWN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DROPGUIDE_DOWN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B07" xml:space="preserve">
+    <value>Game Pad Button 7</value>
+  </data>
+  <data name="SYSTEM_SETTING_BACKUP_TITLE" xml:space="preserve">
+    <value>Backup</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_04_SHIFT" xml:space="preserve">
+    <value>SHIFT</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_18_OPACITY_DOWN" xml:space="preserve">
+    <value>Brush opacity DOWN</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_35_FREE_DEFORMATION_MODE" xml:space="preserve">
+    <value>FREE DEFORMATION MODE</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_MULTIMEDIA" xml:space="preserve">
+    <value>MULTIMEDIA</value>
+  </data>
+  <data name="MULTIMEDIA_NAM_STOP" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="SET_TYPE_MOUSE_WH_CLICK" xml:space="preserve">
+    <value>Mouse Wheel</value>
+  </data>
+  <data name="JOYSTICK_HATSW_DOWN" xml:space="preserve">
+    <value>Down</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM_6_BRUSH_S" xml:space="preserve">
+    <value>BRUSH SIZE Small</value>
+  </data>
+  <data name="FUNCTION_NAME_UNSETTING" xml:space="preserve">
+    <value>Not Set</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_18_REPAIR_BRUSH_TOOL" xml:space="preserve">
+    <value>REPAIR BRUSH TOOL</value>
+  </data>
+  <data name="SYSTEM_SETTING_KEYBOARD_SETTING" xml:space="preserve">
+    <value>Keyboard Setting</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_02_REDOING" xml:space="preserve">
+    <value>REDOING</value>
+  </data>
+  <data name="MOUSE_NAME_L_CLICK" xml:space="preserve">
+    <value>Mouse Left</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_21_BRUSH_AIRBRUSH" xml:space="preserve">
+    <value>BRUSH / AIRBRUSH DECORATION</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_10_ZOOM_OUT" xml:space="preserve">
+    <value>Zoom out</value>
+  </data>
+  <data name="MULTIMEDIA_NAM_REC" xml:space="preserve">
+    <value>Record</value>
+  </data>
+  <data name="MULTIMEDIA_NAM_REWIND" xml:space="preserve">
+    <value>Rewind</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_50_SLICE_TOOL" xml:space="preserve">
+    <value>SLICE TOOL</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI" xml:space="preserve">
+    <value>SAI</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_08_PALM" xml:space="preserve">
+    <value>PALM</value>
+  </data>
+  <data name="SCRIPT_KEY_PRESS_TEXT" xml:space="preserve">
+    <value>Key Press</value>
+  </data>
+  <data name="PRESET_DATA_FILE_READ_ERROR" xml:space="preserve">
+    <value>Preset data file reading error</value>
+  </data>
+  <data name="SCRIPT_FILE_SAVE_DIALOG_TITLE" xml:space="preserve">
+    <value>Save the macro data file</value>
+  </data>
+  <data name="SYSTEM_SETTING_KEYBOARD_SETTING_US" xml:space="preserve">
+    <value>US Keyboard</value>
+  </data>
+  <data name="SCRIPT_KEY_RELEASE_TEXT" xml:space="preserve">
+    <value>Key Release</value>
+  </data>
+  <data name="PROFILE_CHANGE_NOT_SETTING_WARNING_MSG2" xml:space="preserve">
+    <value>Do you want to set it?</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_3_ROTATION_R" xml:space="preserve">
+    <value>IMAGE ROTATION Right</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_26_TEXT_BALLOON" xml:space="preserve">
+    <value>TEXT / BALLOON</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_48_LIVE_PAINT_TOOL" xml:space="preserve">
+    <value>LIVE PAINT TOOL</value>
+  </data>
+  <data name="MACRO_EDITOR_MACRO_CREATE_TITLE" xml:space="preserve">
+    <value>Macro creation</value>
+  </data>
+  <data name="SYSTEM_SETTING_BACKUP_FILE_READ" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_17_SELECTION_RANGE" xml:space="preserve">
+    <value>SELECTION RANGE</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_57_CTRL" xml:space="preserve">
+    <value>CTRL</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_45_HIDE_SELECTION" xml:space="preserve">
+    <value>HIDE SELECTION</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_04_COPY" xml:space="preserve">
+    <value>COPY</value>
+  </data>
+  <data name="SCRIPT_DATA_FLASH_WRITE" xml:space="preserve">
+    <value>Write to device</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_13_SELECT_ALL" xml:space="preserve">
+    <value>SELECT ALL</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_03_ERASER" xml:space="preserve">
+    <value>ERASER</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_18_ROTATION_RESET" xml:space="preserve">
+    <value>ROTATION RESET</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_2_ZOOMOUT" xml:space="preserve">
+    <value>Zoom Out</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_05_MAGNIFYING_GLASS_LARGE" xml:space="preserve">
+    <value>MAGNIFYING GLASS (ENLARGE)</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET" xml:space="preserve">
+    <value>PRESET</value>
+  </data>
+  <data name="LED_COLOR_SETTING_G" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_15_BLUSH_HARD_UP" xml:space="preserve">
+    <value>Brush hardness UP</value>
+  </data>
+  <data name="SYSTEM_SETTING_ENCODER_TYPEMATIC" xml:space="preserve">
+    <value>Encoder continuous input</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_07_MAIN_COLOR_SUB_COLOR" xml:space="preserve">
+    <value>SWITCH BETWEEN MAIN COLOR AND SUB COLOR</value>
+  </data>
+  <data name="FUNC_SETTING_ENCODER_DEFAULT_SETTING_FUNC" xml:space="preserve">
+    <value>Function</value>
+  </data>
+  <data name="JOYSTICK_HATSW_NE" xml:space="preserve">
+    <value>Northeast</value>
+  </data>
+  <data name="SET_TYPE_KEYBOARD" xml:space="preserve">
+    <value>Keyboard Input Key</value>
+  </data>
+  <data name="SCRIPT_MULTIMEDIA_PRESS_TEXT" xml:space="preserve">
+    <value>Hold the multimedia button pressed</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_39_RESTORE_DISPLAY_TO_NORMAL_SIZE" xml:space="preserve">
+    <value>RESTORE DISPLAY TO NORMAL SIZE</value>
+  </data>
+  <data name="MULTIMEDIA_NAM_VOLUMEDOWN" xml:space="preserve">
+    <value>Volume Down</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_43_ESC" xml:space="preserve">
+    <value>ESC</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_29_NEW_CANVAS" xml:space="preserve">
+    <value>NEW CANVAS</value>
+  </data>
+  <data name="DEVICE_FOUND" xml:space="preserve">
+    <value>Device Found</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_38_FREE_TRANSFORM_TOOL" xml:space="preserve">
+    <value>FREE TRANSFORM TOOL</value>
+  </data>
+  <data name="MOUSE_TILT_TEXT" xml:space="preserve">
+    <value>Amount of movement</value>
+  </data>
+  <data name="MOUSE_NAME_B5_CLICK" xml:space="preserve">
+    <value>Mouse Button 5</value>
+  </data>
+  <data name="MACRO_EDITOR_OPERATION_REC" xml:space="preserve">
+    <value>Operation Record</value>
+  </data>
+  <data name="SP_FUNC_TYPE_MODE1" xml:space="preserve">
+    <value>Profile 1</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_02_REDOING" xml:space="preserve">
+    <value>REDOING</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_53_HAND_TOOL" xml:space="preserve">
+    <value>HAND TOOL</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_09_LAYER_SELECTION" xml:space="preserve">
+    <value>LAYER SELEC</value>
+  </data>
+  <data name="SYSTEM_SETTING_FACTORY_RESET_TITLE" xml:space="preserve">
+    <value>Initialize all settings</value>
+  </data>
+  <data name="ScriptRead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ScriptRead.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_28_SYRINGE" xml:space="preserve">
+    <value>SYRINGE</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_REC" xml:space="preserve">
+    <value>Multimedia Record</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_15_DRAWING_COLOR_BACKGROUND_COLOR" xml:space="preserve">
+    <value>SWITCH BETWEEN DRAWING COLOR AND BACKGROUND COLOR</value>
+  </data>
+  <data name="MACRO_EDITOR_MACRO_DATA_RW_TITLE" xml:space="preserve">
+    <value>Reading and writing of macro data</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_4_ROTATION_L" xml:space="preserve">
+    <value>IMAGE ROTATION Left</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_TEST" xml:space="preserve">
+    <value>TEST</value>
+  </data>
+  <data name="SCRIPT_MOUSE_CLICK_TEXT" xml:space="preserve">
+    <value>Hold the mouse button pressed</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_HAT_SW" xml:space="preserve">
+    <value>JOYSTICK HAT SW SW</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CCW" xml:space="preserve">
+    <value>Counterclockwise</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_23_ZOOM_TOOL" xml:space="preserve">
+    <value>ZOOM TOOL</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_05_PEN" xml:space="preserve">
+    <value>PEN</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_JOY_LEVER_X_TEXT" xml:space="preserve">
+    <value>X axis</value>
+  </data>
+  <data name="SCRIPT_DATA_FLASH_READ" xml:space="preserve">
+    <value>Read from device</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_31_SWITCHING_LAYER_COLOR" xml:space="preserve">
+    <value>SWITCHING LAYER COLOR</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_11_OPEN_COLOR_SETTING_DIALOG_BOX" xml:space="preserve">
+    <value>OPEN THE COLOR SETTING DIALOG BOX</value>
+  </data>
+  <data name="RESET_WARNING_MSG4" xml:space="preserve">
+    <value>Please unplug the USB cable. If the device is not connected at the bottom of the screen, connect the USB cable.</value>
+  </data>
+  <data name="SYSTEM_SETTING_BACKUP_FILE_SAVE" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="ScriptWrite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ScriptWrite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MODE3_TEXT" xml:space="preserve">
+    <value>Profile3</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_04_COPY" xml:space="preserve">
+    <value>COPY</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_26_CHARACTER_TOUCH_TOOL" xml:space="preserve">
+    <value>CHARACTER TOUCH TOOL</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_33_CUT" xml:space="preserve">
+    <value>CUT</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_14_HUE_SATURATION_LIGHTNESS" xml:space="preserve">
+    <value>HUE / SATURATION / LIGHTNESS</value>
+  </data>
+  <data name="LED_COLOR1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LED_COLOR1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LED_COLOR_SETTING_COLOR_SELECT" xml:space="preserve">
+    <value>Color selection</value>
+  </data>
+  <data name="LED_COLOR_SETTING_SET_COLOR_ERROR_MSG" xml:space="preserve">
+    <value>Outside of gamut</value>
+  </data>
+  <data name="KEYBOARD_SETUP_ASSIST_COMP_MSG1" xml:space="preserve">
+    <value>keyboard has been identified.</value>
+  </data>
+  <data name="KEYBOARD_SETUP_ASSIST_COMP_MSG2" xml:space="preserve">
+    <value>Click the "Set" button to complete the setting.</value>
+  </data>
+  <data name="KEYBOARD_SETUP_ASSIST_COMP_MSG3" xml:space="preserve">
+    <value>If it is not correctly identified, please select the correct keyboard and click "Set" button.</value>
+  </data>
+  <data name="KEYBOARD_SETUP_ASSIST_MSG1" xml:space="preserve">
+    <value>Please do not press and hold the key only once. When the key is recognized, the next step is displayed.</value>
+  </data>
+  <data name="KEYBOARD_SETUP_ASSIST_MSG2" xml:space="preserve">
+    <value>Please press the key to the right of the left SHIFT key of the keyboard being identified</value>
+  </data>
+  <data name="KEYBOARD_SETUP_ASSIST_MSG3" xml:space="preserve">
+    <value>Please press the key to the left of the right SHIFT key of the keyboard being identified</value>
+  </data>
+  <data name="KEYBOARD_SETUP_ASSIST_TITLE" xml:space="preserve">
+    <value>Identifying keyboard type</value>
+  </data>
+  <data name="SYSTEM_SETTING_KEYBOARD_SETTING_ANSI" xml:space="preserve">
+    <value>ANSI(US, Other)</value>
+  </data>
+  <data name="SYSTEM_SETTING_KEYBOARD_SETTING_ANSI_DESC" xml:space="preserve">
+    <value>Standard 101 key or 102 key keyboard, and some other keyboard</value>
+  </data>
+  <data name="SYSTEM_SETTING_KEYBOARD_SETTING_JIS" xml:space="preserve">
+    <value>JIS(JAPANESE)</value>
+  </data>
+  <data name="SYSTEM_SETTING_KEYBOARD_SETTING_JIS_DESC" xml:space="preserve">
+    <value>Standard Japanese keyboard with input program</value>
+  </data>
+</root>

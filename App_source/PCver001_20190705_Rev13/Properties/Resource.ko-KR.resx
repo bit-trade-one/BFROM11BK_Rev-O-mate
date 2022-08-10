@@ -1,0 +1,1779 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="APPLICATION_NAME" xml:space="preserve">
+    <value>Rev-O-mate 구성 도구</value>
+  </data>
+  <data name="BACKUP_FILE_FILTER" xml:space="preserve">
+    <value>백업 파일 (* .mbf) | * .mbf | 모든 파일 (*. *) | *. *</value>
+  </data>
+  <data name="BACKUP_FILE_OPEN_DIALOG_TITLE" xml:space="preserve">
+    <value>백업 파일 선택</value>
+  </data>
+  <data name="BACKUP_FILE_SAVE_DIALOG_TITLE" xml:space="preserve">
+    <value>백업 파일 저장</value>
+  </data>
+  <data name="BTN_CANCEL" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="BTN_CLOSE" xml:space="preserve">
+    <value>닫기</value>
+  </data>
+  <data name="BTN_DIAL_MACRO_EDITOR" xml:space="preserve">
+    <value>다이얼 매크로 편집기</value>
+  </data>
+  <data name="BTN_MACRO_EDITOR" xml:space="preserve">
+    <value>매크로 편집기</value>
+  </data>
+  <data name="BTN_NO" xml:space="preserve">
+    <value>아니</value>
+  </data>
+  <data name="BTN_OK" xml:space="preserve">
+    <value>승인</value>
+  </data>
+  <data name="BTN_SET" xml:space="preserve">
+    <value>세트</value>
+  </data>
+  <data name="BTN_SETUP" xml:space="preserve">
+    <value>설정</value>
+  </data>
+  <data name="BTN_SUBMIT" xml:space="preserve">
+    <value>제출</value>
+  </data>
+  <data name="BTN_YES" xml:space="preserve">
+    <value>예</value>
+  </data>
+  <data name="CLEAR_BUTTON_TEXT" xml:space="preserve">
+    <value>명확한</value>
+  </data>
+  <data name="CONTEXTMENU_CLEAR" xml:space="preserve">
+    <value>할당 해제</value>
+  </data>
+  <data name="CONTEXTMENU_DEFAULTSET" xml:space="preserve">
+    <value>기본 설정</value>
+  </data>
+  <data name="CONTEXTMENU_EXPORT" xml:space="preserve">
+    <value>수출</value>
+  </data>
+  <data name="CONTEXTMENU_FUNCSET" xml:space="preserve">
+    <value>기능 설정</value>
+  </data>
+  <data name="CONTEXTMENU_IMPORT" xml:space="preserve">
+    <value>수입</value>
+  </data>
+  <data name="DEVICE_BASE_BUTTON_SETUP_WRITE_CONFIRM_MSG" xml:space="preserve">
+    <value>쓰기 단추 설정. 확실합니까 ?</value>
+  </data>
+  <data name="DEVICE_BASE_SETUP_WRITE_CONFIRM_MSG" xml:space="preserve">
+    <value>설정을 작성하십시오. 확실합니까 ?</value>
+  </data>
+  <data name="DEVICE_ENCODER_SCRIPT_WRITE_CONFIRM_MSG" xml:space="preserve">
+    <value>다이얼 매크로 설정을 작성하십시오. 확실합니까 ?</value>
+  </data>
+  <data name="DEVICE_FOUND" xml:space="preserve">
+    <value>장치를 찾았습니다.</value>
+  </data>
+  <data name="DEVICE_FUNCTION_WRITE_CONFIRM_MSG" xml:space="preserve">
+    <value>기능 설정을 작성하십시오. 확실합니까 ?</value>
+  </data>
+  <data name="DEVICE_MACRO_WRITE_CONFIRM_MSG" xml:space="preserve">
+    <value>번호 {0}에 쓰십시오. 확실합니까 ?</value>
+  </data>
+  <data name="DEVICE_MACRO_WRITE_POS_ERR_MSG" xml:space="preserve">
+    <value>쓰기 위치를 선택하십시오.</value>
+  </data>
+  <data name="DEVICE_NOT_FOUND" xml:space="preserve">
+    <value>장치를 찾을 수 없음</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_GAMEPAD" xml:space="preserve">
+    <value>GAMEPAD</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_GENERAL" xml:space="preserve">
+    <value>일반</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_KEY" xml:space="preserve">
+    <value>키</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_MOUSE" xml:space="preserve">
+    <value>쥐</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_MULTIMEDIA" xml:space="preserve">
+    <value>멀티미디어</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_NOT_SET" xml:space="preserve">
+    <value>NOT SET</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET" xml:space="preserve">
+    <value>프리셋</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO" xml:space="preserve">
+    <value>CLIPSTUDIO</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_1_BRUSH_L" xml:space="preserve">
+    <value>BRUSH SIZE 대형</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_10_ZOOM_OUT" xml:space="preserve">
+    <value>축소</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_2_BRUSH_S" xml:space="preserve">
+    <value>브러쉬 크기 작은</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_3_ROTATION_R" xml:space="preserve">
+    <value>이미지 회전 오른쪽</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_4_ROTATION_L" xml:space="preserve">
+    <value>이미지 회전 왼쪽</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_5_IMAGE_ENLARGE" xml:space="preserve">
+    <value>이미지 확대</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_6_IMAGE_REDUCE" xml:space="preserve">
+    <value>이미지 줄이기</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_7_BLUSH_OPACITY_UP" xml:space="preserve">
+    <value>브러쉬 불투명도와 농도 UP</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_8_BLUSH_OPACITY_DOWN" xml:space="preserve">
+    <value>브러쉬 불투명도와 집중력 감소</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_9_ZOOM_IN" xml:space="preserve">
+    <value>확대</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR" xml:space="preserve">
+    <value>Illustrator</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_1_ZOOMIN" xml:space="preserve">
+    <value>확대 IN</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_2_ZOOMOUT" xml:space="preserve">
+    <value>축소</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM" xml:space="preserve">
+    <value>Lightroom</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM_1_SLIDER_S_UP" xml:space="preserve">
+    <value>선택 슬라이더를 작은 단위로 늘립니다.</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM_2_SLIDER_S_DOWN" xml:space="preserve">
+    <value>작은 단위로 선택 슬라이더 줄이기</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM_3_SLIDER_L_UP" xml:space="preserve">
+    <value>선택 단위를 큰 단위로 늘립니다.</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM_4_SLIDER_L_DOWN" xml:space="preserve">
+    <value>큰 단위로 선택 슬라이더 줄이기</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM_5_BRUSH_L" xml:space="preserve">
+    <value>BRUSH SIZE 대형</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM_6_BRUSH_S" xml:space="preserve">
+    <value>브러쉬 크기 작은</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM_7_BLUSH_BLUR_SIZE_UP" xml:space="preserve">
+    <value>흐려지기 위해 얼굴을 붉히다.</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM_8_BLUSH_BLUR_SIZE_DOWN" xml:space="preserve">
+    <value>블러시를 사용하여 흐리게 처리</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP" xml:space="preserve">
+    <value>PHOTOSHOP</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_1_BRUSH_L" xml:space="preserve">
+    <value>BRUSH SIZE 대형</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_10_LINE_SPACE_NARROW" xml:space="preserve">
+    <value>줄 간격 좁히기</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_11_LETTER_SPACE_SPREAD" xml:space="preserve">
+    <value>글자 사이의 간격을 넓히십시오.</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_12_LETTER_SPACE_NARROW" xml:space="preserve">
+    <value>글자 사이의 공간을 좁히십시오.</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_13_BLUSH_BLUR_SIZE_UP" xml:space="preserve">
+    <value>흐려지기 위해 얼굴을 붉히다.</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_14_BLUSH_BLUR_SIZE_DOWN" xml:space="preserve">
+    <value>블러시를 사용하여 흐리게 처리</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_15_BLUSH_HARD_UP" xml:space="preserve">
+    <value>브러쉬 경도 UP</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_16_BLUSH_HARD_DOWN" xml:space="preserve">
+    <value>브러쉬 경도 DOWN</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_17_OPACITY_UP" xml:space="preserve">
+    <value>브러쉬 불투명도 증가</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_18_OPACITY_DOWN" xml:space="preserve">
+    <value>브러시 불투명도 감소</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_2_BRUSH_S" xml:space="preserve">
+    <value>브러쉬 크기 작은</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_3_ROTATION_R" xml:space="preserve">
+    <value>이미지 회전 오른쪽</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_4_ROTATION_L" xml:space="preserve">
+    <value>이미지 회전 왼쪽</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_5_IMAGE_ENLARGE" xml:space="preserve">
+    <value>이미지 확대</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_6_IMAGE_REDUCE" xml:space="preserve">
+    <value>이미지 줄이기</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_7_CANVAS_ENLARGE" xml:space="preserve">
+    <value>캔버스 확대</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_8_CANVAS_REDUCE" xml:space="preserve">
+    <value>캔버스 줄이기</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_9_LINE_SPACE_SPREAD" xml:space="preserve">
+    <value>줄 간격을 넓히십시오.</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI" xml:space="preserve">
+    <value>SAI</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI_1_BRUSH_L" xml:space="preserve">
+    <value>BRUSH SIZE 대형</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI_10_CURSOR_REDUCE" xml:space="preserve">
+    <value>커서 위치 주변으로 축소</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI_2_BRUSH_S" xml:space="preserve">
+    <value>브러쉬 크기 작은</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI_3_ROTATION_R" xml:space="preserve">
+    <value>이미지 회전 오른쪽</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI_4_ROTATION_L" xml:space="preserve">
+    <value>이미지 회전 왼쪽</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI_5_IMAGE_ENLARGE" xml:space="preserve">
+    <value>이미지 확대</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI_6_IMAGE_REDUCE" xml:space="preserve">
+    <value>이미지 줄이기</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI_7_CANVAS_ENLARGE" xml:space="preserve">
+    <value>캔버스 확대</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI_8_CANVAS_REDUCE" xml:space="preserve">
+    <value>캔버스 줄이기</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_PRESET_SAI_9_CURSOR_ENLARGE" xml:space="preserve">
+    <value>커서 위치를 중심으로 확장</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CATEGOLY_USER_DIAL_MACRO" xml:space="preserve">
+    <value>사용자 다이얼 매크로</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CCW" xml:space="preserve">
+    <value>시계 반대 방향</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_CW" xml:space="preserve">
+    <value>시계 방향으로</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_DIAL" xml:space="preserve">
+    <value>다이얼 기능</value>
+  </data>
+  <data name="DIAL_FUNC_SETTING_SENSITIVITY" xml:space="preserve">
+    <value>감광도</value>
+  </data>
+  <data name="DIAL_MACRO_LOOP_MODE_TEXT" xml:space="preserve">
+    <value>반복 실행</value>
+  </data>
+  <data name="ENCODER_SCRIPT" xml:space="preserve">
+    <value>다이얼 매크로</value>
+  </data>
+  <data name="ENCODER_SCRIPT_LIST_MACRO_NAME" xml:space="preserve">
+    <value>실행 매크로 이름</value>
+  </data>
+  <data name="FILE_LOAD_ERR_MSG" xml:space="preserve">
+    <value>파일로드가 실패합니다.</value>
+  </data>
+  <data name="FILE_OPEN_FILTER" xml:space="preserve">
+    <value>XML 파일 (* .xml) | * .xml | 모든 파일 (*. *) | *. *</value>
+  </data>
+  <data name="FILE_OPEN_TITLE" xml:space="preserve">
+    <value>열다...</value>
+  </data>
+  <data name="FILE_SAVE_ERR_MSG" xml:space="preserve">
+    <value>파일 저장 실패.</value>
+  </data>
+  <data name="FILE_SAVE_FILTER" xml:space="preserve">
+    <value>XML 파일 (* .xml) | * .xml | 모든 파일 (*. *) | *. *</value>
+  </data>
+  <data name="FILE_SAVE_TITLE" xml:space="preserve">
+    <value>다른 이름으로 저장...</value>
+  </data>
+  <data name="FIRMWARE_VERSION" xml:space="preserve">
+    <value>펌웨어 버전</value>
+  </data>
+  <data name="FLASHERASE_WARNING_MSG" xml:space="preserve">
+    <value>모든 설정을 삭제하십시오. 확실합니까 ?</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_GAMEPAD" xml:space="preserve">
+    <value>GAMEPAD</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_GENERAL" xml:space="preserve">
+    <value>일반</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_KEY" xml:space="preserve">
+    <value>키</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_MACRO" xml:space="preserve">
+    <value>매크로</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_MODFILE" xml:space="preserve">
+    <value>MOD 파일</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_MOUSE" xml:space="preserve">
+    <value>쥐</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_MULTIMEDIA" xml:space="preserve">
+    <value>멀티미디어</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_NOT_SET" xml:space="preserve">
+    <value>NOT SET</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET" xml:space="preserve">
+    <value>프리셋</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO" xml:space="preserve">
+    <value>클립 스튜디오</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_01_SWITCH_PRE_SUB_TOOL" xml:space="preserve">
+    <value>이전 서브 도구로 전환</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_02_SWITCH_NEXT_SUB_TOOL" xml:space="preserve">
+    <value>다음 하위 도구로 전환</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_03_PALM" xml:space="preserve">
+    <value>손바닥 안에 감추다</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_04_ROTATION" xml:space="preserve">
+    <value>회전</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_05_MAGNIFYING_GLASS_LARGE" xml:space="preserve">
+    <value>확대 유리 (엔라쥬)</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_06_MAGNIFYING_GLASS_SHRINK" xml:space="preserve">
+    <value>확대 유리 (수축)</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_07_MAIN_COLOR_SUB_COLOR" xml:space="preserve">
+    <value>메인 컬러와 서브 컬러 사이의 전환</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_08_DRAWING_COLOR_TRANSPARENT_COLOR" xml:space="preserve">
+    <value>그림 색과 투명 색 간의 전환</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_09_LAYER_SELECTION" xml:space="preserve">
+    <value>레이어 선택</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_10_MAGNIFYING_GLASS" xml:space="preserve">
+    <value>확대경</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_11_MOVE_PALM" xml:space="preserve">
+    <value>이동 (팜)</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_12_MOVE_ROTATION" xml:space="preserve">
+    <value>이동 (회전)</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_13_OPERATION_OBJECT" xml:space="preserve">
+    <value>운영 (객체)</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_14_OPERATION_LAYER_SELECTION" xml:space="preserve">
+    <value>작동 (층 선택)</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_15_LIGHT_TABLE_TIMELINE_EDIT" xml:space="preserve">
+    <value>라이트 테이블 / 타임 라인 편집</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_16_MOVE_LAYER" xml:space="preserve">
+    <value>무빙 레이어</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_17_SELECTION_RANGE" xml:space="preserve">
+    <value>선택 범위</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_18_AUTO_SELECTION" xml:space="preserve">
+    <value>자동 선택</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_19_SYRINGE" xml:space="preserve">
+    <value>주사기</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_20_PEN_PENCIL" xml:space="preserve">
+    <value>펜 / 펜실</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_21_BRUSH_AIRBRUSH" xml:space="preserve">
+    <value>BRUSH / AIRBRUSH 장식</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_22_ERASER" xml:space="preserve">
+    <value>지우개</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_23_COLOR_MIX" xml:space="preserve">
+    <value>색상 혼합</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_24_FILL_GRADATION" xml:space="preserve">
+    <value>채우기 / 채점</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_25_FIGURE_FRAME_RULER" xml:space="preserve">
+    <value>그림 / 프레임 / 규칙</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_26_TEXT_BALLOON" xml:space="preserve">
+    <value>텍스트 / 풍선</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_27_LINE_CORRECTION" xml:space="preserve">
+    <value>라인 수정</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_28_SYRINGE" xml:space="preserve">
+    <value>주사기</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_29_OBJECT" xml:space="preserve">
+    <value>목적</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_30_DRAW_STRAIGHT_LINE" xml:space="preserve">
+    <value>직선 그리기</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_31_SWITCHING_LAYER_COLOR" xml:space="preserve">
+    <value>레이어 색상 전환</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_32_CANCEL" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_33_CUT" xml:space="preserve">
+    <value>절단</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_34_PASTE" xml:space="preserve">
+    <value>풀</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_35_COPY" xml:space="preserve">
+    <value>부</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_CLIPSTUDIO_36_ESC" xml:space="preserve">
+    <value>ESC</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR" xml:space="preserve">
+    <value>ILLUSTRATOR</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_01_CANCEL" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_02_REDOING" xml:space="preserve">
+    <value>재사용</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_03_CUT" xml:space="preserve">
+    <value>절단</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_04_COPY" xml:space="preserve">
+    <value>부</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_05_PASTE" xml:space="preserve">
+    <value>풀</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_06_PASTE_FRONT" xml:space="preserve">
+    <value>전면에 붙여 넣기</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_07_PASTE_BACK" xml:space="preserve">
+    <value>뒤죽박죽</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_08_PASTE_SAME_POSITION" xml:space="preserve">
+    <value>동일한 위치에 붙여 넣기</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_09_PASTE_ARTBOARD" xml:space="preserve">
+    <value>모든 아트 보드에 붙여 넣기</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_10_SPELL_CHECK" xml:space="preserve">
+    <value>맞춤법 검사</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_11_OPEN_COLOR_SETTING_DIALOG_BOX" xml:space="preserve">
+    <value>색상 설정 대화 상자 열기</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_12_OPEN_KEYBOARD_SHORTCUT_DIALOG_BOX" xml:space="preserve">
+    <value>OPEN 키보드 단축 다이얼로그 박스</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_13_OPEN_PREFERENCES_DIALOG_BOX" xml:space="preserve">
+    <value>기본 설정 대화 상자 열기</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_14_ARTBOARD_TOOL" xml:space="preserve">
+    <value>아트 보드 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_15_SELECTION_TOOL" xml:space="preserve">
+    <value>선택 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_16_DIRECT_SELECTION_TOOL" xml:space="preserve">
+    <value>직접 선택 공구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_17_AUTOMATIC_SELECTION_TOOL" xml:space="preserve">
+    <value>자동 선택 공구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_18_LASSO_TOOL" xml:space="preserve">
+    <value>LASSO 공구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_19_PEN_TOOL" xml:space="preserve">
+    <value>펜 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_20_CURVED_TOOL" xml:space="preserve">
+    <value>절삭 공구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_21_FILL_BRUSH_TOOL" xml:space="preserve">
+    <value>필 브러쉬 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_22_ADD_ANCHOR_POINT" xml:space="preserve">
+    <value>앵커 포인트 추가</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_23_DELETE_ANCHOR_POINT" xml:space="preserve">
+    <value>앵커 포인트 삭제</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_24_SWITCH_ANCHOR_POINT" xml:space="preserve">
+    <value>스위치 앵커 포인트</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_25_CHARACTER_TOOL" xml:space="preserve">
+    <value>캐릭터 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_26_CHARACTER_TOUCH_TOOL" xml:space="preserve">
+    <value>캐릭터 터치 툴</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_27_LINE_TOOL" xml:space="preserve">
+    <value>라인 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_28_RECTANGULAR_TOOL" xml:space="preserve">
+    <value>직사각형 공구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_29_OVAL_TOOL" xml:space="preserve">
+    <value>오발 공구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_30_BRUSH_TOOL" xml:space="preserve">
+    <value>브러쉬 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_31_PENCIL_TOOL" xml:space="preserve">
+    <value>연필 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_32_SHAPER_TOOL" xml:space="preserve">
+    <value>셰이퍼 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_33_ROTATING_TOOL" xml:space="preserve">
+    <value>회전 공구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_34_REFLECT_TOOL" xml:space="preserve">
+    <value>반향 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_35_SCALE_TOOL" xml:space="preserve">
+    <value>스케일 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_36_WARP_TOOL" xml:space="preserve">
+    <value>워프 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_37_LINE_WIDTH_TOOL" xml:space="preserve">
+    <value>라인 폭 공구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_38_FREE_TRANSFORM_TOOL" xml:space="preserve">
+    <value>무료 변압기 공구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_39_SHAPE_FORMING_TOOL" xml:space="preserve">
+    <value>성형 공구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_40_PERSPECTIVE_GRID_TOOL" xml:space="preserve">
+    <value>원근법 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_41_PERSPECTIVE_SELECTION_TOOL" xml:space="preserve">
+    <value>원근법 공구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_42_SYMBOL_SPRAY_TOOL" xml:space="preserve">
+    <value>심볼 스프레이 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_43_BAR_GRAPH_TOOL" xml:space="preserve">
+    <value>바 그라피 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_44_MESH_TOOL" xml:space="preserve">
+    <value>메쉬 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_45_GRADATION_TOOL" xml:space="preserve">
+    <value>그라디언트 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_46_SYRINGE_TOOL" xml:space="preserve">
+    <value>시린지 공구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_47_BLEND_TOOL" xml:space="preserve">
+    <value>혼합 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_48_LIVE_PAINT_TOOL" xml:space="preserve">
+    <value>라이브 페인트 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_49_LIVE_PAINT_SELECTION_TOOL" xml:space="preserve">
+    <value>라이브 페인트 선택 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_50_SLICE_TOOL" xml:space="preserve">
+    <value>SLICE 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_51_ERASER_TOOL" xml:space="preserve">
+    <value>지우개 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_52_SCISSOR_TOOL" xml:space="preserve">
+    <value>가위 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_53_HAND_TOOL" xml:space="preserve">
+    <value>손 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_54_ZOOM_TOOL" xml:space="preserve">
+    <value>줌 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_55_SWITCH_SMOOTH_TOOL" xml:space="preserve">
+    <value>필 브러쉬 도구를 사용하여 부드러운 도구로 전환</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_56_ESC" xml:space="preserve">
+    <value>ESC</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_57_CTRL" xml:space="preserve">
+    <value>CTRL</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_58_HAND_TOOL_SPACE" xml:space="preserve">
+    <value>손 도구 (공간)</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_ILLUSTRATOR_59_SHIFT" xml:space="preserve">
+    <value>시프트</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM" xml:space="preserve">
+    <value>LIGHTROOM</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_LIGHTROOM_01_" xml:space="preserve">
+    <value>아니</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_MULTIMEDIA" xml:space="preserve">
+    <value>멀티미디어</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_MULTIMEDIA_01_" xml:space="preserve">
+    <value>아니</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP" xml:space="preserve">
+    <value>PHOTOSHOP</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_01_SPACE" xml:space="preserve">
+    <value>공간</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_02_CTRL" xml:space="preserve">
+    <value>CTRL</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_03_ERASER" xml:space="preserve">
+    <value>지우개</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_04_SHIFT" xml:space="preserve">
+    <value>시프트</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_05_PEN" xml:space="preserve">
+    <value>펜</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_06_BRUSH" xml:space="preserve">
+    <value>브러시</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_07_SYRINGE" xml:space="preserve">
+    <value>주사기</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_08_PALM" xml:space="preserve">
+    <value>손바닥 안에 감추다</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_09_COPY_STAMP_TOOL" xml:space="preserve">
+    <value>복사 스탬프 공구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_10_SYRINGE_TOOL" xml:space="preserve">
+    <value>시린지 공구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_11_CROP_TOOL" xml:space="preserve">
+    <value>자르기 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_12_FILL_GRADATION_TOOL" xml:space="preserve">
+    <value>채우기, 교정 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_13_ROTATIONG_VIEW_TOOL" xml:space="preserve">
+    <value>회전 공구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_14_DODGE_TOOL" xml:space="preserve">
+    <value>닷지 공구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_15_DRAWING_COLOR_BACKGROUND_COLOR" xml:space="preserve">
+    <value>그림 색 및 배경색 간의 전환</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_16_MOVE_TOOL" xml:space="preserve">
+    <value>이동 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_17_SELECTION_TOOL" xml:space="preserve">
+    <value>선택 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_18_REPAIR_BRUSH_TOOL" xml:space="preserve">
+    <value>수리 브러쉬 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_19_HISTORY_BRUSH_TOOL" xml:space="preserve">
+    <value>역사 브러쉬 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_20_CHARACTER_TOOL" xml:space="preserve">
+    <value>캐릭터 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_21_PATH_COMPONENT_SELECTION_TOOL" xml:space="preserve">
+    <value>경로 구성 요소 선택 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_22_RECTANGLE_ROUNDED_RECTANGLE_OVAL_TOOL" xml:space="preserve">
+    <value>직사각형 / 둥근 사각형 / 오발 공구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_23_ZOOM_TOOL" xml:space="preserve">
+    <value>줌 도구</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_24_TONE_CURVE" xml:space="preserve">
+    <value>TONE CURVE</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_25_LEVEL_CORRECTION" xml:space="preserve">
+    <value>레벨 보정</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_26_AUTO_SELECTION" xml:space="preserve">
+    <value>자동 선택</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_27_GROUP_LAYERS" xml:space="preserve">
+    <value>그룹화 레이어</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_28_PALETTE_DISPLAY_OFF" xml:space="preserve">
+    <value>팔레트 표시 꺼짐 &gt; 전체 화면 &gt; 에</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_29_CREATE_NEW_LAYER" xml:space="preserve">
+    <value>새 레이어 만들기</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_30_SELECT_ALL_IN_THE_LAYER" xml:space="preserve">
+    <value>레이어에서 모두 선택 / 전체 캔버스 선택</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_31_LAYER_INTEGRATION" xml:space="preserve">
+    <value>계층 통합</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_32_SHOW_HIDE_RULER" xml:space="preserve">
+    <value>루어 표시 / 숨기기</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_33_SWITCHING_COLOR_MODE" xml:space="preserve">
+    <value>색 모드 전환 (RGB ← CMYK)</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_34_CANCEL_SELECTION" xml:space="preserve">
+    <value>취소 선택</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_35_FREE_DEFORMATION_MODE" xml:space="preserve">
+    <value>자유 변형 모드</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_36_UNDO_ONE_TASK" xml:space="preserve">
+    <value>하나의 작업 실행 취소</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_37_UNDO_ONE_MORE_TASK" xml:space="preserve">
+    <value>하나 이상의 작업 실행 취소</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_38_SAVE" xml:space="preserve">
+    <value>구하다</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_39_RESTORE_DISPLAY_TO_NORMAL_SIZE" xml:space="preserve">
+    <value>정상 크기로 복원하십시오.</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_40_LAYER_COMBINING_ALL_DISPLAY_LAYERS" xml:space="preserve">
+    <value>모든 디스플레이 레이어를 결합하는 레이어</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_41_SHOW_HIDE_GRID" xml:space="preserve">
+    <value>그리드 표시 / 숨기기</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_42_TAB_SWITCHING" xml:space="preserve">
+    <value>탭 전환</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_43_ESC" xml:space="preserve">
+    <value>ESC</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_44_INVERT_SELECTION" xml:space="preserve">
+    <value>반전 선택</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_45_HIDE_SELECTION" xml:space="preserve">
+    <value>선택을 숨 깁니다.</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_46_SHOW_OPTIONS" xml:space="preserve">
+    <value>옵션 표시</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_PHOTOSHOP_47_ESC" xml:space="preserve">
+    <value>ESC</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI" xml:space="preserve">
+    <value>사일</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_01_RESTORE" xml:space="preserve">
+    <value>복원</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_02_REDOING" xml:space="preserve">
+    <value>재사용</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_03_CUT" xml:space="preserve">
+    <value>절단</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_04_COPY" xml:space="preserve">
+    <value>부</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_05_PASTE" xml:space="preserve">
+    <value>풀</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_06_CLEAR_LAYER" xml:space="preserve">
+    <value>클리어 레이어</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_07_COMBINE_LOWER_LAYER" xml:space="preserve">
+    <value>아래쪽 레이어와 조인 / 레이어 세트 결합</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_08_TRANSFER_TO_LOWER_LAYER" xml:space="preserve">
+    <value>하층으로 이송</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_09_FILL_LAYER" xml:space="preserve">
+    <value>레이어 채우기</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_10_FREE_DEFORMATION" xml:space="preserve">
+    <value>자유 변형</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_11_CANCEL_SELECTION_AREA" xml:space="preserve">
+    <value>취소 선택 영역</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_12_DISPLAY_SELECTION_AREA" xml:space="preserve">
+    <value>선택 영역의 표시</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_13_SELECT_ALL" xml:space="preserve">
+    <value>모두 선택</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_14_HUE_SATURATION_LIGHTNESS" xml:space="preserve">
+    <value>색조 / 채도 / 광도</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_15_FLIP_HORIZONTAL" xml:space="preserve">
+    <value>플립 호리 존</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_16_PIXEL_EQUAL_MAGNIFICATION" xml:space="preserve">
+    <value>픽셀 등안 확대</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_17_POSITION_RESET" xml:space="preserve">
+    <value>POSITION RESET</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_18_ROTATION_RESET" xml:space="preserve">
+    <value>회전 재설정</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_19_HIDE_CONTROL_PANEL" xml:space="preserve">
+    <value>제어판 숨기기 / 레이어 관련 패널을 오른쪽으로 표시합니다.</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_20_DRAW_COLOR_SECONDARY_COLOR" xml:space="preserve">
+    <value>그림 그리기 색상 및 2 차 색상</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_21_DRAW_COLOR_TRANSPARENT_COLOR" xml:space="preserve">
+    <value>색상 그리기 및 투명한 색상 전환</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_22_PENCIL" xml:space="preserve">
+    <value>연필</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_23_AIRBRUSH" xml:space="preserve">
+    <value>에어 브러시</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_24_BRUSH" xml:space="preserve">
+    <value>브러시</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_25_WATERCOLOR_BRUSH" xml:space="preserve">
+    <value>수채화 물감 브러시</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_26_ERASER" xml:space="preserve">
+    <value>지우개</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_27_SELECTOR_PEN" xml:space="preserve">
+    <value>선택기 펜</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_28_SELECTIVE_ERASE" xml:space="preserve">
+    <value>선택 지우기</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_29_NEW_CANVAS" xml:space="preserve">
+    <value>새로운 CANVAS</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_30_ESC" xml:space="preserve">
+    <value>ESC</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_31_CTRL" xml:space="preserve">
+    <value>CTRL</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_32_SPACE" xml:space="preserve">
+    <value>공간</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_SAI_33_SHIFT" xml:space="preserve">
+    <value>시프트</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_PRESET_TEST" xml:space="preserve">
+    <value>테스트</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_TOOL" xml:space="preserve">
+    <value>수단</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGOLY_USERAREA" xml:space="preserve">
+    <value>사용자 영역</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGORY1_LIST" xml:space="preserve">
+    <value>범주</value>
+  </data>
+  <data name="FUNC_SETTING_CATEGORY2_LIST" xml:space="preserve">
+    <value>신청</value>
+  </data>
+  <data name="FUNC_SETTING_ENCODER_DEFAULT_SETTING_FUNC" xml:space="preserve">
+    <value>기능</value>
+  </data>
+  <data name="FUNC_SETTING_ENCODER_DEFAULT_SETTING_TITLE" xml:space="preserve">
+    <value>인코더 기본 기능</value>
+  </data>
+  <data name="FUNC_SETTING_FUNC_LIST" xml:space="preserve">
+    <value>기능 목록</value>
+  </data>
+  <data name="FUNC_SETTING_FUNC_SET_AREA" xml:space="preserve">
+    <value>기능 세트</value>
+  </data>
+  <data name="FUNCTION_NAME_UNDEFINE" xml:space="preserve">
+    <value>이름없는</value>
+  </data>
+  <data name="FUNCTION_NAME_UNSETTING" xml:space="preserve">
+    <value>설정되지 않음</value>
+  </data>
+  <data name="FW_VERSION" xml:space="preserve">
+    <value>FW 버전</value>
+  </data>
+  <data name="HELP_LINK_BUTTON_TEXT" xml:space="preserve">
+    <value>도움</value>
+  </data>
+  <data name="HELP_QUESTION_MARK" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="JOYPAD_MOVE_TEXT" xml:space="preserve">
+    <value>X-Y 아날로그</value>
+  </data>
+  <data name="JOYSTICK_HATSW_CENTER" xml:space="preserve">
+    <value>센터</value>
+  </data>
+  <data name="JOYSTICK_HATSW_DOWN" xml:space="preserve">
+    <value>하위</value>
+  </data>
+  <data name="JOYSTICK_HATSW_LEFT" xml:space="preserve">
+    <value>왼쪽</value>
+  </data>
+  <data name="JOYSTICK_HATSW_NE" xml:space="preserve">
+    <value>북동</value>
+  </data>
+  <data name="JOYSTICK_HATSW_NW" xml:space="preserve">
+    <value>북서</value>
+  </data>
+  <data name="JOYSTICK_HATSW_RIGHT" xml:space="preserve">
+    <value>권리</value>
+  </data>
+  <data name="JOYSTICK_HATSW_SE" xml:space="preserve">
+    <value>남동</value>
+  </data>
+  <data name="JOYSTICK_HATSW_SW" xml:space="preserve">
+    <value>남서</value>
+  </data>
+  <data name="JOYSTICK_HATSW_UP" xml:space="preserve">
+    <value>쪽으로</value>
+  </data>
+  <data name="KEYBOARD_INPUTKEY_TEXT" xml:space="preserve">
+    <value>세트 키</value>
+  </data>
+  <data name="KEYBOARD_SET_KEY_EMPTY" xml:space="preserve">
+    <value>입력 키</value>
+  </data>
+  <data name="LED_BRIGHTNESS_LEVEL_DARK" xml:space="preserve">
+    <value>어두운</value>
+  </data>
+  <data name="LED_BRIGHTNESS_LEVEL_LIGHT" xml:space="preserve">
+    <value>빛</value>
+  </data>
+  <data name="LED_BRIGHTNESS_LEVEL_NORMAL" xml:space="preserve">
+    <value>표준</value>
+  </data>
+  <data name="LED_BRIGHTNESS_TITLE" xml:space="preserve">
+    <value>명도</value>
+  </data>
+  <data name="LED_COLOR_SETTING_B" xml:space="preserve">
+    <value>푸른</value>
+  </data>
+  <data name="LED_COLOR_SETTING_G" xml:space="preserve">
+    <value>녹색</value>
+  </data>
+  <data name="LED_COLOR_SETTING_OFF" xml:space="preserve">
+    <value>떨어져서</value>
+  </data>
+  <data name="LED_COLOR_SETTING_PREVIEW" xml:space="preserve">
+    <value>시사</value>
+  </data>
+  <data name="LED_COLOR_SETTING_R" xml:space="preserve">
+    <value>빨간</value>
+  </data>
+  <data name="LED_COLOR_SETTING_TITLE" xml:space="preserve">
+    <value>LED 색상 설정</value>
+  </data>
+  <data name="MACRO_EDITOR_DELETE" xml:space="preserve">
+    <value>지우다</value>
+  </data>
+  <data name="MACRO_EDITOR_EDITOR_LIST_ITEM" xml:space="preserve">
+    <value>목</value>
+  </data>
+  <data name="MACRO_EDITOR_EDITOR_LIST_SIZE" xml:space="preserve">
+    <value>크기</value>
+  </data>
+  <data name="MACRO_EDITOR_EDITOR_LIST_VALUE" xml:space="preserve">
+    <value>값</value>
+  </data>
+  <data name="MACRO_EDITOR_LIST_MACRO_NAME" xml:space="preserve">
+    <value>매크로 이름</value>
+  </data>
+  <data name="MACRO_EDITOR_LIST_NO" xml:space="preserve">
+    <value>아니.</value>
+  </data>
+  <data name="MACRO_EDITOR_MACRO_CREATE_TITLE" xml:space="preserve">
+    <value>매크로 생성</value>
+  </data>
+  <data name="MACRO_EDITOR_MACRO_DATA_READ" xml:space="preserve">
+    <value>매크로 데이터 읽기</value>
+  </data>
+  <data name="MACRO_EDITOR_MACRO_DATA_RW_TITLE" xml:space="preserve">
+    <value>매크로 데이터 읽기 및 쓰기</value>
+  </data>
+  <data name="MACRO_EDITOR_MACRO_DATA_SAVE" xml:space="preserve">
+    <value>매크로 데이터 저장</value>
+  </data>
+  <data name="MACRO_EDITOR_MACRO_EDITOR_AREA_TITLE" xml:space="preserve">
+    <value>매크로 내용 / 편집</value>
+  </data>
+  <data name="MACRO_EDITOR_MACRO_LIST_TITLE" xml:space="preserve">
+    <value>저장된 매크로 목록</value>
+  </data>
+  <data name="MACRO_EDITOR_MACRO_READ" xml:space="preserve">
+    <value>독서</value>
+  </data>
+  <data name="MACRO_EDITOR_MACRO_WRITE" xml:space="preserve">
+    <value>쓰다</value>
+  </data>
+  <data name="MACRO_EDITOR_OPERATION_REC" xml:space="preserve">
+    <value>작전 기록</value>
+  </data>
+  <data name="MACRO_EDITOR_OPERATION_REC_DELETE" xml:space="preserve">
+    <value>지우기 기록</value>
+  </data>
+  <data name="MACRO_EDITOR_OPERATION_REC_START" xml:space="preserve">
+    <value>녹음 시작</value>
+  </data>
+  <data name="MACRO_EDITOR_OPERATION_REC_STOP" xml:space="preserve">
+    <value>녹음 중지</value>
+  </data>
+  <data name="MACRO_EDITOR_OPERATION_SETTING" xml:space="preserve">
+    <value>작동 설정</value>
+  </data>
+  <data name="MACRO_NAME_NO_MACRO" xml:space="preserve">
+    <value>매크로</value>
+  </data>
+  <data name="MACRO_NAME_UNDEFINE" xml:space="preserve">
+    <value>이름없는</value>
+  </data>
+  <data name="MACRO_NAME_UNSETTING" xml:space="preserve">
+    <value>설정되지 않음</value>
+  </data>
+  <data name="MODE_NO_STATUS" xml:space="preserve">
+    <value>모드 : {0} 기능 번호 : {1}</value>
+  </data>
+  <data name="MODE1_TEXT" xml:space="preserve">
+    <value>프로필 1</value>
+  </data>
+  <data name="MODE2_TEXT" xml:space="preserve">
+    <value>프로필 2</value>
+  </data>
+  <data name="MODE3_TEXT" xml:space="preserve">
+    <value>프로필 3</value>
+  </data>
+  <data name="MOUSE_MOVE_TEXT" xml:space="preserve">
+    <value>X, Y 벡터</value>
+  </data>
+  <data name="MOUSE_NAME_B4_CLICK" xml:space="preserve">
+    <value>마우스 버튼 4</value>
+  </data>
+  <data name="MOUSE_NAME_B5_CLICK" xml:space="preserve">
+    <value>마우스 버튼 5</value>
+  </data>
+  <data name="MOUSE_NAME_DOUBLE_CLICK" xml:space="preserve">
+    <value>마우스 더블 클릭</value>
+  </data>
+  <data name="MOUSE_NAME_L_CLICK" xml:space="preserve">
+    <value>왼쪽 마우스</value>
+  </data>
+  <data name="MOUSE_NAME_MOVE" xml:space="preserve">
+    <value>마우스 이동</value>
+  </data>
+  <data name="MOUSE_NAME_R_CLICK" xml:space="preserve">
+    <value>마우스 오른쪽</value>
+  </data>
+  <data name="MOUSE_NAME_WH_CLICK" xml:space="preserve">
+    <value>마우스 휠</value>
+  </data>
+  <data name="MOUSE_NAME_WH_SCROLL" xml:space="preserve">
+    <value>마우스 휠 스크롤</value>
+  </data>
+  <data name="MOUSE_SCROLL_TEXT" xml:space="preserve">
+    <value>스크롤 볼</value>
+  </data>
+  <data name="MULTIMEDIA_NAM_FORWORD" xml:space="preserve">
+    <value>빨리 감기</value>
+  </data>
+  <data name="MULTIMEDIA_NAM_MUTE" xml:space="preserve">
+    <value>묵자</value>
+  </data>
+  <data name="MULTIMEDIA_NAM_NEXT" xml:space="preserve">
+    <value>다음 것</value>
+  </data>
+  <data name="MULTIMEDIA_NAM_PAUSE" xml:space="preserve">
+    <value>중지</value>
+  </data>
+  <data name="MULTIMEDIA_NAM_PREVIOUS" xml:space="preserve">
+    <value>너무 이른</value>
+  </data>
+  <data name="MULTIMEDIA_NAM_REC" xml:space="preserve">
+    <value>기록</value>
+  </data>
+  <data name="MULTIMEDIA_NAM_REWIND" xml:space="preserve">
+    <value>되감기</value>
+  </data>
+  <data name="MULTIMEDIA_NAM_STOP" xml:space="preserve">
+    <value>중지</value>
+  </data>
+  <data name="MULTIMEDIA_NAM_VOLUMEDOWN" xml:space="preserve">
+    <value>볼륨 작게</value>
+  </data>
+  <data name="MULTIMEDIA_NAM_VOLUMEUP" xml:space="preserve">
+    <value>볼륨 업</value>
+  </data>
+  <data name="MULTIMEDIA_NAME_PLAY" xml:space="preserve">
+    <value>놀이</value>
+  </data>
+  <data name="PRESET_DATA_FILE_READ_ERROR" xml:space="preserve">
+    <value>사전 설정 데이터 파일 읽기 오류</value>
+  </data>
+  <data name="PROFILE_CHANGE_NOT_SETTING_WARNING_MSG1" xml:space="preserve">
+    <value>이 프로파일에는 다른 프로파일에 대한 프로파일 변경 기능이 지정되지 않았습니다.</value>
+  </data>
+  <data name="PROFILE_CHANGE_NOT_SETTING_WARNING_MSG2" xml:space="preserve">
+    <value>설정 하시겠습니까?</value>
+  </data>
+  <data name="RESET_WARNING_MSG1" xml:space="preserve">
+    <value>설치 데이터가 초기화됩니다. 확실합니까 ?</value>
+  </data>
+  <data name="RESET_WARNING_MSG2" xml:space="preserve">
+    <value>초기화하는 동안 USB 케이블을 분리하지 마십시오.</value>
+  </data>
+  <data name="RESET_WARNING_MSG3" xml:space="preserve">
+    <value>초기화가 완료되면 USB 케이블을 다시 삽입하십시오.</value>
+  </data>
+  <data name="RESET_WARNING_MSG4" xml:space="preserve">
+    <value>USB 케이블을 분리하십시오. 장치가 화면 하단에 연결되어 있지 않으면 USB 케이블을 연결하십시오.</value>
+  </data>
+  <data name="RESTORE_ERROR_MSG1" xml:space="preserve">
+    <value>오류가 발생하여 처리가 중단되었습니다. \ n (오류 코드 = {0})</value>
+  </data>
+  <data name="RESTORE_WARNING_MSG" xml:space="preserve">
+    <value>모든 설정을 덮어 쓰고 다시 씁니다. 확실합니까 ?</value>
+  </data>
+  <data name="RESTORE_WARNING_MSG2" xml:space="preserve">
+    <value>다시 쓰는 동안 USB 케이블을 분리하지 마십시오.</value>
+  </data>
+  <data name="RESTORE_WARNING_MSG3" xml:space="preserve">
+    <value>다시 쓰기가 완료되면 USB 케이블을 다시 삽입하십시오.</value>
+  </data>
+  <data name="SCREEN_DIAL_FUNCTION_SETTING" xml:space="preserve">
+    <value>다이얼 기능 설정</value>
+  </data>
+  <data name="SCREEN_FUNCTION_SETTING" xml:space="preserve">
+    <value>기능 설정</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_INTERVAL_TEXT" xml:space="preserve">
+    <value>간격 시간을 입력하십시오.</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_JOY_BUTTON_TEXT" xml:space="preserve">
+    <value>게임 패드 버튼 설정</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_JOY_HATSW_TEXT" xml:space="preserve">
+    <value>모자 스위치를 설정하십시오. 위 / 아래 / 왼쪽 / 오른쪽 키를 누릅니다.</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_JOY_LEVER_TEXT" xml:space="preserve">
+    <value>조이스틱의 출력 값 설정</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_JOY_LEVER_X_TEXT" xml:space="preserve">
+    <value>X 축</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_JOY_LEVER_Y_TEXT" xml:space="preserve">
+    <value>Y 축</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_KEY_TEXT" xml:space="preserve">
+    <value>키보드의 키를 누릅니다.</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_MM_BUTTON_TEXT" xml:space="preserve">
+    <value>멀티미디어 버튼을 설정하십시오.</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_MOUSE_BUTTON_TEXT" xml:space="preserve">
+    <value>마우스 단추 설정</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_MOUSE_MOVE_TEXT" xml:space="preserve">
+    <value>마우스 이동량 설정</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_MOUSE_MOVE_X_TEXT" xml:space="preserve">
+    <value>X 방향</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_MOUSE_MOVE_Y_TEXT" xml:space="preserve">
+    <value>Y 방향</value>
+  </data>
+  <data name="SCRIPT_ADD_INFO_WHEEL_TEXT" xml:space="preserve">
+    <value>마우스 휠 스크롤</value>
+  </data>
+  <data name="SCRIPT_DATA_FLASH_READ" xml:space="preserve">
+    <value>기기에서 읽기</value>
+  </data>
+  <data name="SCRIPT_DATA_FLASH_WRITE" xml:space="preserve">
+    <value>장치에 쓰기</value>
+  </data>
+  <data name="SCRIPT_FILE_IMPORT_ERROR_MSG" xml:space="preserve">
+    <value>매크로 데이터 파일을 읽지 못했습니다.</value>
+  </data>
+  <data name="SCRIPT_FILE_OPEN_DIALOG_TITLE" xml:space="preserve">
+    <value>매크로 데이터 파일 선택</value>
+  </data>
+  <data name="SCRIPT_FILE_SAVE_DIALOG_TITLE" xml:space="preserve">
+    <value>매크로 데이터 파일 저장</value>
+  </data>
+  <data name="SCRIPT_INTERVAL_TEXT" xml:space="preserve">
+    <value>간격 [ms]</value>
+  </data>
+  <data name="SCRIPT_JOY_BUTTON_PRESS_TEXT" xml:space="preserve">
+    <value>게임 패드 버튼을 누른 상태로 유지</value>
+  </data>
+  <data name="SCRIPT_JOY_BUTTON_RELEASE_TEXT" xml:space="preserve">
+    <value>게임 패드 놓기 버튼</value>
+  </data>
+  <data name="SCRIPT_JOY_HATSW_PRESS_TEXT" xml:space="preserve">
+    <value>모자 스위치를 누른 상태로 유지</value>
+  </data>
+  <data name="SCRIPT_JOY_HATSW_RELEASE_TEXT" xml:space="preserve">
+    <value>방출 모자 스위치</value>
+  </data>
+  <data name="SCRIPT_JOY_LEVER_L_CENTER_TEXT" xml:space="preserve">
+    <value>조이스틱 해제 [왼쪽]</value>
+  </data>
+  <data name="SCRIPT_JOY_LEVER_L_TEXT" xml:space="preserve">
+    <value>조이스틱을 누른 상태에서 [왼쪽]</value>
+  </data>
+  <data name="SCRIPT_JOY_LEVER_R_CENTER_TEXT" xml:space="preserve">
+    <value>조이스틱 해제 [오른쪽]</value>
+  </data>
+  <data name="SCRIPT_JOY_LEVER_R_TEXT" xml:space="preserve">
+    <value>조이스틱을 누른 상태로 유지 [오른쪽]</value>
+  </data>
+  <data name="SCRIPT_KEY_PRESS_TEXT" xml:space="preserve">
+    <value>키 누름</value>
+  </data>
+  <data name="SCRIPT_KEY_RELEASE_TEXT" xml:space="preserve">
+    <value>키 릴리스</value>
+  </data>
+  <data name="SCRIPT_MODE_FIRE_MODE_TEXT" xml:space="preserve">
+    <value>누를 때까지 반복하십시오.</value>
+  </data>
+  <data name="SCRIPT_MODE_HOLD_MODE_TEXT" xml:space="preserve">
+    <value>누르는 동안 한 번만 계속 실행하십시오.</value>
+  </data>
+  <data name="SCRIPT_MODE_LOOP_MODE_TEXT" xml:space="preserve">
+    <value>반복 실행</value>
+  </data>
+  <data name="SCRIPT_MODE_ONE_MODE_TEXT" xml:space="preserve">
+    <value>한 번 실행</value>
+  </data>
+  <data name="SCRIPT_MOUSE_B4_CLICK_TEXT" xml:space="preserve">
+    <value>마우스 버튼을 누른 상태로 유지 [Button4]</value>
+  </data>
+  <data name="SCRIPT_MOUSE_B4_RELEASE_TEXT" xml:space="preserve">
+    <value>마우스 버튼 놓기 [Button4]</value>
+  </data>
+  <data name="SCRIPT_MOUSE_B5_CLICK_TEXT" xml:space="preserve">
+    <value>마우스 버튼을 누른 상태로 유지 [Button5]</value>
+  </data>
+  <data name="SCRIPT_MOUSE_B5_RELEASE_TEXT" xml:space="preserve">
+    <value>마우스 버튼 놓기 [Button5]</value>
+  </data>
+  <data name="SCRIPT_MOUSE_CLICK_TEXT" xml:space="preserve">
+    <value>마우스 버튼을 누른 상태로 유지</value>
+  </data>
+  <data name="SCRIPT_MOUSE_L_CLICK_TEXT" xml:space="preserve">
+    <value>마우스 버튼을 누르고있어 [왼쪽]</value>
+  </data>
+  <data name="SCRIPT_MOUSE_L_RELEASE_TEXT" xml:space="preserve">
+    <value>마우스 버튼 놓기 [왼쪽]</value>
+  </data>
+  <data name="SCRIPT_MOUSE_MOVE_TEXT" xml:space="preserve">
+    <value>마우스 이동</value>
+  </data>
+  <data name="SCRIPT_MOUSE_R_CLICK_TEXT" xml:space="preserve">
+    <value>마우스 버튼을 누른 상태로 유지 [오른쪽]</value>
+  </data>
+  <data name="SCRIPT_MOUSE_R_RELEASE_TEXT" xml:space="preserve">
+    <value>마우스 버튼 놓기 [오른쪽]</value>
+  </data>
+  <data name="SCRIPT_MOUSE_RELEASE_TEXT" xml:space="preserve">
+    <value>마우스 버튼 놓기</value>
+  </data>
+  <data name="SCRIPT_MOUSE_W_CLICK_TEXT" xml:space="preserve">
+    <value>마우스 버튼을 누른 상태에서 [가운데]</value>
+  </data>
+  <data name="SCRIPT_MOUSE_W_RELEASE_TEXT" xml:space="preserve">
+    <value>마우스 버튼 놓기 [가운데]</value>
+  </data>
+  <data name="SCRIPT_MULTIMEDIA_PRESS_TEXT" xml:space="preserve">
+    <value>멀티미디어 버튼을 길게 누르십시오.</value>
+  </data>
+  <data name="SCRIPT_MULTIMEDIA_RELEASE_TEXT" xml:space="preserve">
+    <value>멀티미디어 릴리스 버튼</value>
+  </data>
+  <data name="SCRIPT_SIZE_OVER_MSG" xml:space="preserve">
+    <value>스크립트의 저장 크기가 한계 값을 초과합니다.</value>
+  </data>
+  <data name="SCRIPT_WHEEL_DOWN_TEXT" xml:space="preserve">
+    <value>휠 스크롤 증분</value>
+  </data>
+  <data name="SCRIPT_WHEEL_SCROLL_TEXT" xml:space="preserve">
+    <value>휠 스크롤</value>
+  </data>
+  <data name="SCRIPT_WHEEL_UP_TEXT" xml:space="preserve">
+    <value>휠 스크롤 감소</value>
+  </data>
+  <data name="SET_TYPE_ENCODER_SCRIPT1" xml:space="preserve">
+    <value>다이얼 매크로 1</value>
+  </data>
+  <data name="SET_TYPE_ENCODER_SCRIPT2" xml:space="preserve">
+    <value>다이얼 매크로 2</value>
+  </data>
+  <data name="SET_TYPE_ENCODER_SCRIPT3" xml:space="preserve">
+    <value>다이얼 매크로 3</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B01" xml:space="preserve">
+    <value>게임 패드 버튼 1</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B02" xml:space="preserve">
+    <value>게임 패드 버튼 2</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B03" xml:space="preserve">
+    <value>게임 패드 버튼 3</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B04" xml:space="preserve">
+    <value>게임 패드 버튼 4</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B05" xml:space="preserve">
+    <value>게임 패드 버튼 5</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B06" xml:space="preserve">
+    <value>게임 패드 버튼 6</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B07" xml:space="preserve">
+    <value>게임 패드 버튼 7</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B08" xml:space="preserve">
+    <value>게임 패드 버튼 8</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B09" xml:space="preserve">
+    <value>게임 패드 버튼 9</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B10" xml:space="preserve">
+    <value>게임 패드 버튼 10</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B11" xml:space="preserve">
+    <value>게임 패드 버튼 11</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B12" xml:space="preserve">
+    <value>게임 패드 버튼 12</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B13" xml:space="preserve">
+    <value>게임 패드 버튼 13</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_HAT_E" xml:space="preserve">
+    <value>게임 패드 오른쪽 버튼</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_HAT_N" xml:space="preserve">
+    <value>게임 패드 업 버튼</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_HAT_NE" xml:space="preserve">
+    <value>조이스틱 하츠 SW 네브라스카</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_HAT_NW" xml:space="preserve">
+    <value>조이스틱 HAT SW NW</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_HAT_S" xml:space="preserve">
+    <value>게임 패드 내리기 버튼</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_HAT_SE" xml:space="preserve">
+    <value>조이스틱 모자 SW SE</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_HAT_SW" xml:space="preserve">
+    <value>조이스틱 하츠 SW SW</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_HAT_W" xml:space="preserve">
+    <value>게임 패드 왼쪽 버튼</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_LEFT_ANALOG" xml:space="preserve">
+    <value>게임 패드 왼쪽 레버</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_RIGHT_ANALOG" xml:space="preserve">
+    <value>게임 패드 오른쪽 레버</value>
+  </data>
+  <data name="SET_TYPE_KEYBOARD" xml:space="preserve">
+    <value>키보드 입력 키</value>
+  </data>
+  <data name="SET_TYPE_MOUSE_B4_CLICK" xml:space="preserve">
+    <value>마우스 버튼 4</value>
+  </data>
+  <data name="SET_TYPE_MOUSE_B5_CLICK" xml:space="preserve">
+    <value>마우스 버튼 5</value>
+  </data>
+  <data name="SET_TYPE_MOUSE_DOUBLE_CLICK" xml:space="preserve">
+    <value>마우스 더블 클릭</value>
+  </data>
+  <data name="SET_TYPE_MOUSE_L_CLICK" xml:space="preserve">
+    <value>왼쪽 마우스</value>
+  </data>
+  <data name="SET_TYPE_MOUSE_MOVE" xml:space="preserve">
+    <value>마우스 이동</value>
+  </data>
+  <data name="SET_TYPE_MOUSE_R_CLICK" xml:space="preserve">
+    <value>마우스 오른쪽</value>
+  </data>
+  <data name="SET_TYPE_MOUSE_WH_CLICK" xml:space="preserve">
+    <value>마우스 휠</value>
+  </data>
+  <data name="SET_TYPE_MOUSE_WH_SCROLL" xml:space="preserve">
+    <value>마우스 휠 스크롤</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_FORWORD" xml:space="preserve">
+    <value>멀티미디어 빨리 감기</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_MUTE" xml:space="preserve">
+    <value>멀티미디어 음소거</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_NEXT" xml:space="preserve">
+    <value>멀티미디어</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_PAUSE" xml:space="preserve">
+    <value>멀티미디어 일시 중지</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_PLAY" xml:space="preserve">
+    <value>멀티미디어 재생</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_PREVIOUS" xml:space="preserve">
+    <value>멀티미디어 이전</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_REC" xml:space="preserve">
+    <value>멀티미디어 기록</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_REWIND" xml:space="preserve">
+    <value>멀티미디어 되감기</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_STOP" xml:space="preserve">
+    <value>멀티미디어 중지</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_VOLUMEDOWN" xml:space="preserve">
+    <value>멀티미디어 볼륨 작게</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_VOLUMEUP" xml:space="preserve">
+    <value>멀티미디어 볼륨 업</value>
+  </data>
+  <data name="SET_TYPE_NONE" xml:space="preserve">
+    <value>설정 해제 중</value>
+  </data>
+  <data name="SET_TYPE_NUMBER_DOWN" xml:space="preserve">
+    <value>9 ~ 0 숫자 입력</value>
+  </data>
+  <data name="SET_TYPE_NUMBER_UP" xml:space="preserve">
+    <value>0 ~ 9 숫자 입력</value>
+  </data>
+  <data name="SET_WRITE_COMP_MSG" xml:space="preserve">
+    <value>설치 완료</value>
+  </data>
+  <data name="SETTING_KEY_CTRL_KEY_ALT" xml:space="preserve">
+    <value>ALT</value>
+  </data>
+  <data name="SETTING_KEY_CTRL_KEY_CTRL" xml:space="preserve">
+    <value>CTRL</value>
+  </data>
+  <data name="SETTING_KEY_CTRL_KEY_SHIFT" xml:space="preserve">
+    <value>시프트</value>
+  </data>
+  <data name="SETTING_KEY_CTRL_KEY_WIN" xml:space="preserve">
+    <value>승리</value>
+  </data>
+  <data name="SETTING_KEY_INPUT_BOX_MSG" xml:space="preserve">
+    <value>키 입력</value>
+  </data>
+  <data name="SETTING_KEY_INPUT_CLR_BUTTON" xml:space="preserve">
+    <value>명확한</value>
+  </data>
+  <data name="SETTING_VALUE" xml:space="preserve">
+    <value>설정 값</value>
+  </data>
+  <data name="SOFT_RESET_WARNING_MSG" xml:space="preserve">
+    <value>펌웨어 업데이트. 확실합니까 ?</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC1" xml:space="preserve">
+    <value>다이얼 기능 1</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC1_PUSH" xml:space="preserve">
+    <value>다이얼 기능 1 (밀기 중)</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC2" xml:space="preserve">
+    <value>다이얼 기능 2</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC2_PUSH" xml:space="preserve">
+    <value>다이얼 기능 2 (밀기 중)</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC3" xml:space="preserve">
+    <value>다이얼 기능 3</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC3_PUSH" xml:space="preserve">
+    <value>다이얼 기능 3 (밀기 중)</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC4" xml:space="preserve">
+    <value>다이얼 기능 4</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC4_PUSH" xml:space="preserve">
+    <value>다이얼 기능 4 (밀기 중)</value>
+  </data>
+  <data name="SP_FUNC_TYPE_MODE" xml:space="preserve">
+    <value>프로필 변경</value>
+  </data>
+  <data name="SP_FUNC_TYPE_MODE1" xml:space="preserve">
+    <value>프로필 1</value>
+  </data>
+  <data name="SP_FUNC_TYPE_MODE2" xml:space="preserve">
+    <value>프로필 2</value>
+  </data>
+  <data name="SP_FUNC_TYPE_MODE3" xml:space="preserve">
+    <value>프로필 3</value>
+  </data>
+  <data name="STATUS_MESSAGE_BOX_TEXT" xml:space="preserve">
+    <value>지위</value>
+  </data>
+  <data name="STATUS_MSG_USB_CONNECT" xml:space="preserve">
+    <value>USB 연결됨</value>
+  </data>
+  <data name="STATUS_MSG_USB_UNCONNECT" xml:space="preserve">
+    <value>USB가 연결되지 않았습니다.</value>
+  </data>
+  <data name="SYSTEM_SETTING_BACKUP_FILE_READ" xml:space="preserve">
+    <value>복원</value>
+  </data>
+  <data name="SYSTEM_SETTING_BACKUP_FILE_SAVE" xml:space="preserve">
+    <value>구하다</value>
+  </data>
+  <data name="SYSTEM_SETTING_BACKUP_FILE_TITLE" xml:space="preserve">
+    <value>백업 파일</value>
+  </data>
+  <data name="SYSTEM_SETTING_BACKUP_TITLE" xml:space="preserve">
+    <value>지원</value>
+  </data>
+  <data name="SYSTEM_SETTING_DIAL_FUNC_LED_FLASH" xml:space="preserve">
+    <value>깜박이면 꺼짐</value>
+  </data>
+  <data name="SYSTEM_SETTING_DIAL_FUNC_LED_ON" xml:space="preserve">
+    <value>다음 기능으로 바뀔 때까지 켜집니다.</value>
+  </data>
+  <data name="SYSTEM_SETTING_DIAL_FUNC_LED_SETTING_TITLE" xml:space="preserve">
+    <value>다이얼 기능 LED 설정</value>
+  </data>
+  <data name="SYSTEM_SETTING_DIAL_FUNC_LED_SLOW" xml:space="preserve">
+    <value>천천히 끄기</value>
+  </data>
+  <data name="SYSTEM_SETTING_ENCODER_TYPEMATIC" xml:space="preserve">
+    <value>엔코더 연속 입력</value>
+  </data>
+  <data name="SYSTEM_SETTING_FACTORY_RESET" xml:space="preserve">
+    <value>초기화</value>
+  </data>
+  <data name="SYSTEM_SETTING_FACTORY_RESET_TITLE" xml:space="preserve">
+    <value>모든 설정 초기화</value>
+  </data>
+  <data name="SYSTEM_SETTING_MODE_LED_OFF" xml:space="preserve">
+    <value>LED 꺼짐</value>
+  </data>
+  <data name="SYSTEM_SETTING_MODE_LED_OFF_UNIT" xml:space="preserve">
+    <value>둘째</value>
+  </data>
+  <data name="SYSTEM_SETTING_MODE_LED_SETTING" xml:space="preserve">
+    <value>프로파일 LED 설정</value>
+  </data>
+  <data name="SYSTEM_SETTING_SETTING_TITLE" xml:space="preserve">
+    <value>다양한 설정</value>
+  </data>
+  <data name="SYSTEM_SETTING_SLEEP_LED_OFF" xml:space="preserve">
+    <value>컴퓨터가 잠자기 상태 일 때 LED가 꺼집니다.</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC" xml:space="preserve">
+    <value>다이얼 기능 변경</value>
+  </data>
+  <data name="SYSTEM_SETTING_KEYBOARD_SETTING" xml:space="preserve">
+    <value>키보드 설정</value>
+  </data>
+  <data name="SYSTEM_SETTING_KEYBOARD_SETTING_JA" xml:space="preserve">
+    <value>일본어 키보드</value>
+  </data>
+  <data name="SYSTEM_SETTING_KEYBOARD_SETTING_US" xml:space="preserve">
+    <value>미국 키보드</value>
+  </data>
+  <data name="SETTING_KEY_CTRL_KEY_COMMAND" xml:space="preserve">
+    <value>COMMAND</value>
+  </data>
+  <data name="SETTING_KEY_CTRL_KEY_OPTION" xml:space="preserve">
+    <value>OPTION</value>
+  </data>
+  <data name="MOUSE_TILT_TEXT" xml:space="preserve">
+    <value>Amount of movement</value>
+  </data>
+  <data name="LED_COLOR_SETTING_COLOR_SELECT" xml:space="preserve">
+    <value>Color selection</value>
+  </data>
+  <data name="LED_COLOR_SETTING_SET_COLOR_ERROR_MSG" xml:space="preserve">
+    <value>Outside of gamut</value>
+  </data>
+  <data name="KEYBOARD_SETUP_ASSIST_COMP_MSG1" xml:space="preserve">
+    <value>keyboard has been identified.</value>
+  </data>
+  <data name="KEYBOARD_SETUP_ASSIST_COMP_MSG2" xml:space="preserve">
+    <value>Click the "Set" button to complete the setting.</value>
+  </data>
+  <data name="KEYBOARD_SETUP_ASSIST_COMP_MSG3" xml:space="preserve">
+    <value>If it is not correctly identified, please select the correct keyboard and click "Set" button.</value>
+  </data>
+  <data name="KEYBOARD_SETUP_ASSIST_MSG1" xml:space="preserve">
+    <value>Please do not press and hold the key only once. When the key is recognized, the next step is displayed.</value>
+  </data>
+  <data name="KEYBOARD_SETUP_ASSIST_MSG2" xml:space="preserve">
+    <value>Please press the key to the right of the left SHIFT key of the keyboard being identified</value>
+  </data>
+  <data name="KEYBOARD_SETUP_ASSIST_MSG3" xml:space="preserve">
+    <value>Please press the key to the left of the right SHIFT key of the keyboard being identified</value>
+  </data>
+  <data name="KEYBOARD_SETUP_ASSIST_TITLE" xml:space="preserve">
+    <value>Identifying keyboard type</value>
+  </data>
+  <data name="SYSTEM_SETTING_KEYBOARD_SETTING_ANSI" xml:space="preserve">
+    <value>ANSI(US, Other)</value>
+  </data>
+  <data name="SYSTEM_SETTING_KEYBOARD_SETTING_ANSI_DESC" xml:space="preserve">
+    <value>Standard 101 key or 102 key keyboard, and some other keyboard</value>
+  </data>
+  <data name="SYSTEM_SETTING_KEYBOARD_SETTING_JIS" xml:space="preserve">
+    <value>JIS(JAPANESE)</value>
+  </data>
+  <data name="SYSTEM_SETTING_KEYBOARD_SETTING_JIS_DESC" xml:space="preserve">
+    <value>Standard Japanese keyboard with input program</value>
+  </data>
+</root>

@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="PatternNone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\patternnone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ScriptEditorICON002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ScriptEditorICON002.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DROPGUIDE_DOWN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DROPGUIDE_DOWN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ScriptEditorICON004" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ScriptEditorICON004.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DROPGUIDE_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DROPGUIDE_UP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PatternShort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\patternshort.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PatternLong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\patternlong.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ScriptEditorICON005" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ScriptEditorICON005.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ScriptEditorICON007" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ScriptEditorICON007.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SettingFileIndex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LEFTBN_SETTEI-INDEX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ScriptEditorICON001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ScriptEditorICON001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LEFTBN_SETUMEI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LEFTBN_SETUMEI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ScriptEditorICON006" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ScriptEditorICON006.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BN_MACRO_INDEX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BN_MACRO_INDEX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BN_DOUSA_INDEX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BN_DOUSA_INDEX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ScriptEditorICON003" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ScriptEditorICON003.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RESET_BASE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RESET_BASE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APPLICATION_NAME" xml:space="preserve">
+    <value>Power Mate+ USB Configuration Tool</value>
+  </data>
+  <data name="CLEAR_BUTTON_TEXT" xml:space="preserve">
+    <value>clr</value>
+  </data>
+  <data name="DEVICE_FOUND" xml:space="preserve">
+    <value>Device Found</value>
+  </data>
+  <data name="DEVICE_NOT_FOUND" xml:space="preserve">
+    <value>Device not found</value>
+  </data>
+  <data name="FILE_LOAD_ERR_MSG" xml:space="preserve">
+    <value>File Load FAIL.</value>
+  </data>
+  <data name="FILE_OPEN_FILTER" xml:space="preserve">
+    <value>XML file(*.xml)|*.xml|All file(*.*)|*.*</value>
+  </data>
+  <data name="FILE_OPEN_TITLE" xml:space="preserve">
+    <value>Open...</value>
+  </data>
+  <data name="FILE_SAVE_ERR_MSG" xml:space="preserve">
+    <value>File Save FAIL.</value>
+  </data>
+  <data name="FILE_SAVE_FILTER" xml:space="preserve">
+    <value>XML file(*.xml)|*.xml|All file(*.*)|*.*</value>
+  </data>
+  <data name="FILE_SAVE_TITLE" xml:space="preserve">
+    <value>Save As...</value>
+  </data>
+  <data name="FW_VERSION" xml:space="preserve">
+    <value>FW Version</value>
+  </data>
+  <data name="JOYPAD_MOVE_TEXT" xml:space="preserve">
+    <value>X-Y Analog</value>
+  </data>
+  <data name="KEYBOARD_INPUTKEY_TEXT" xml:space="preserve">
+    <value>Set Key</value>
+  </data>
+  <data name="KEYBOARD_SET_KEY_EMPTY" xml:space="preserve">
+    <value>Input Key</value>
+  </data>
+  <data name="MOUSE_MOVE_TEXT" xml:space="preserve">
+    <value>X, Y Vector</value>
+  </data>
+  <data name="MOUSE_SCROLL_TEXT" xml:space="preserve">
+    <value>Scroll Val</value>
+  </data>
+  <data name="RESET_WARNING_MSG" xml:space="preserve">
+    <value>Setup data initialize. Are you sure ?</value>
+  </data>
+  <data name="RESET_WARNING_MSG2" xml:space="preserve">
+    <value>Please remove a USB cable. Please connect a USB cable after a device of the screen lower right became undetected.</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B01" xml:space="preserve">
+    <value>JOYSTICK BUTTON 01</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B02" xml:space="preserve">
+    <value>JOYSTICK BUTTON 02</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B03" xml:space="preserve">
+    <value>JOYSTICK BUTTON 03</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B04" xml:space="preserve">
+    <value>JOYSTICK BUTTON 04</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B05" xml:space="preserve">
+    <value>JOYSTICK BUTTON 05</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B06" xml:space="preserve">
+    <value>JOYSTICK BUTTON 06</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B07" xml:space="preserve">
+    <value>JOYSTICK BUTTON 07</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B08" xml:space="preserve">
+    <value>JOYSTICK BUTTON 08</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B09" xml:space="preserve">
+    <value>JOYSTICK BUTTON 09</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B10" xml:space="preserve">
+    <value>JOYSTICK BUTTON 10</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B11" xml:space="preserve">
+    <value>JOYSTICK BUTTON 11</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B12" xml:space="preserve">
+    <value>JOYSTICK BUTTON 12</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_B13" xml:space="preserve">
+    <value>JOYSTICK BUTTON 13</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_HAT_E" xml:space="preserve">
+    <value>JOYSTICK HAT SW RIGHT</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_HAT_N" xml:space="preserve">
+    <value>JOYSTICK HAT SW UP</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_HAT_NE" xml:space="preserve">
+    <value>JOYSTICK HAT SW NE</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_HAT_NW" xml:space="preserve">
+    <value>JOYSTICK HAT SW NW</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_HAT_S" xml:space="preserve">
+    <value>JOYSTICK HAT SW DOWN</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_HAT_SE" xml:space="preserve">
+    <value>JOYSTICK HAT SW SE</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_HAT_SW" xml:space="preserve">
+    <value>JOYSTICK HAT SW SW</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_HAT_W" xml:space="preserve">
+    <value>JOYSTICK HAT SW LEFT</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_LEFT_ANALOG" xml:space="preserve">
+    <value>JOYSTICK L ANALOG X-Y</value>
+  </data>
+  <data name="SET_TYPE_JOYSTICK_RIGHT_ANALOG" xml:space="preserve">
+    <value>JOYSTICK R ANALOG X-Y</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_PLAY" xml:space="preserve">
+    <value>MULTI MEDIA KEY PLAY</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_PAUSE" xml:space="preserve">
+    <value>MULTI MEDIA KEY PAUSE</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_STOP" xml:space="preserve">
+    <value>MULTI MEDIA KEY STOP</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_REC" xml:space="preserve">
+    <value>MULTI MEDIA KEY REC</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_FORWORD" xml:space="preserve">
+    <value>MULTI MEDIA KEY FAST FORWARD</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_REWIND" xml:space="preserve">
+    <value>MULTI MEDIA KEY REWIND</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_NEXT" xml:space="preserve">
+    <value>MULTI MEDIA KEY NEXT TRACK</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_PREVIOUS" xml:space="preserve">
+    <value>MULTI MEDIA KEY PREVIOUS TRACK</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_MUTE" xml:space="preserve">
+    <value>MULTI MEDIA KEY MUTE</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_VOLUMEUP" xml:space="preserve">
+    <value>MULTI MEDIA KEY VOLUME UP</value>
+  </data>
+  <data name="SET_TYPE_MULTIMEDIA_VOLUMEDOWN" xml:space="preserve">
+    <value>MULTI MEDIA KEY VOLUME DOWN</value>
+  </data>
+  <data name="SET_TYPE_KEYBOARD" xml:space="preserve">
+    <value>KEYBOARD INPUT KEY</value>
+  </data>
+  <data name="SET_TYPE_MOUSE_DOUBLE_CLICK" xml:space="preserve">
+    <value>MOUSE DOUBLE CLICK</value>
+  </data>
+  <data name="SET_TYPE_MOUSE_L_CLICK" xml:space="preserve">
+    <value>MOUSE L CLICK</value>
+  </data>
+  <data name="SET_TYPE_MOUSE_MOVE" xml:space="preserve">
+    <value>MOUSE MOVE</value>
+  </data>
+  <data name="SET_TYPE_MOUSE_R_CLICK" xml:space="preserve">
+    <value>MOUSE R CLICK</value>
+  </data>
+  <data name="SET_TYPE_MOUSE_WH_CLICK" xml:space="preserve">
+    <value>MOUSE WHEEL CLICK</value>
+  </data>
+  <data name="SET_TYPE_MOUSE_WH_SCROLL" xml:space="preserve">
+    <value>MOUSE WHEEL SCROLL</value>
+  </data>
+  <data name="SET_TYPE_NONE" xml:space="preserve">
+    <value>NONE</value>
+  </data>
+  <data name="SET_WRITE_COMP_MSG" xml:space="preserve">
+    <value>Set Complete.</value>
+  </data>
+  <data name="SOFT_RESET_WARNING_MSG" xml:space="preserve">
+    <value>Firmware update. Are you sure ?</value>
+  </data>
+  <data name="SET_TYPE_NUMBER_DOWN" xml:space="preserve">
+    <value>NUMBER INPUT (DOWN)</value>
+  </data>
+  <data name="SET_TYPE_NUMBER_UP" xml:space="preserve">
+    <value>NUMBER INPUT (UP)</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC1" xml:space="preserve">
+    <value>FUNCTION1</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC1_PUSH" xml:space="preserve">
+    <value>FUNCTION1 (WHILE PRESSING)</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC2" xml:space="preserve">
+    <value>FUNCTION2</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC2_PUSH" xml:space="preserve">
+    <value>FUNCTION2 (WHILE PRESSING)</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC3" xml:space="preserve">
+    <value>FUNCTION3</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC3_PUSH" xml:space="preserve">
+    <value>FUNCTION3 (WHILE PRESSING)</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC4" xml:space="preserve">
+    <value>FUNCTION4</value>
+  </data>
+  <data name="SP_FUNC_TYPE_FUNC4_PUSH" xml:space="preserve">
+    <value>FUNCTION4 (WHILE PRESSING)</value>
+  </data>
+  <data name="SP_FUNC_TYPE_MODE1" xml:space="preserve">
+    <value>MODE1</value>
+  </data>
+  <data name="SP_FUNC_TYPE_MODE2" xml:space="preserve">
+    <value>MODE2</value>
+  </data>
+  <data name="SP_FUNC_TYPE_MODE3" xml:space="preserve">
+    <value>MODE3</value>
+  </data>
+  <data name="MODE_NO_STATUS" xml:space="preserve">
+    <value>MODE:{0}  FUNCTION No.:{1}</value>
+  </data>
+  <data name="SP_FUNC_TYPE_MODE" xml:space="preserve">
+    <value>MODE CHANGE</value>
+  </data>
+</root>

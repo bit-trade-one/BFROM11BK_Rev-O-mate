@@ -1,0 +1,9 @@
+C:\Users\Shinozaki\work\PowerMate\PCver001_20180625\bin\x86\SetupRelease\Rev-O-mate.exe.config
+C:\Users\Shinozaki\work\Rev-O-mate\PCver001_20180625\bin\x86\SetupRelease\Rev-O-mate.exe.config
+C:\Users\Shinozaki\work\Rev-O-mate\PCver001_20180810\bin\x86\SetupRelease\Rev-O-mate.exe.config
+C:\Users\Shinozaki\work\Rev-O-mate\PCver001_20180824\bin\x86\SetupRelease\Rev-O-mate.exe.config
+C:\Users\Shinozaki\work\Rev-O-mate\PCver001_20181221\bin\x86\SetupRelease\Rev-O-mate.exe.config
+C:\Users\Shinozaki\work\Rev-O-mate\PCver001_20190314\bin\x86\SetupRelease\Rev-O-mate.exe.config
+C:\Users\Shinozaki\work\Rev-O-mate\PCver001_20190315\bin\x86\SetupRelease\Rev-O-mate.exe.config
+C:\Users\Shinozaki\work\Rev-O-mate\PCver001_20190704_Rev13\bin\x86\SetupRelease\Rev-O-mate.exe.config
+C:\Users\Shinozaki\work\Rev-O-mate\PCver001_20190705\bin\x86\SetupRelease\Rev-O-mate.exe.config
