@@ -2,6 +2,16 @@
 本ライセンス適応製品は、改変・再配布・商用利用・有料販売等を行っていただく事が可能です。  
 利用時には、「著作権表示」と「ライセンス許諾表示全文」を記載して頂くことが条件となります。  
 詳しくは[オープンソースハードウェアとは？](https://bit-trade-one.co.jp/opensourcehardware/)をご覧ください。  
+
+Assembly Desk LicenseはMIT Licenseを元に、Assembly Desk（当サイト）の実情と理念に合うように、  
+株式会社ビット・トレード・ワンが制定したものです。
+
+This product is licensed under the ”Assembly Desk License. ”   
+This licensed product may be modified, redistributed, used for commercial purposes, or sold for a fee.  
+When using this product, you must include the "copyright notice" and "full text of the license agreement".  
+For more information, please refer to [What is Open Source Hardware?（JP）](https://bit-trade-one.co.jp/opensourcehardware/)  
+
+The Assembly Desk License is based on the MIT License.  
     
 本文  
 Assembly Desk License  
